@@ -1,0 +1,223 @@
+.carrier-top {
+    background-image: url('../static_data/web_content/carrier-top.jpg');
+    height: 35vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.carrier-top-cover {
+    background-color: rgba(0, 0, 0, 0.29);
+    height: 35vh;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrier-top-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.carrier-top-content h1 {
+    color: white;
+}
+
+.carrier-top-content p {
+    font-size: 1.5rem;
+}
+
+.carrier-top-content span {
+    color: rgb(234, 35, 41);
+    font-size: 1.5rem;
+}
+
+.carrier-req {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+
+.carrier-quotes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+}
+
+.carrier-para-head {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.left-carrier-quotes {
+    width: 50%;
+}
+
+.right-carrier-quotes {
+    width: 50%;
+}
+
+.carrier-quotesimage img {
+    width: 30vw;
+    height: 40vh;
+}
+
+.para .quality {
+    margin-top: 1rem;
+}
+
+@media (max-width:700px) {
+    .carrier-quotes {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .left-carrier-quotes {
+        width: 100%;
+    }
+
+    .right-carrier-quotes {
+        width: 100%;
+    }
+
+    .carrier-quotesimage img {
+        display: none;
+    }
+}
+
+.carrier-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 0rem;
+}
+
+.carrier-pic1 img {
+    width: 100%;
+    height: 40vh;
+}
+
+.employee-satisfy {
+    padding: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.employee-satisfy-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.employee-satisfy-part span {
+    font-size: 3rem;
+    padding: 0.5rem;
+}
+
+.carrier-apply {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0rem;
+}
+.apply-heading{
+    text-align: center;
+    padding: 1rem ,0rem;
+    font-size: 2.5rem;
+}
+.apply-content-cover {
+    width: 70%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 14px 14px 14px 14px rgba(0, 0, 0, 0.279);
+}
+.apply-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem; 
+    
+}
+.apply-btn{
+    padding: 17px 38px;
+    border-radius: 3px;
+    background-color: #2e7eed;;
+    color: #fff;
+   }
+.apply-btn:hover{
+    background: #2075ec00;
+    color: #000;
+}
+.domain-content-left h4{
+    margin-bottom: 1rem;
+}
+.bold{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+@media (max-width:600px) {
+    .apply-content{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem; 
+        
+    }
+    .apply-btn{
+        padding: 14px 25px;
+        border-radius: 3px;
+        background-color: #2e7eed;;
+        color: #fff;
+       }
+    
+}
+@media (max-width:700px) {
+    
+    
+    .carrier-pic1 img {
+        width: 100%;
+        height: 20vh;
+    }
+    
+    .employee-satisfy {
+        padding: 3rem;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+        
+    .employee-satisfy-part span {
+        font-size: 2rem;
+        padding: 0.5rem;
+    }
+    
+    .carrier-apply {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem 0rem;
+    }
+   
+    .apply-content-cover {
+        width: 100%;
+        background-color: #fff;
+        border-radius: 8px;
+        padding: 1rem;
+        box-shadow: 14px 14px 14px 14px rgba(0, 0, 0, 0.279);
+    }
+    
+}
