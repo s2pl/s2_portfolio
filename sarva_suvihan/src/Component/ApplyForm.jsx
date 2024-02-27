@@ -1,7 +1,46 @@
 import React from 'react'
+import { useState } from 'react';
 import './component.css'
 const ApplyForm = () => {
-
+    const [formData, setFormData] = useState({
+        firstName: '',
+        middleName: '',
+        lastName: '',
+        birthMonth: '',
+        birthDay: '',
+        birthYear: '',
+        streetAddress1: '',
+        streetAddress2: '',
+        city: '',
+        state: '',
+        role: '',
+        jobType: '',
+        resumeLink: '',
+        resumeFile: null,
+        coverLetterFile: null,
+        description: '',
+      });
+      const handleChange = (e) => {
+        const { name, value, type, files } = e.target;
+        setFormData((prevData) => ({
+          ...prevData,
+          [name]: type === 'file' ? files[0] : value,
+        }));
+      };
+      const handleSubmit = async () => {
+        try {
+          const response = await fetch('./SubmitForm', {
+            method: 'POST',
+            body: JSON.stringify(formData),
+          });
+    
+          const result = await response.json();
+          alert(result.message);
+        } catch (error) {
+          console.error('Error submitting form:', error);
+          alert('An error occurred while submitting the form.');
+        }
+      };
     return (
         <div >
 
@@ -20,7 +59,7 @@ const ApplyForm = () => {
                                 <div className='border-2'>
 
                                 </div>
-                                <form action="" method="get" id="request-send">
+                                <form action="" onSubmit={handleSubmit} id="request-send">
                                     <div className="row mt-3 ">
                                         <label for="name" className="small bold"> Full name</label>
                                         <div className="col-lg-3 mb-3 ">
@@ -30,6 +69,7 @@ const ApplyForm = () => {
                                                 name="fname"
                                                 id="name"
                                                 className="form-control"
+                                                onChange={handleChange}
                                             />
                                             <label for="name" className="small"> first Name</label>
 
@@ -41,6 +81,7 @@ const ApplyForm = () => {
                                                 name="fname"
                                                 id="name"
                                                 className="form-control"
+                                                onChange={handleChange}
                                             /><label for="name" className="small">middle Name</label>
                                         </div>
                                         <div className="col-lg-3 mb-3">
@@ -50,6 +91,7 @@ const ApplyForm = () => {
                                                 name="fname"
                                                 id="name"
                                                 className="form-control"
+                                                onChange={handleChange}
                                             /><label for="name" className="small">last Name</label>
                                         </div>
                                         <div className="row mt-3">
@@ -61,6 +103,7 @@ const ApplyForm = () => {
                                                     name="fname"
                                                     id="name"
                                                     className="form-control"
+                                                    onChange={handleChange}
                                                 />    <label for="name" className="small"> Month </label>
                                             </div>
                                             <div className="col-lg-3 mb-3">
@@ -70,6 +113,7 @@ const ApplyForm = () => {
                                                     name="fname"
                                                     id="name"
                                                     className="form-control"
+                                                    onChange={handleChange}
                                                 /><label for="name" className="small"> Day</label>
                                             </div>
                                             <div className="col-lg-3 mb-3">
@@ -79,6 +123,7 @@ const ApplyForm = () => {
                                                     name="fname"
                                                     id="name"
                                                     className="form-control"
+                                                    onChange={handleChange}
                                                 />
                                                 <label for="name" className="small"> Year</label>
                                             </div>
@@ -91,6 +136,7 @@ const ApplyForm = () => {
                                                 name="email"
                                                 id="email"
                                                 className="form-control"
+                                                onChange={handleChange}
                                             />
                                             <label for="email" className="small">Street Address</label>
                                             <input
@@ -98,6 +144,7 @@ const ApplyForm = () => {
                                                 name="email"
                                                 id="email"
                                                 className="form-control"
+                                                onChange={handleChange}
                                             />
                                             <label for="email" className="small">Street Address Line 2</label>
                                             <div className="row mt-2">
@@ -108,6 +155,7 @@ const ApplyForm = () => {
                                                         name="fname"
                                                         id="name"
                                                         className="form-control"
+                                                        onChange={handleChange}
                                                     />    <label for="name" className="small"> city</label>
                                                 </div>
                                                 <div className="col-lg-6 mb-3">
@@ -117,6 +165,7 @@ const ApplyForm = () => {
                                                         name="fname"
                                                         id="name"
                                                         className="form-control"
+                                                        onChange={handleChange}
                                                     /><label for="name" className="small"> State/Province</label>
                                                 </div>
 
@@ -159,6 +208,7 @@ const ApplyForm = () => {
                                                 name="resume-link"
                                                 id="resume-link"
                                                 className="form-control"
+                                                onChange={handleChange}
                                             />
                                         </div>
                                         <div className="col-lg-12 mb-2">
@@ -168,6 +218,7 @@ const ApplyForm = () => {
                                                 name="resume-link"
                                                 id="resume-link"
                                                 className="form-control"
+                                                onChange={handleChange}
                                             />
                                         </div>
                                         <div className="col-lg-12 mb-2">
@@ -177,6 +228,7 @@ const ApplyForm = () => {
                                                 name="resume-link"
                                                 id="resume-link"
                                                 className="form-control"
+                                                onChange={handleChange}
                                             />
                                         </div>
                                         <div className="col-lg-12 mb-2">
@@ -185,10 +237,11 @@ const ApplyForm = () => {
                                                 name="description"
                                                 id="description"
                                                 className="form-control"
+                                                onChange={handleChange}
                                             ></textarea>
                                         </div>
                                         <div className="col-lg-12 mb-2 texr-center">
-                                            <button type="button" className="btn btn-primary" id="send-btn">
+                                            <button type="submit" className="btn btn-primary" id="send-btn">
                                                 <strong>Apply Now</strong>
                                             </button>
                                         </div>

@@ -102,7 +102,7 @@ const Contactus = () => {
                     <select
                       id="country"
                       name="country"
-                      className="h-full rounded-md border-0 bg-transparent bg-none py-0 pl-4 pr-9 text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm"
+                      className="h-full rounded-md border-0  bg-none py-0 pl-4 pr-9 text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm"
                     >
                       <option>India</option>
                       
@@ -110,7 +110,7 @@ const Contactus = () => {
 
                   </div>
                   <input
-                    type="tel"
+                    type="number"
                     name="phone-number"
                     id="phone-number"
                     autoComplete="tel"
@@ -164,7 +164,7 @@ const Contactus = () => {
             <div className="mt-10">
               <button
                 type="submit"
-                className="block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="block w-full rounded-md bg-gray-600 px-4 py-3 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 Let's talk
               </button>
