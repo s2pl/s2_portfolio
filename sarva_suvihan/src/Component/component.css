@@ -367,10 +367,10 @@
     line-height: 3.5rem;
 }
 
-.align{
+.align {
     text-align: justify;
     display: none;
-    
+
 }
 
 #ch1 {
@@ -412,6 +412,36 @@
     background-size: cover;
 }
 
+.servicesbg-1 {
+    background: url("../static_data/web_content/service-2.jpg") no-repeat 50% 50%;
+    background-size: cover
+}
+
+.potfoliobg-1 {
+    background: url("../static_data/web_content/carrier-middle-2.jpg") no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.service-contact {
+    background: url("../static_data/web_content/service-contact.jpg") no-repeat 50% 50%;
+    background-size: cover
+}
+
+.potfoliobg-cover {
+    background-color: rgba(0, 0, 0, 0.608);
+    height: 35vh;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover-cta-2 {
+    background-color: rgba(0, 0, 0, 0.432);
+    padding: 2rem;
+
+}
+
 .about-2 {
     padding: 4rem
 }
@@ -427,7 +457,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 .cover-ceo {
@@ -443,28 +473,47 @@
 }
 
 .ceo-photo {
-    background: url("../static_data/web_content/carrier-top.jpg") no-repeat;
-    height: 50vh;
+    background: url("../static_data/founders/neeta_sinha.jpg") no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+.ceo-photo-1 {
+    background: url("../static_data/founders/sanjay_ranjan.jpg") no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+.ceo-photo-2 {
+    background: url("../static_data/founders/srishti.jpg") no-repeat;
+    background-position: center;
+    height: 100%;
     width: 100%;
 }
 
 .ceo-few {
     width: 60%;
 }
-.about-item-img{
+
+.about-item-img {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.vision-detail{
+
+.vision-detail {
     padding: 0.5rem;
     border: 1px solid black;
     border-radius: 20px;
 }
-.plus{
+
+.plus {
     text-align: right;
 }
-.vision-h3{
+
+.vision-h3 {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -472,7 +521,8 @@
     color: #007aff;
     text-align: right;
 }
-.vision-detail:hover{
+
+.vision-detail:hover {
     background-color: #edd4d4;
 }
 
@@ -483,9 +533,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        
+
     }
-    
+
     .cover-ceo {
         width: 95%;
         display: flex;
@@ -494,23 +544,122 @@
         background-color: #303032;
         color: white;
     }
-    
+
     .ceo-photo-bg {
         width: 100%;
     }
-    
+
     .ceo-photo {
         background: url("../static_data/web_content/carrier-top.jpg") no-repeat;
         height: 50vh;
         width: 100%;
     }
-    
+
     .ceo-few {
         width: 100%;
     }
-    .about-item-img{
+
+    .about-item-img {
         display: flex;
         align-items: center;
         justify-content: center;
     }
 }
+
+.service-item {
+    position: relative;
+    padding-left: 80px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.service-item a {
+    margin-top: 1.5rem;
+}
+
+.service-item i {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 5px;
+    font-size: 50px;
+    opacity: 0.4;
+
+}
+
+.service-item:hover {
+    transform: scale(1.05);
+}
+
+@keyframes iconAnimation {
+    0% {
+        transform: scale(0.8);
+        opacity: 0.2;
+    }
+
+    50% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 0.4;
+    }
+
+}
+
+.service-item:hover i {
+    animation: iconAnimation 0.8s ease-in-out;
+}
+
+
+.service-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), transparent);
+    opacity: 0;
+    border-radius: 10%;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.service-item:hover::before {
+    opacity: 1;
+}
+
+.img-slide img {
+    height: 50vh;
+    width: 100%;
+}
+.portfolio-card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+  }
+  .portfolio-card {
+    padding: 0rem 3rem;
+    width: 80%;
+  }
+  @media (max-width:700px) {
+    .portfolio-card-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 4rem;
+        padding-top: 4rem;
+    
+      }
+      .portfolio-card {
+        padding: 0rem;
+        width: 95%;
+      }
+      .service-item {
+        position: relative;
+        padding-left: 10px;
+        transition: transform 0.3s ease-in-out;
+    }
+  }
