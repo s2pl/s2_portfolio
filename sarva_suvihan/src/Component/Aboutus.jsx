@@ -8,6 +8,7 @@ import sidepic from '../static_data/web_content/network.jpg'
 import cerificate from '../static_data/web_content/certified.jpg';
 import director from '../static_data/founders/atul_anand.jpg'
 import founder from '../static_data/founders/sanjay_ranjan.jpg'
+import cerificate from '../static_data/web_content/certified.jpg'
 const Aboutus = () => {
   const [counter, setCounter] = useState(false);
   const [read1, setread1] = useState(false);
@@ -126,6 +127,8 @@ This quote encourages perseverance and optimism, emphasizing that continuous eff
             <h3 className="mt-2 mb-1 position-relative content-title text-white">srishti</h3>
             <p className='text-white'>Founder</p>
            
+            <h2 className="mt-2 mb-1 position-relative content-title text-white">Atul Anand</h2>
+            <p className='text-white'>CEO</p>
           </div>
         </div>
       </div>
@@ -258,7 +261,9 @@ This quote encourages perseverance and optimism, emphasizing that continuous eff
         <div className='team-intro'>
           <div className='team-mate'> <img src={director} alt="portfolio" className='team-mate'></img></div>
           <div className='name'>team-Atul Anand</div>
-          <div className="post">Founder & CEO</div>
+
+          <div className='team-mate'> <img src={profile} alt="portfolio" className='team-mate'></img></div>
+          <div className='name'>Atul Anand</div>
 
 
         </div>

@@ -116,7 +116,6 @@ const Services = () => {
         </div>
       </section>
 
-    </div>
   )
 }
 

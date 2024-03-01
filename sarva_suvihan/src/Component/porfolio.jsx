@@ -150,7 +150,7 @@ const porfolio = () => {
             </div>
           </div>
 
-         <div className='galary'>
+   <div className='galary'>
        
 <div class="row">
   <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
@@ -199,7 +199,6 @@ const porfolio = () => {
          </div>
         </div>
       </section>
-    </div>
   )
 }
 
