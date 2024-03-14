@@ -510,6 +510,11 @@ img {
   color: #fff;
   outline: none;
 }
+
+.service-btn:hover {
+    background: #e37d7d;
+  
+}
 .counter{
   border-bottom: 1px solid black;
   

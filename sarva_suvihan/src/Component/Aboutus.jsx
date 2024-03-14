@@ -5,6 +5,9 @@ import CountUp from 'react-countup';
 import Slider from 'react-slick';
 import profile from '../static_data/web_content/download.png'
 import sidepic from '../static_data/web_content/network.jpg'
+import cerificate from '../static_data/web_content/certified.jpg';
+import director from '../static_data/founders/atul_anand.jpg'
+import founder from '../static_data/founders/sanjay_ranjan.jpg'
 import cerificate from '../static_data/web_content/certified.jpg'
 const Aboutus = () => {
   const [counter, setCounter] = useState(false);
@@ -81,13 +84,49 @@ const Aboutus = () => {
 
             </div></div>
           <div className='ceo-few p-3'>
-            <h2 className="mt-2 mb-1 position-relative content-title text-white">Growth and comfort do not coexist</h2>
+            <h3 className="mt-2 mb-1 position-relative content-title text-white">Growth and comfort do not coexist</h3>
             <p className="mb-1">The essence of the profound quote lies in the recognition that life's pursuits may not grant us every desire, yet it emphasizes the significance of prioritizing and attaining what truly holds value to us. It serves as a reminder that while one may not achieve every aspiration, focusing on the core elements
               that genuinely matter in one's life can lead to a sense of fulfillment and contentment. It encourages a
               thoughtful reflection on personal values and priorities,
               suggesting that by aligning our efforts with what holds genuine
               importance, we can cultivate a meaningful and satisfying existence.
             </p>
+            <h2 className="mt-2 mb-1 position-relative content-title text-white">Neeta Sinha</h2>
+            <p className='text-white'>Founder</p>
+           
+          </div>
+        </div>
+      </div>
+      <div className='ceo-quotes'>
+        <div className='cover-ceo'>
+          <div className='ceo-photo-bg'>
+            <div className='ceo-photo-1'>
+
+            </div></div>
+          <div className='ceo-few p-3'>
+            <h3 className="mt-2 mb-1 position-relative content-title text-white">Stay hungry, stay foolish</h3>
+            <p className="mb-1">Stay hungry, stay foolish" is a powerful quote by Steve Jobs, encouraging perpetual curiosity and embracing risk in the pursuit of innovation. It advocates maintaining an insatiable appetite for knowledge and being open to unconventional ideas, fostering personal and professional growth through a fearless and inquisitive mindset.
+            </p>
+            <h3 className="mt-2 mb-1 position-relative content-title text-white">sanjay_ranjan</h3>
+            <p className='text-white'>Founder</p>
+           
+          </div>
+        </div>
+      </div>
+      <div className='ceo-quotes'>
+        <div className='cover-ceo'>
+          <div className='ceo-photo-bg'>
+            <div className='ceo-photo-2'>
+
+            </div></div>
+          <div className='ceo-few p-3'>
+            <h3 className="mt-2 mb-1 position-relative content-title text-white">Keep going forward because success will come</h3>
+            <p className="mb-1">
+This quote encourages perseverance and optimism, emphasizing that continuous effort and a positive outlook lead to success. It inspires individuals to remain resilient in the face of challenges, conveying the belief that by persistently moving forward, one will ultimately achieve success in their endeavors.
+            </p>
+            <h3 className="mt-2 mb-1 position-relative content-title text-white">srishti</h3>
+            <p className='text-white'>Founder</p>
+           
             <h2 className="mt-2 mb-1 position-relative content-title text-white">Atul Anand</h2>
             <p className='text-white'>CEO</p>
           </div>
@@ -220,18 +259,18 @@ const Aboutus = () => {
 
       <div className='team-detail' >
         <div className='team-intro'>
+          <div className='team-mate'> <img src={director} alt="portfolio" className='team-mate'></img></div>
+          <div className='name'>team-Atul Anand</div>
+
           <div className='team-mate'> <img src={profile} alt="portfolio" className='team-mate'></img></div>
           <div className='name'>Atul Anand</div>
-          <div className="post">Founder & CEO</div>
 
 
         </div>
         <div className='team-intro'>
           <div className='team-mate'> <img src={profile} alt="portfolio" className='team-mate'></img></div>
-          <div className='name'>**********</div>
+          <div className='name'>Srishti</div>
           <div className="post">Director</div>
-
-
         </div>
         <div className='team-intro'>
           <div className='team-mate'> <img src={profile} alt="portfolio" className='team-mate'></img></div>

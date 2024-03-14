@@ -20,7 +20,7 @@ const Homepage = () => {
     var settings = {
         dots: false,
         speed: 1500,
-        autoplay: false,
+        autoplay: true,
         slidesToShow: 1,
         nextArrow: null,
         slidesToScroll: 1,
