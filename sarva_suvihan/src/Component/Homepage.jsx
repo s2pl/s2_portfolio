@@ -79,11 +79,11 @@ const Homepage = () => {
                                     </div>
                                     <div className="des">Our integrated platform, comprising a website and mobile app, streamlines employee performance record management.</div>
                                     <button className='btn'><a target="_blank"
-                                        href="https://play.google.com/store/apps/details?id=com.suvidhaen.swachhdnr"
+                                        href="https://play.google.com/store/apps/details?id=com.cms.android.cleaningmanagementsystem.app"
                                         class="text-decoration-none">DOWNLOAD NOW</a></button>
                                 </div>
                                 <div className='img'>
-                                    <img src={phone}></img>
+                                    <img src={phone} loading="lazy"></img>
                                 </div>
                             </div>
                         </div>
@@ -175,7 +175,7 @@ const Homepage = () => {
                     <Slider {...settings_services}>
                         <div className="card card-show " style={{ width: "15rem;" }}>
 
-                            <img src={phone} className="card-img-top" alt="..." />
+                            <img src={phone} className="card-img-top" alt="..." loading="lazy" />
                             <div className="card-body text-center">
                                 <h5 className="card-title">SwachDNR station</h5>
                                 <p className="card-text pb-4">Our integrated platform, comprising a website and mobile app, streamlines employee performance record management. </p>
@@ -183,7 +183,7 @@ const Homepage = () => {
                             </div>
                         </div>
                         <div className="card card-show" style={{ width: "15rem;" }}>
-                            <img src={servicesImg1} className="card-img-top" alt="..." />
+                            <img src={servicesImg1} className="card-img-top" alt="..." loading="lazy" />
                             <div className="card-body text-center">
                                 <h5 className="card-title ">RailMadad Analytics</h5>
                                 <p className="card-text pb-4">
@@ -192,7 +192,7 @@ const Homepage = () => {
                             </div>
                         </div>
                         <div className="card card-show" style={{ width: "15rem;" }}>
-                            <img src={servicesImg2} className="card-img-top" alt="..." />
+                            <img src={servicesImg2} className="card-img-top" alt="..." loading="lazy"/>
                             <div className="card-body text-center">
                                 <h5 className="card-title">Automated Monitoring System</h5>
                                 <p className="card-text pb-4">This integrated solution merges embedded systems and software to real-time monitor solar panel efficiency.</p>
@@ -200,7 +200,7 @@ const Homepage = () => {
                             </div>
                         </div>
                         <div className="card card-show" style={{ width: "15rem;" }}>
-                            <img src={servicesImg3} className="card-img-top" alt="..." />
+                            <img src={servicesImg3} className="card-img-top" alt="..." loading="lazy"/>
                             <div className="card-body text-center">
                                 <h5 className="card-title">ACP Monitoring</h5>
                                 <p className="card-text pb-4">An IoT-driven railway enhancement system records and tallies Alarm Chain Pulling (ACP) instances, capturing GPS location, trigger time, and resultant train delay. </p>
@@ -208,7 +208,7 @@ const Homepage = () => {
                             </div>
                         </div>
                         <div className="card card-show" style={{ width: "15rem;" }}>
-                            <img src={servicesImg4} className="card-img-top" alt="..." />
+                            <img src={servicesImg4} className="card-img-top" alt="..." loading="lazy"/>
                             <div className="card-body text-center">
                                 <h5 className="card-title">AWMS - Automated Water Monitoring System</h5>
                                 <p className="card-text pb-4">Revolutionizing train water management, our IoT solution provides real-time updates on water tank storage to upcoming stations.</p>
