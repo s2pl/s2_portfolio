@@ -366,9 +366,11 @@
     font-size: 2.8rem;
     line-height: 3.5rem;
 }
-.align{
+
+.align {
     text-align: justify;
     display: none;
+
 }
 
 #ch1 {
@@ -409,6 +411,7 @@
     background: url("../static_data/web_content/iotabout.jpg") no-repeat 50% 50%;
     background-size: cover;
 }
+
 .servicesbg-1 {
     background: url("../static_data/web_content/service-2.jpg") no-repeat 50% 50%;
     background-size: cover
@@ -438,21 +441,29 @@
     padding: 2rem;
 
 }
+
 .about-2 {
     padding: 4rem
 }
 
 .about-bg-counter {
-    background: url("../static_data/web_content/carrier-top.jpg") no-repeat;
+    background: url("../static_data/web_content/service-2.jpg") no-repeat 50% 50%;
     background-size: cover;
 
 }
-
+.about-top-cover {
+    background-color: rgba(0, 0, 0, 0.589);
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .ceo-quotes {
     padding: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .cover-ceo {
@@ -485,26 +496,30 @@
     background: url("../static_data/founders/srishti.jpg") no-repeat;
     background-position: center;
     height: 100%;
+    width: 100%;
 }
 
 .ceo-few {
     width: 60%;
 }
-.about-item-img{
+
+.about-item-img {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.vision-detail{
+.vision-detail {
     padding: 0.5rem;
     border: 1px solid black;
     border-radius: 20px;
 }
+
 .plus {
     text-align: right;
 }
-.vision-h3{
+
+.vision-h3 {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -513,7 +528,7 @@
     text-align: right;
 }
 
-.vision-detail:hover{
+.vision-detail:hover {
     background-color: #edd4d4;
 }
 
@@ -524,7 +539,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
-  }
+
+    }
+
     .cover-ceo {
         width: 95%;
         display: flex;
@@ -533,25 +550,39 @@
         background-color: #303032;
         color: white;
     }
-    
+
     .ceo-photo-bg {
         width: 100%;
     }
-    
+
     .ceo-photo {
-        background: url("../static_data/web_content/carrier-top.jpg") no-repeat;
-        height: 50vh;
+        background: url("../static_data/founders/neeta_sinha.jpg") no-repeat;
+        height: 32vh;
+        width: 100%;
+    }
+    .ceo-photo-1 {
+        background: url("../static_data/founders/sanjay_ranjan.jpg") no-repeat;
+        background-position: center;
+        height: 32vh;
         width: 100%;
     }
     
+    .ceo-photo-2 {
+        background: url("../static_data/founders/srishti.jpg") no-repeat;
+        background-position: center;
+        height: 32vh;
+        width: 100%;
+    }
     .ceo-few {
         width: 100%;
     }
-    .about-item-img{
+
+    .about-item-img {
         display: flex;
         align-items: center;
         justify-content: center;
     }
+}
 
 .service-item {
     position: relative;
@@ -650,5 +681,3 @@
         transition: transform 0.3s ease-in-out;
     }
   }
-
-
