@@ -16,11 +16,9 @@ const Navbar = () => {
         <ul className='nav'>
           <li className='email'>
 
-            <span class="material-symbols-outlined phone">
-              phonelink_setup
-            </span>
+         
             <a href="https://wa.me/9123183988?text=Hello%20from%20your%20website" target="_blank">
-              <button>Contact Us on WhatsApp</button>
+             <i class="fa-brands fa-whatsapp phone "></i>  <button>Contact Us on WhatsApp</button>
             </a>
 
 
@@ -30,13 +28,13 @@ const Navbar = () => {
             <span class="material-symbols-outlined phone">
               mail
             </span>
-            <a href="mailto:sarvasuvidhan@gmail.com" className='pointer'><i className="fas fa-envelope mr-2"></i><span>SarvaSuvidhan@gmail.com</span></a>
+            <a href="mailto:sarvasuvidhan@gmail.com" className='pointer'><span>SarvaSuvidhan@gmail.com</span></a>
 
           </li>
           <li className='email'>
             <span class="material-symbols-outlined phone">
               call
-            </span > <a href="tel:91231 83988" className='pointer'>Call Us : <span className='pointer text-red-700'>+91 91231 83988</span></a>
+            </span > <a href="tel:91231 83988" className='pointer'>Call Us : <span className='pointer text-gray-700'>+91 91231 83988</span></a>
           </li>
         </ul>
 
@@ -44,7 +42,7 @@ const Navbar = () => {
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
-                <nav className="navbar navbar-expand-lg px-0 py-4">
+                <nav className="navbar navbar-expand-lg px-0 py-2">
                   <div className='logo-cover'>
                     <Link className="navbar-brand  logo" to="/">
                       <img src={logo} alt="logo"></img>

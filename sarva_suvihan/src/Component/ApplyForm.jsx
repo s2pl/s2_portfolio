@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import './component.css'
+import { CButton, CModal, CModalBody, CModalFooter } from "@coreui/react";
 const ApplyForm = () => {
     const [formData, setFormData] = useState({
         firstName: '',
@@ -19,37 +20,68 @@ const ApplyForm = () => {
         resumeFile: null,
         coverLetterFile: null,
         description: '',
-      });
-      const handleChange = (e) => {
-        const { name, value, type, files } = e.target;
+    });
+    const [showModal, setShowModal] = useState(false);
+
+    const handleChange = (e) => {
+        const { fname, value } = e.target;
         setFormData((prevData) => ({
-          ...prevData,
-          [name]: type === 'file' ? files[0] : value,
+            ...prevData,
+            [fname]: value,
         }));
-      };
-      const handleSubmit = async () => {
-        try {
-          const response = await fetch('./SubmitForm', {
-            method: 'POST',
-            body: JSON.stringify(formData),
-          });
-    
-          const result = await response.json();
-          alert(result.message);
-        } catch (error) {
-          console.error('Error submitting form:', error);
-          alert('An error occurred while submitting the form.');
+    };
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        console.log(formData);
+        if (!formData.firstName.trim() || !formData.lastName.trim()) {
+            setShowModal(true);
+            return;
         }
-      };
+
+        try {
+            const response = await fetch('./SubmitForm', {
+                method: 'POST',
+                body: JSON.stringify(formData),
+            });
+
+            const result = await response.json();
+            alert(result.message);
+            // You can add logic here to send email
+        } catch (error) {
+            console.error('Error submitting form:', error);
+            alert('An error occurred while submitting the form.');
+        }
+    };
     return (
         <div >
-
+            {showModal && (
+                    <CModal
+                    visible={showModal}
+                    backdrop="static"
+                    aria-labelledby="ScoreNow"
+                >
+                    <CModalBody>
+                    <p>Please fill in the required fields</p>
+                    </CModalBody>
+                    <CModalFooter>
+                        <CButton
+                            color="secondary"
+                            onClick={() => {
+                                setShowModal(false);
+                            }}
+                        >
+                            Ok
+                        </CButton>
+                    </CModalFooter>
+                </CModal>
+            )}
             <div className="container " >
                 <div className="row my-4">
                     <div className="col-lg-10 mx-auto">
                         <div
                             className="card border-0 "
-                            style={{boxShadow:"14px 14px 14px 14px rgba(0, 0, 0, 0.279)"}}
+                            style={{ boxShadow: "14px 14px 14px 14px rgba(0, 0, 0, 0.279)" }}
                         >
                             <div className="card-body">
                                 <h2 className="text-center">
@@ -59,7 +91,7 @@ const ApplyForm = () => {
                                 <div className='border-2'>
 
                                 </div>
-                                <form action="" onSubmit={handleSubmit} id="request-send">
+                                <form onSubmit={handleSubmit} id="request-send">
                                     <div className="row mt-3 ">
                                         <label for="name" className="small bold"> Full name</label>
                                         <div className="col-lg-3 mb-3 ">
@@ -78,7 +110,7 @@ const ApplyForm = () => {
 
                                             <input
                                                 type="text"
-                                                name="fname"
+                                                name="mname"
                                                 id="name"
                                                 className="form-control"
                                                 onChange={handleChange}
@@ -88,7 +120,7 @@ const ApplyForm = () => {
 
                                             <input
                                                 type="text"
-                                                name="fname"
+                                                name="lname"
                                                 id="name"
                                                 className="form-control"
                                                 onChange={handleChange}
@@ -100,7 +132,7 @@ const ApplyForm = () => {
 
                                                 <input
                                                     type="text"
-                                                    name="fname"
+                                                    name="month"
                                                     id="name"
                                                     className="form-control"
                                                     onChange={handleChange}
@@ -110,7 +142,7 @@ const ApplyForm = () => {
 
                                                 <input
                                                     type="text"
-                                                    name="fname"
+                                                    name="day"
                                                     id="name"
                                                     className="form-control"
                                                     onChange={handleChange}
@@ -120,7 +152,7 @@ const ApplyForm = () => {
 
                                                 <input
                                                     type="text"
-                                                    name="fname"
+                                                    name="year"
                                                     id="name"
                                                     className="form-control"
                                                     onChange={handleChange}
@@ -130,29 +162,29 @@ const ApplyForm = () => {
 
                                         </div>
                                         <div className="col-lg-12 mb-2">
-                                            <label for="email" className="small bold">Current Address</label>
+                                            <label for="Address" className="small bold">Current Address</label>
                                             <input
-                                                type="email"
-                                                name="email"
+                                                type="text"
+                                                name="CAddress"
                                                 id="email"
                                                 className="form-control"
                                                 onChange={handleChange}
                                             />
                                             <label for="email" className="small">Street Address</label>
                                             <input
-                                                type="email"
-                                                name="email"
+                                                type="text"
+                                                name="SAddress"
                                                 id="email"
                                                 className="form-control"
                                                 onChange={handleChange}
                                             />
-                                            <label for="email" className="small">Street Address Line 2</label>
+                                            <label for="city" className="small">Street Address Line 2</label>
                                             <div className="row mt-2">
                                                 <div className="col-lg-6 mb-3 ">
 
                                                     <input
                                                         type="text"
-                                                        name="fname"
+                                                        name="city"
                                                         id="name"
                                                         className="form-control"
                                                         onChange={handleChange}
@@ -162,7 +194,7 @@ const ApplyForm = () => {
 
                                                     <input
                                                         type="text"
-                                                        name="fname"
+                                                        name="State"
                                                         id="name"
                                                         className="form-control"
                                                         onChange={handleChange}
@@ -193,7 +225,7 @@ const ApplyForm = () => {
                                         </div>
                                         <div className="col-lg-6 mb-2">
                                             <label for="job-type" className="small bold">Job Type</label>
-                                            <select name="job-type" id="job-type" className="form-select">
+                                            <select name="jobtype" id="job-type" className="form-select">
                                                 <option value="" selected disabled>Select Job Type</option>
                                                 <option value="Part Time / Internship">
                                                     Part Time / Internship
@@ -205,7 +237,7 @@ const ApplyForm = () => {
                                             <label for="resume-link" className="small bold">Resume Link</label>
                                             <input
                                                 type="url"
-                                                name="resume-link"
+                                                name="resumelink"
                                                 id="resume-link"
                                                 className="form-control"
                                                 onChange={handleChange}
@@ -215,7 +247,7 @@ const ApplyForm = () => {
                                             <label for="resume-link" className="small bold">Resume </label>
                                             <input
                                                 type="file"
-                                                name="resume-link"
+                                                name="resume"
                                                 id="resume-link"
                                                 className="form-control"
                                                 onChange={handleChange}
@@ -225,7 +257,7 @@ const ApplyForm = () => {
                                             <label for="resume-link" className="small bold">Cover letter </label>
                                             <input
                                                 type="file"
-                                                name="resume-link"
+                                                name="coverlink"
                                                 id="resume-link"
                                                 className="form-control"
                                                 onChange={handleChange}
