@@ -4,32 +4,25 @@ import "./style.css"
 const Fotter = () => {
   return (
     <div>
-      <footer className="footer section bg-gray-800 text-white px-12 pt-12">
+      <footer className="footer section   px-12 pt-12">
         <div className="container mx-auto px-12 responsive">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="col-span-1 md:col-span-2 lg:col-span-1">
               <div className="widget">
-                <h4 className="text-uppercase mb-4" style={{ color: "white" }}>Company</h4>
-                <ul className="list-unstyled footer-menu leading-5">
-                  <li className='fotter-list'><span class="material-symbols-outlined">
-                    arrow_circle_right
-                  </span><Link to="/processing">Terms & Conditions</Link></li>
-                  <li className='fotter-list'><span class="material-symbols-outlined">
-                    arrow_circle_right
-                  </span><Link to="/processing">Privacy Policy</Link></li>
-                  <li className='fotter-list'><span class="material-symbols-outlined">
-                    arrow_circle_right
-                  </span><Link to="/processing">Support</Link></li>
-                  <li className='fotter-list'><span class="material-symbols-outlined">
-                    arrow_circle_right
-                  </span><Link to="/processing">FAQ</Link></li>
+                <h4 className="text-uppercase mb-4" style={{ color: "black" }}>Sarva suvidhaen</h4>
+                <p>We are an agri-tech startup founded by the graduates and professionals from India, US, Canada.</p>
+                <ul className="list-unstyled footer-social leading-5">
+                  <li className='fotter-list'><i class="fa-brands fa-whatsapp media"></i></li>
+                  <li className='fotter-list'><i class="fa-brands fa-facebook media"></i></li>
+                  <li className='fotter-list'><i class="fa-brands fa-linkedin media"></i></li>
+                  <li className='fotter-list'><i class="fa-brands fa-instagram media"></i></li>
                 </ul>
               </div>
             </div>
 
             <div className="col-span-1 lg:col-span-1">
               <div className="widget">
-                <h4 className="text-uppercase mb-4" style={{ color: "white" }}>Quick Links</h4>
+                <h4 className="text-uppercase mb-4" style={{ color: "black" }}>Quick Links</h4>
                 <ul className="list-unstyled footer-menu leading-5">
                   <li className='fotter-list'><span class="material-symbols-outlined">
                     arrow_circle_right
@@ -55,7 +48,7 @@ const Fotter = () => {
 
             <div className="col-span-1 lg:col-span-1">
               <div className="widget">
-                <h4 className="text-uppercase mb-4" style={{ color: "white" }}>Subscribe </h4>
+                <h4 className="text-uppercase mb-4" style={{ color: "black" }}>Subscribe </h4>
                 <p>Subscribe to get the latest news, articles, and resources</p>
                 <form action="#" className="sub-form">
 

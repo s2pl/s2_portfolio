@@ -95,8 +95,8 @@ h6,
   padding: 2vh 6vh 2vh 2vh;
   font-weight: 400;
   font-size: 16px;
-  color: #fffdfd;
-  background-color: rgb(28, 37, 45);
+  color: #000000;
+  background-color: rgb(240, 241, 243);
   font-family: "Roboto", sans-serif;
 }
 
@@ -104,11 +104,13 @@ h6,
   display: flex;
   padding: 0vh 2vh;
   margin-right: 2vw;
-  border-right: 1px solid rgb(255, 255, 255);
+  border-right: 1px solid rgb(0, 0, 0);
 }
 
 .phone {
-  margin-right: 1vw;
+  margin-right: 0.4vw;
+  font-size: 1.5rem;
+  cursor: pointer;
 }
 
 .left-navbar {
@@ -116,8 +118,9 @@ h6,
   height: 4vh;
 
 }
+
 .logo img{
-  width: 15%;
+  width: 10%;
 }
 .navbar{
   display: flex;
@@ -339,6 +342,7 @@ img {
 
 #item1 {
   background-image: url('../static_data/web_content/swach_station.png');
+  
 }
 
 #item2 {
@@ -397,6 +401,33 @@ img {
   .poster {
     width: 100%;
   }  
+  .item {
+    height: 65vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #item1 {
+    background-image: url('../static_data/web_content/swach_station.png');
+    background-size:cover;
+    background-position: center;
+  }
+  
+  #item2 {
+    background-image: url('../static_data/web_content/Automated.png')
+  }
+  
+  #item3 {
+    background-image: url('../static_data/web_content/RailMadad.png');
+  }
+  
+  #item4 {
+    background-image: url('../static_data/web_content/project6.jpg');
+  }
   .item-cover {
     display: flex;
     justify-content: center;
@@ -670,6 +701,22 @@ font-weight: 600;
   text-align: center;
   margin-bottom: 25px;
   
+}
+.footer{
+  color: #000000;
+  background-color: rgb(240, 241, 243);
+  font-family: "Roboto", sans-serif;
+}
+.footer-social{
+  display: flex;
+  align-items: center;
+  margin-top:2rem;
+}
+.footer-social li{
+  margin-left: 1rem;
+}
+.footer-social .media{
+  font-size: 1.5rem;
 }
 .fotter-list{
   margin-bottom: 1rem;

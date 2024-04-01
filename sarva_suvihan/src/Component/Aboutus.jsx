@@ -8,9 +8,6 @@ import sidepic from '../static_data/web_content/network.jpg'
 import cerificate from '../static_data/web_content/certified.jpg';
 import director from '../static_data/founders/atul_anand.jpg'
 import founder from '../static_data/founders/sanjay_ranjan.jpg'
-import akhil_Sir from '../static_data/teams/akil_sir.jpg'
-import Rutval from '../static_data/teams/rutval.jpg'
-
 const Aboutus = () => {
   const [counter, setCounter] = useState(false);
   const [read1, setread1] = useState(false);
@@ -79,6 +76,9 @@ const Aboutus = () => {
       {/* Section A part End */}
 
       {/* Section B part start */}
+      <div className='creater'>
+        <h1>Our Founder</h1>
+      </div>
       <div className='ceo-quotes'>
         <div className='cover-ceo'>
           <div className='ceo-photo-bg'>
@@ -86,15 +86,15 @@ const Aboutus = () => {
 
             </div></div>
           <div className='ceo-few p-3'>
-            <h3 className="mt-2 mb-1 position-relative content-title text-white">Growth and comfort do not coexist</h3>
+            <h3 className="mt-2 mb-1 position-relative content-title text-gray">Growth and comfort do not coexist</h3>
             <p className="mb-1">The essence of the profound quote lies in the recognition that life's pursuits may not grant us every desire, yet it emphasizes the significance of prioritizing and attaining what truly holds value to us. It serves as a reminder that while one may not achieve every aspiration, focusing on the core elements
               that genuinely matter in one's life can lead to a sense of fulfillment and contentment. It encourages a
               thoughtful reflection on personal values and priorities,
               suggesting that by aligning our efforts with what holds genuine
               importance, we can cultivate a meaningful and satisfying existence.
             </p>
-            <h2 className="mt-2 mb-1 position-relative content-title text-white">Neeta Sinha</h2>
-            <p className='text-white'>Founder</p>
+            <h2 className="mt-2 mb-1 position-relative content-title text-gray">Neeta Sinha</h2>
+            <p className='text-gray'>Founder</p>
            
           </div>
         </div>
@@ -102,15 +102,15 @@ const Aboutus = () => {
       <div className='ceo-quotes'>
         <div className='cover-ceo'>
           <div className='ceo-photo-bg'>
-            <div className='ceo-photo-1 '>
+            <div className='ceo-photo-1'>
 
             </div></div>
           <div className='ceo-few p-3'>
-            <h3 className="mt-2 mb-1 position-relative content-title text-white">Stay hungry, stay foolish</h3>
+            <h3 className="mt-2 mb-1 position-relative content-title text-gray">Stay hungry, stay foolish</h3>
             <p className="mb-1">Stay hungry, stay foolish" is a powerful quote by Steve Jobs, encouraging perpetual curiosity and embracing risk in the pursuit of innovation. It advocates maintaining an insatiable appetite for knowledge and being open to unconventional ideas, fostering personal and professional growth through a fearless and inquisitive mindset.
             </p>
-            <h3 className="mt-2 mb-1 position-relative content-title text-white">sanjay_ranjan</h3>
-            <p className='text-white'>Founder</p>
+            <h3 className="mt-2 mb-1 position-relative content-title text-gray">sanjay_ranjan</h3>
+            <p className='text-gray'>Founder</p>
            
           </div>
         </div>
@@ -118,17 +118,17 @@ const Aboutus = () => {
       <div className='ceo-quotes'>
         <div className='cover-ceo'>
           <div className='ceo-photo-bg'>
-            <div className='ceo-photo-2 '>
+            <div className='ceo-photo-2'>
 
             </div></div>
           <div className='ceo-few p-3'>
-            <h3 className="mt-2 mb-1 position-relative content-title text-white">Keep going forward because success will come</h3>
+            <h3 className="mt-2 mb-1 position-relative content-title text-gray">Keep going forward because success will come</h3>
             <p className="mb-1">
-This quote encourages perseverance and optimism, emphasizing that continuous effort and a positive outlook lead to success. It inspires individuals to remain resilient in the face of challenges, conveying the belief that by persistently moving forward, one will ultimately achieve success in their endeavors.
+                   This quote encourages perseverance and optimism, emphasizing that continuous effort and a positive outlook lead to success. It inspires individuals to remain resilient in the face of challenges, conveying the belief that by persistently moving forward, one will ultimately achieve success in their endeavors.
             </p>
-            <h3 className="mt-2 mb-1 position-relative content-title text-white">srishti</h3>
-            <p className='text-white'>Founder</p>
-        
+            <h3 className="mt-2 mb-1 position-relative content-title text-gray">srishti</h3>
+            <p className='text-gray'>Founder</p>
+           
           </div>
         </div>
       </div>
@@ -146,35 +146,35 @@ This quote encourages perseverance and optimism, emphasizing that continuous eff
       <ScrollTrigger onEnter={() => setCounter(true)} onExit={() => setCounter(false)}>
 
         <section className=" about-bg-counter">
-          <div className='p-5 about-top-cover'>
+          <div className='p-5'>
             <div className="container">
               <div className="row">
                 <div className="col-lg-3 col-md-6 col-sm-6">
                   <div className="counter-item text-center mb-5 mb-lg-0">
                     <i className="ti-check color-one text-md"></i>
-                    <h3 className="mt-2 mb-0 text-white"><span className="counter-text font-weight-bold text-white">{counter && <CountUp start={0} end={70} duration={2} delay={0} />}</span> +</h3>
-                    <p className="text-white">Booking Order</p>
+                    <h3 className="mt-2 mb-0 "><span className="counter-text font-weight-bold">{counter && <CountUp start={0} end={70} duration={2} delay={0} />}</span> +</h3>
+                    <p className="text-gray">Booking Order</p>
                   </div>
                 </div>
                 <div className="col-lg-3 col-md-6 col-sm-6">
                   <div className="counter-item text-center mb-5 mb-lg-0">
                     <i className="ti-flag color-one text-md"></i>
-                    <h3 className="mt-2 mb-0 text-white"><span className="counter-text font-weight-bold text-white">{counter && <CountUp start={0} end={40} duration={2} delay={0} />} </span>+ </h3>
-                    <p className="text-white">Booking Completed</p>
+                    <h3 className="mt-2 mb-0 "><span className="counter-text font-weight-bold">{counter && <CountUp start={0} end={40} duration={2} delay={0} />} </span>+ </h3>
+                    <p className="text-gray">Booking Completed</p>
                   </div>
                 </div>
                 <div className="col-lg-3 col-md-6 col-sm-6">
                   <div className="counter-item text-center mb-5 mb-lg-0">
                     <i className="ti-layers color-one text-md"></i>
-                    <h3 className="mt-2 mb-0 text-white"><span className="counter-text font-weight-bold">{counter && <CountUp start={0} end={5} duration={2} delay={0} />} </span>+</h3>
-                    <p className="text-white">Availble States</p>
+                    <h3 className="mt-2 mb-0 "><span className="counter-text font-weight-bold">{counter && <CountUp start={0} end={5} duration={2} delay={0} />} </span></h3>
+                    <p className="text-gray">Availble States</p>
                   </div>
                 </div>
                 <div className="col-lg-3 col-md-6 col-sm-6">
                   <div className="counter-item text-center">
                     <i className="ti-medall color-one  text-md"></i>
-                    <h3 className="mt-2 mb-0 text-white"><span className="counter-text font-weight-bold">{counter && <CountUp start={0} end={6} duration={2} delay={0} />} </span>+</h3>
-                    <p className="text-white">Award Winner </p>
+                    <h3 className="mt-2 mb-0 "><span className="counter-text font-weight-bold">{counter && <CountUp start={0} end={6} duration={2} delay={0} />} </span></h3>
+                    <p className="text-gray">Award Winner </p>
                   </div>
                 </div>
               </div>
@@ -260,27 +260,29 @@ This quote encourages perseverance and optimism, emphasizing that continuous eff
       <div className='team-detail' >
         <div className='team-intro'>
           <div className='team-mate'> <img src={director} alt="portfolio" className='team-mate'></img></div>
-          <div className='name'>Atul Anand</div>
-          <div className="post">Team leader</div>
+          <div className='name'>team-Atul Anand</div>
+          <div className="post">Founder & CEO</div>
+
+
         </div>
         <div className='team-intro'>
           <div className='team-mate'> <img src={profile} alt="portfolio" className='team-mate'></img></div>
-          <div className='name'>Mayank Tomar</div>
-          <div className="post">Team leader</div>
+          <div className='name'>Srishti</div>
+          <div className="post">Director</div>
         </div>
         <div className='team-intro'>
-          <div className='team-mate'> <img src={akhil_Sir} alt="portfolio" className='team-mate'></img></div>
-          <div className='name'>Akhil sir</div>
-          <div className="post">Team leader</div>
+          <div className='team-mate'> <img src={profile} alt="portfolio" className='team-mate'></img></div>
+          <div className='name'>************</div>
+          <div className="post">************</div>
 
 
 
 
         </div>
         <div className='team-intro'>
-          <div className='team-mate'> <img src={Rutval} alt="portfolio" className='team-mate'></img></div>
-          <div className='name'>Rutval B. Thonge </div>
-          <div className="post">Developer</div>
+          <div className='team-mate'> <img src={profile} alt="portfolio" className='team-mate'></img></div>
+          <div className='name'>************ </div>
+          <div className="post">************</div>
 
 
 

@@ -12,7 +12,9 @@ import servicesImg1 from '../static_data/web_content/idrail.jpg'
 import servicesImg2 from '../static_data/web_content/awms.jpg'
 import servicesImg3 from '../static_data/web_content/diot.jpg'
 import servicesImg4 from '../static_data/web_content/water.jpg'
-
+import supportImg1 from '../static_data/web_content/iciit.jpeg'
+import supportImg2 from '../static_data/web_content/supporter1.jpeg'
+import supportImg3 from '../static_data/web_content/supporter3.jpeg'
 const Homepage = () => {
     const sliderRef = useRef(null);
     const [activeSlide, setActiveSlide] = useState(0);
@@ -37,15 +39,15 @@ const Homepage = () => {
         nextArrow: null,
         responsive: [
             {
-              breakpoint: 600, 
-              settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-              }
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
             },
-            
-          ]
-        
+
+        ]
+
     }
     var settings_client = {
         dots: false,
@@ -366,6 +368,29 @@ const Homepage = () => {
                                 </div>
                             </div>
                         </Slider>
+                    </div>
+                </div>
+            </div>
+            <div className='government'>
+                <h1>Our Supporters</h1>
+                <div className='govern'>
+                    <div className='govern-card'>
+                      <div className='support-img'>
+                        <img src={supportImg1} alt="" />
+                        
+                      </div><p>IIT Patna Incubation Centre</p>
+                    </div>
+                    <div className='govern-card'>
+                    <div className='support-img'>
+                    <img src={supportImg2} alt="" />
+                    </div>
+                    <p>Startup Bihar</p>
+                    </div>
+                    <div className='govern-card'>
+                    <div className='support-img'>
+                    <img src={supportImg3} alt="" />
+                    </div>
+                    <p>Ministry of Electronics and Information Technology</p>
                     </div>
                 </div>
             </div>
