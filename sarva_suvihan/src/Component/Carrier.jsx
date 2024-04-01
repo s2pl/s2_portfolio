@@ -44,20 +44,20 @@ const Carrier = () => {
             </div>
             <div className='right-carrier-quotes'>
               <div className='carrier-quotesimage'>
-                <img src={Looking} alt="logo"></img>
+                <img src={Looking} alt="logo" loading="lazy"></img>
               </div>
             </div>
           </div>
         </div>
         <div className='carrier-picture'>
           <div className='carrier-pic1'>
-            <img src={carrierm1} alt="logo"></img>
+            <img src={carrierm1} alt="logo" loading="lazy"></img>
           </div>
           <div className='carrier-pic1'>
-            <img src={carrierm2} alt="logo"></img>
+            <img src={carrierm2} alt="logo" loading="lazy"></img>
           </div>
           <div className='carrier-pic1'>
-            <img src={carrierm3} alt="logo"></img>
+            <img src={carrierm3} alt="logo" loading="lazy"></img>
           </div>
         </div>
         <div className='employe-req'>
