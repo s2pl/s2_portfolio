@@ -10,7 +10,7 @@ const Fotter = () => {
             <div className="col-span-1 md:col-span-2 lg:col-span-1">
               <div className="widget">
                 <h4 className="text-uppercase mb-4" style={{ color: "black" }}>Sarva suvidhaen</h4>
-                <p>We are an agri-tech startup founded by the graduates and professionals from India, US, Canada.</p>
+                <p>Our integrated platform, comprising a website and mobile app, streamlines employee performance record management.</p>
                 <ul className="list-unstyled footer-social leading-5">
                   <li className='fotter-list'><i class="fa-brands fa-whatsapp media"></i></li>
                   <li className='fotter-list'><i class="fa-brands fa-facebook media"></i></li>
@@ -48,26 +48,43 @@ const Fotter = () => {
 
             <div className="col-span-1 lg:col-span-1">
               <div className="widget">
-                <h4 className="text-uppercase mb-4" style={{ color: "black" }}>Subscribe </h4>
-                <p>Subscribe to get the latest news, articles, and resources</p>
-                <form action="#" className="sub-form">
+                <h4 className="text-uppercase mb-4" style={{ color: "black" }}>Get in touch </h4>
+                <div className="container">
+                  <form action="#" className="sub-form">
+                    <div className="row mb-3">
+                      <div className="col">
+                        <label for="exampleInputName" className="form-label">Name</label>
+                        <input type="text" className="form-control" id="exampleInputName" placeholder="Enter your name" />
+                      </div>
+                      <div className="col">
+                        <label for="exampleInputOrganization" className="form-label">Organization</label>
+                        <input type="text" className="form-control" id="exampleInputOrganization" placeholder="Enter your organization" />
+                      </div>
+                    </div>
+                    <div className="row mb-3">
+                      <div className="col">
+                        <label for="exampleInputPhone" className="form-label">Phone number</label>
+                        <input type="tel" className="form-control" id="exampleInputPhone" placeholder="Enter your phone number" />
+                      </div>
+                      <div className="col">
+                        <label for="exampleInputEmail" className="form-label">Email address</label>
+                        <input type="email" className="form-control" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter your email" />
+                      </div>
+                    </div>
+                    <button type="submit" className="sub-btn btn-main btn-small">Submit</button>
+                  </form>
 
-                  <div class="mb-3">
-                    <label for="exampleInputEmail1" className="form-label">Email address</label>
-                    <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Email' />
-                    <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
-                  </div>
-                  <Link to="" target="_blank" rel="noopener noreferrer" className="sub-btn btn-main btn-small">Subscribe </Link>
-                </form>
+                </div>
+
               </div>
             </div>
           </div>
 
-          <div className="footer-btm pt-4 ">
+          <div className="footer-btm p-2 border-2">
             <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1">
               <div className="col-span-1 md:col-span-1 lg:col-span-1">
                 <div className="copyright">
-                  © 2023 suvidhaen.com All rights reserved  <Link to="/" className="cursor-pointer " style={{color:" red", marginLeft:"1.5rem"}}>Sarva Suvidhan PVT.LTD</Link>
+                  © 2023 suvidhaen.com All rights reserved  <Link to="/" className="cursor-pointer " style={{ color: "#175ef7", marginLeft: "1.5rem" }}>Sarva Suvidhan PVT.LTD</Link>
                 </div>
               </div>
             </div>

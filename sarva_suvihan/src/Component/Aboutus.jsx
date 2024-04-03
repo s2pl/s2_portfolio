@@ -8,6 +8,9 @@ import sidepic from '../static_data/web_content/network.jpg'
 import cerificate from '../static_data/web_content/certified.jpg';
 import director from '../static_data/founders/atul_anand.jpg'
 import founder from '../static_data/founders/sanjay_ranjan.jpg'
+import rutval from '../static_data/teams/rutval.jpg'
+import akhil from '../static_data/teams/akil_sir.jpg'
+
 const Aboutus = () => {
   const [counter, setCounter] = useState(false);
   const [read1, setread1] = useState(false);
@@ -259,34 +262,35 @@ const Aboutus = () => {
 
       <div className='team-detail' >
         <div className='team-intro'>
-          <div className='team-mate'> <img src={director} alt="portfolio" className='team-mate'></img></div>
-          <div className='name'>team-Atul Anand</div>
-          <div className="post">Founder & CEO</div>
+          <div className='team-mate'> <img src={profile}alt="portfolio" className='team-mate'></img></div>
+          <div className='name'>team-Atul </div>
+          <div className="post">teamleader</div>
 
 
         </div>
         <div className='team-intro'>
           <div className='team-mate'> <img src={profile} alt="portfolio" className='team-mate'></img></div>
-          <div className='name'>Srishti</div>
-          <div className="post">Director</div>
-        </div>
-        <div className='team-intro'>
-          <div className='team-mate'> <img src={profile} alt="portfolio" className='team-mate'></img></div>
-          <div className='name'>************</div>
-          <div className="post">************</div>
-
+          <div className='name'>Manyan Singh Tomar </div>
+          <div className="post">Team -leader</div>
 
 
 
         </div>
         <div className='team-intro'>
-          <div className='team-mate'> <img src={profile} alt="portfolio" className='team-mate'></img></div>
-          <div className='name'>************ </div>
-          <div className="post">************</div>
+          <div className='team-mate'> <img src={akhil} alt="portfolio" className='team-mate'></img></div>
+          <div className='name'>Akhil</div>
+          <div className="post">Team -leader</div>
+        </div>
+        <div className='team-intro'>
+          <div className='team-mate'> <img src={rutval} alt="portfolio" className='team-mate'></img></div>
+          <div className='name'>Rutval B. Thonge</div>
+          <div className="post">Developer</div>
+
 
 
 
         </div>
+        
         <div className='team-intro'>
           <div className='team-mate'> <img src={profile} alt="portfolio" className='team-mate'></img></div>
           <div className='name'>************</div>

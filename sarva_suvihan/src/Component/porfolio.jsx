@@ -1,14 +1,14 @@
 import React from 'react'
 import Slider from 'react-slick';
-import special from '../static_data/web_content/4_Ashwini Kumar Choubey_Minister of State for Consumer Affairs, Food and Public Distribution of India.jpeg'
-import special2 from '../static_data/web_content/NEILIT_Ropar.jpeg'
-import homepage from '../static_data/web_content/homepage.jpeg'
+import special from '../static_data/web_content/@S2_Portfolio (1).jpg'
+import special2 from '../static_data/web_content/@S2_Portfolio.jpg'
+import homepage from '../static_data/web_content/@S2_Portfolio (2).jpg'
 import servicesImg1 from '../static_data/web_content/trophy1.jpg'
 import servicesImg2 from '../static_data/web_content/trophypdl.jpg'
-import gpai1 from '../static_data/web_content/5_Special_Secretary_Bihar.jpeg'
-import gpai2 from '../static_data/web_content/Col_SurendraKumarRohilla_Director_MoDefence.jpeg'
-import gpai3 from '../static_data/web_content/NEILIT_Ropar.jpeg'
-import gpai4 from '../static_data/web_content/STPI_DG_and_Chairman_STPINEXT_Arvind_Kumar.jpeg'
+import gpai1 from '../static_data/web_content/certified.jpg'
+import gpai2 from '../static_data/web_content/indianRlogo.jpg'
+import gpai3 from '../static_data/web_content/iciit.jpeg'
+import gpai4 from '../static_data/web_content/side_pic.jpg'
 import servicesImg4 from '../static_data/web_content/certificatenitish.jpg'
 import patnaaward from '../static_data/web_content/patnaAward.jpg'
 
@@ -53,31 +53,31 @@ const porfolio = () => {
           <div className='portfolio-card-container '>
             <div className='portfolio-card'>
               <Slider {...settings_services}>
-
-                <div className="card card-show" style={{ width: "15rem;" }}>
-                  <div className='img-slide'><img src={homepage} className="card-img-top" alt="..." /></div>
+              <div className="card card-show" style={{ width: "15rem;" }}>
+                  <div className='img-slide'>   <img src={special2} className="card-img-top" alt="..." /></div>
                   <div className="card-body text-center">
-                    <h5 className="card-title ">Global Partnership Submit - 2023</h5>
-                    <p className="card-text pb-4">
+                    <h5 className="card-title">SawachDNR application </h5>
+                    <p className="card-text pb-4">Sarva Suvidhan is a recognized leader in developing process in developing automationfor complex organization and institutional concerns.Our mission is to bring automation, technology and innovation to simplify complex problem. We add value by increasing efficiency and drive data and analytics for higher quality standards.
 
-                      We are thrilled to announce our active participation in the Global Partnership Summit 2023, a significant platform bringing together visionaries, innovators, and thought leaders from around the world. This summit serves as a pivotal forum for collaboration, knowledge exchange, and fostering meaningful partnerships. Our engagement reflects our commitment to global connectivity, collaboration, and addressing challenges through innovative solutions. As we contribute to the dynamic discussions and collaborative initiatives at the summit, we are eager to explore synergies, share insights, and shape the future of technology and business on a global scale. This participation underscores our dedication to creating a positive impact, fostering international collaboration, and contributing to the collective efforts aimed at shaping a sustainable and progressive global future. We look forward to meaningful interactions, forging new
-                      connections, and leveraging this platform to drive positive change and innovation on a global stage. </p>
+                      Since our inception, we have worked with large organization to delay inteliigent automation which has helped improve turnarround, improve services quality and bring higher customer satisfaction.
+
+                      Our team of solution architects, designer and developer will help you craft a solution fitted to yur requirements.
+
+                      we are a recoganized DIPP Startup from Bihar and are proud recipients of multiples awards.</p>
 
                   </div>
                 </div>
                 <div className="card card-show" style={{ width: "15rem;" }}>
                   <div className='img-slide'>   <img src={special} className="card-img-top" alt="..." /></div>
                   <div className="card-body text-center">
-                    <h5 className="card-title">Meeting  with Ashwini kumar Chowaye (Minister of State for Consumer Affairs)</h5>
-                    <p className="card-text pb-4">During the Global Partnership Summit 2023, it was an honor to meet with Ashwini Kumar Choubey, the Minister of State for Consumer Affairs, Food, and Public Distribution of India. The meeting provided a valuable platform to discuss collaborative initiatives aimed at enhancing consumer welfare, ensuring food security, and optimizing public distribution systems. We engaged in constructive dialogues on leveraging technology and innovative solutions to address evolving challenges in these critical sectors. The insightful exchange of ideas and commitment to fostering global partnerships reaffirmed our collective dedication to advancing the well-being of consumers and optimizing public services. This encounter with Minister Ashwini Kumar Choubey marked a significant step toward collaborative efforts for sustainable development and inclusive governance. We look forward to contributing actively to the shared vision of fostering a resilient and consumer-centric future. </p>
+                    <h5 className="card-title">he certificate offered by entities such as the Bihar Startup Innovation Program and the IIT Patna Incubation Center serves</h5>
+                    <p className="card-text pb-4">For startups participating in programs like the Bihar Startup Innovation Program, the certificate signifies their commitment to innovation and entrepreneurship within the region. It acts as a testament to their potential to drive positive change and contribute to economic growth. Moreover, this recognition from established institutions such as IIT Patna adds credibility to their projects and ideas.
 
-                  </div>
-                </div>
-                <div className="card card-show" style={{ width: "15rem;" }}>
-                  <div className='img-slide'>   <img src={special2} className="card-img-top" alt="..." /></div>
-                  <div className="card-body text-center">
-                    <h5 className="card-title">convergence of diverse industrialists and innovators</h5>
-                    <p className="card-text pb-4">The Global Partnership Summit 2023 was a convergence of diverse industrialists and innovators, fostering collaboration and knowledge exchange. At this transformative event, we had the privilege of engaging with a spectrum of industry leaders, visionaries, and influencers from across the globe. It provided a unique platform to explore synergies, share insights, and forge partnerships that transcend geographical boundaries. Discussions spanned a myriad of industries, from technology and finance to sustainability and healthcare, reflecting the interconnected nature of our global ecosystem. Through these meaningful interactions, we not only expanded our network but also gained valuable perspectives that will undoubtedly shape the future of our endeavors. The Global Partnership Summit served as a catalyst for cross-sector collaboration, amplifying the impact of our collective efforts on a global scale. As we reflect on this enriching experience, we look forward to translating these connections into tangible partnerships that drive innovation, sustainability, and progress across industries worldwide</p>
+                      The certificate obtained through the IIT Patna Incubation Center is a mark of quality and excellence in innovation. It reflects the rigorous evaluation and support provided by one of India's premier academic institutions. Startups receiving this certificate gain access to resources, mentorship, and networking opportunities essential for their growth and success.
+
+                      Furthermore.
+
+                      In essence, the certificate obtained from programs like the Bihar Startup Innovation Program and the IIT Patna Incubation Center not only recognizes the efforts of startups but also acts as a catalyst for their growth and success in the dynamic landscape of innovation and entrepreneurship. </p>
 
                   </div>
                 </div>
@@ -135,6 +135,17 @@ const porfolio = () => {
 
                   </div>
                 </div>
+                <div className="card card-show" style={{ width: "15rem;" }}>
+                  <div className='img-slide'><img src={homepage} className="card-img-top" alt="..." /></div>
+                  <div className="card-body text-center">
+                    <h5 className="card-title ">Railmadad analytics software provide from my company sarva suvidhean private limited</h5>
+                    <p className="card-text pb-4">
+                      RailMadad Analytics is a cutting-edge software solution provided by Sarva Suvidhean Private Limited, tailored to revolutionize the railway industry. This innovative platform offers comprehensive analytics capabilities designed to enhance operational efficiency, safety, and customer satisfaction within the rail sector. By leveraging advanced data analytics techniques, RailMadad Analytics empowers railway authorities to make informed decisions, optimize resource allocation, and proactively address challenges. From predictive maintenance to route optimization and passenger flow analysis, this software equips railway operators with actionable insights to streamline operations and deliver a seamless travel experience. With RailMadad Analytics, Sarva Suvidhean Private Limited continues to drive innovation and transform the railway ecosystem for the better. </p>
+
+                  </div>
+                </div>
+
+                
               </Slider>
             </div>
           </div>
@@ -150,53 +161,54 @@ const porfolio = () => {
             </div>
           </div>
 
-         <div className='galary'>
-       
-<div class="row">
-  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-    <img
-      src={gpai1}
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Boat on Calm Water"
-    />
+          <div className='galary'>
 
-    <img
-      src={gpai2}
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Wintry Mountain Landscape"
-    />
-  </div>
+            <div className="row">
+              <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                <img
+                  src={gpai1}
+                  className="w-80 shadow-1-strong rounded mb-4 image-center galary-mg"
+                  alt="Boat on Calm Water"
+                />
 
-  <div class="col-lg-4 mb-4 mb-lg-0">
-    <img
-      src={gpai3}
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Mountains in the Clouds"
-    />
+                <img
+                  src={gpai2}
+                  className="w-80 shadow-1-strong rounded mb-4 image-center galary-mg"
+                  alt="Wintry Mountain Landscape"
+                />
+              </div>
 
-    <img
-      src={gpai4}
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Boat on Calm Water"
-    />
-  </div>
+              <div className="col-lg-4 mb-4 mb-lg-0">
+                <img
+                  src={gpai3}
+                  className="w-80 shadow-1-strong rounded mb-4 image-center galary-mg"
+                  alt="Mountains in the Clouds"
+                />
 
-  <div class="col-lg-4 mb-4 mb-lg-0">
-    <img
-      src={homepage}
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Waves at Sea"
-    />
+                <img
+                  src={gpai4}
+                  className="w-100 shadow-1-strong rounded mb-4 image-center galary-mg"
+                  alt="Boat on Calm Water"
+                />
+              </div>
 
-    <img
-      src={patnaaward}
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Yosemite National Park"
-    />
-  </div>
-</div>
+              <div className="col-lg-4 mb-4 mb-lg-0">
+                <img
+                  src={homepage}
+                  className="w-70 shadow-1-strong rounded mb-4 image-center galary-mg"
+                  alt="Waves at Sea"
+                />
 
-         </div>
+                <img
+                  src={patnaaward}
+                  className="w-80 shadow-1-strong rounded mb-4 image-center galary-mg"
+                  alt="Yosemite National Park"
+                />
+              </div>
+              
+            </div>
+
+          </div>
         </div>
       </section>
     </div>

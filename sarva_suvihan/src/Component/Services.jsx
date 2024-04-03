@@ -1,10 +1,10 @@
 import React from 'react'
-import phone from '../static_data/web_content/mobilepic.svg'
+import phone from '../static_data/web_content/mobilepic.png'
 import servicesImg1 from '../static_data/web_content/idrail.jpg'
-import servicesImg2 from '../static_data/web_content/awms.svg'
-import servicesImg3 from '../static_data/web_content/diot.svg'
+import servicesImg2 from '../static_data/web_content/awms.jpg'
+import servicesImg3 from '../static_data/web_content/diot.jpg'
 import servicesImg4 from '../static_data/web_content/water.jpg'
-import userInterface from '../static_data/web_content/@S2_Portfolio.svg'
+import userInterface from '../static_data/web_content/@S2_Portfolio.jpg'
 import { Link } from 'react-router-dom';
 const Services = () => {
   return (
