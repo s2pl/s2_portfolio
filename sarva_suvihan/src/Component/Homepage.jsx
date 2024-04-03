@@ -7,7 +7,7 @@ import ScrollTrigger from 'react-scroll-trigger';
 import CountUp from 'react-countup';
 import Slider from 'react-slick';
 import phone from '../static_data/web_content/mobilepic.png'
-import logo from '../static_data/web_content/logo.png'
+import rightpic from '../static_data/web_content/@S2_Portfolio.jpg'
 import servicesImg1 from '../static_data/web_content/idrail.jpg'
 import servicesImg2 from '../static_data/web_content/awms.jpg'
 import servicesImg3 from '../static_data/web_content/diot.jpg'
@@ -15,21 +15,15 @@ import servicesImg4 from '../static_data/web_content/water.jpg'
 import supportImg1 from '../static_data/web_content/iciit.jpeg'
 import supportImg2 from '../static_data/web_content/supporter1.jpeg'
 import supportImg3 from '../static_data/web_content/supporter3.jpeg'
+import PartnerImg1 from '../static_data/web_content/indainR2logo.png'
+import PartnerImg2 from '../static_data/web_content/indianRlogo.jpg'
+import PartnerImg3 from '../static_data/web_content/partnerR3logo.png'
+import PartnerImg4 from '../static_data/web_content/partnerR4logo.png'
 const Homepage = () => {
     const sliderRef = useRef(null);
     const [activeSlide, setActiveSlide] = useState(0);
     const [count, setcount] = useState(false);
-    var settings = {
-        dots: false,
-        speed: 1500,
-        autoplay: true,
-        slidesToShow: 1,
-        nextArrow: null,
-        slidesToScroll: 1,
-        beforeChange: (current, next) => {
-            setActiveSlide(next);
-        },
-    };
+
     var settings_services = {
         dots: true,
         speed: 1500,
@@ -70,87 +64,69 @@ const Homepage = () => {
             {/*  header slider section*/}
             <div className='poster-slider'>
                 <div className='poster'>
-                    <Slider ref={sliderRef} {...settings}>
-
-                        <div className="item" id="item1" >
-                            <div className='item-cover'>
-                                <div className="content" data-aos="fade-down">
-                                    <div className="name">
-                                        <div className='head-name'>
-                                            SwachDNR App                                     </div>
+                    <div className="item" id="item1" >
+                        <div className='item-cover'>
+                            <div className="content" data-aos="fade-down">
+                                <div className="name">
+                                    <div className='head-name'>
+                                        SwachDNR App                                     </div>
+                                </div>
+                                <div className="des">
+                                    <h5>Accelerate your Growth with our End-to-End Automation Solutions</h5>
+                                    <p>We build process automation with seamless integration for optimizing performance
+                                Build with us to realize your full organizational potential </p></div>
+                                <div className='link-btn'>
+                                <button className='btn-main'><a target="_blank"
+                                    href="https://play.google.com/store/apps/details?id=com.cms.android.cleaningmanagementsystem.app"
+                                    class="text-decoration-none">DOWNLOAD NOW</a></button>
+                                <button className='btn-main btn-margin'><a target="_blank"
+                                    href="https://cms.suvidhaen.com/"
+                                    class="text-decoration-none">VISIT NOW</a></button>
                                     </div>
-                                    <div className="des">Our integrated platform, comprising a website and mobile app, streamlines employee performance record management.</div>
-                                    <button className='btn'><a target="_blank"
-                                        href="https://play.google.com/store/apps/details?id=com.cms.android.cleaningmanagementsystem.app"
-                                        class="text-decoration-none">DOWNLOAD NOW</a></button>
-                                </div>
-                                <div className='img'>
-                                    <img src={phone} loading="lazy"></img>
-                                </div>
+                            </div>
+                            <div className='img'>
+                                <img src={phone} loading="lazy"></img>
                             </div>
                         </div>
-                        <div className="item" id="item2">
-                            <div className='item-cover'>
-                                <div className="content">
-                                    <div className="name name-margin">
-                                        <div className='head-name'>
-                                            AWMS - Automated Water Monitoring System                                 </div>
-                                    </div>
+                    </div>
 
-                                    <button className='btn'><a target="_blank"
-                                        href="https://pms.suvidhaen.com/"
-                                        class="text-decoration-none">VISITED NOW</a></button>
-                                </div>
-                                <div className='img'>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div className="item" id="item3">
-                            <div className='item-cover'>
-                                <div className="content">
-                                    <div className="name">
-                                        <div className='head-name'>
-                                        </div>
-                                    </div>
-                                    <div className="des  " >
-                                    </div>
-                                    <button className='btn' style={{ marginTop: "15rem" }}><a target="_blank"
-                                        href="https://play.google.com/store/apps/details?id=com.suvidhaen.swachhdnr"
-                                        class="text-decoration-none">VISITED NOW</a></button>
-                                </div>
-                                <div className='img'>
-
-                                </div>
-                            </div>
-
-                        </div>
-                        <div className="item" id="item4">
-                            <div className='item-cover'>
-
-                            </div>
-
-                        </div>
-
-                    </Slider>
                 </div>
             </div>
-            <div className='slider-btn'>
-
-                <button className={`slider-button ${buttonClass(0)}`} onClick={() => goToSlide(0)}><span class="material-symbols-outlined slide-btn " >
-                    sdk
-                </span> SwachDNR App</button>
-                <button className={`slider-button ${buttonClass(1)}`} onClick={() => goToSlide(1)}><span class="material-symbols-outlined slide-btn" >
-                    settings_system_daydream
-                </span> AWMS </button>
-                <button className={`slider-button ${buttonClass(2)}`} onClick={() => goToSlide(2)}><span class="material-symbols-outlined slide-btn" >
-                    train
-                </span>
-                    RailMadad Analytics</button>
-                <button className={`slider-button ${buttonClass(3)}`} onClick={() => goToSlide(3)}><span class="material-symbols-outlined slide-btn" >
-                    school
-                </span>Gyan</button>
-
+            <div className='partner'>
+                <div className='partner-heading'>
+                    Our Partner
+                </div>
+                <div className='partner-cover'>
+                    <div className='partner-card'>
+                        <img src={PartnerImg1} alt="" />
+                    </div>
+                    
+                    <div className='partner-card'>
+                        <img src={PartnerImg3} alt="" />
+                    </div>
+                    <div className='partner-card'>
+                        <img src={PartnerImg4} alt="" />
+                    </div>
+                    <div className='partner-card'>
+                        <img src={PartnerImg2} alt="" />
+                    </div>
+                </div>
+            </div>
+            <div className='description'>               
+                <div className='discription-cover'>
+                 <div className='front-intro'>
+                    <h3>Who We Are :</h3>
+                     <p>Sarva Suvidhan is a recognized leader in developing process in developing automationfor complex organization and institutional concerns.Our mission is to bring automation, technology 
+                        and innovation to simplify complex problem. We add value by increasing efficiency and drive data and analytics for higher quality standards.
+                     </p>
+                     <p>Since our inception, we have worked with large organization to delay inteliigent automation which has helped improve turnarround, improve services quality and bring higher customer satisfaction.</p>
+                     <p>Our team of solution architects, designer and developer will help you craft a solution fitted to yur requirements.</p>
+                     <p>we are a recoganized DIPP Startup from Bihar and are proud recipients of multiples awards.</p>
+                 </div>
+                 <div className='front-img'>
+                    <img src={rightpic} alt="" />
+                 </div>
+                </div>
             </div>
             {/*  services  slider section*/}
             <div className='services'>
@@ -194,7 +170,7 @@ const Homepage = () => {
                             </div>
                         </div>
                         <div className="card card-show" style={{ width: "15rem;" }}>
-                            <img src={servicesImg2} className="card-img-top" alt="..." loading="lazy"/>
+                            <img src={servicesImg2} className="card-img-top" alt="..." loading="lazy" />
                             <div className="card-body text-center">
                                 <h5 className="card-title">Automated Monitoring System</h5>
                                 <p className="card-text pb-4">This integrated solution merges embedded systems and software to real-time monitor solar panel efficiency.</p>
@@ -202,7 +178,7 @@ const Homepage = () => {
                             </div>
                         </div>
                         <div className="card card-show" style={{ width: "15rem;" }}>
-                            <img src={servicesImg3} className="card-img-top" alt="..." loading="lazy"/>
+                            <img src={servicesImg3} className="card-img-top" alt="..." loading="lazy" />
                             <div className="card-body text-center">
                                 <h5 className="card-title">ACP Monitoring</h5>
                                 <p className="card-text pb-4">An IoT-driven railway enhancement system records and tallies Alarm Chain Pulling (ACP) instances, capturing GPS location, trigger time, and resultant train delay. </p>
@@ -210,7 +186,7 @@ const Homepage = () => {
                             </div>
                         </div>
                         <div className="card card-show" style={{ width: "15rem;" }}>
-                            <img src={servicesImg4} className="card-img-top" alt="..." loading="lazy"/>
+                            <img src={servicesImg4} className="card-img-top" alt="..." loading="lazy" />
                             <div className="card-body text-center">
                                 <h5 className="card-title">AWMS - Automated Water Monitoring System</h5>
                                 <p className="card-text pb-4">Revolutionizing train water management, our IoT solution provides real-time updates on water tank storage to upcoming stations.</p>
@@ -375,22 +351,22 @@ const Homepage = () => {
                 <h1>Our Supporters</h1>
                 <div className='govern'>
                     <div className='govern-card'>
-                      <div className='support-img'>
-                        <img src={supportImg1} alt="" />
-                        
-                      </div><p>IIT Patna Incubation Centre</p>
+                        <div className='support-img'>
+                            <img src={supportImg1} alt="" />
+
+                        </div><p>IIT Patna Incubation Centre</p>
                     </div>
                     <div className='govern-card'>
-                    <div className='support-img'>
-                    <img src={supportImg2} alt="" />
-                    </div>
-                    <p>Startup Bihar</p>
+                        <div className='support-img'>
+                            <img src={supportImg2} alt="" />
+                        </div>
+                        <p>Startup Bihar</p>
                     </div>
                     <div className='govern-card'>
-                    <div className='support-img'>
-                    <img src={supportImg3} alt="" />
-                    </div>
-                    <p>Ministry of Electronics and Information Technology</p>
+                        <div className='support-img'>
+                            <img src={supportImg3} alt="" />
+                        </div>
+                        <p>Ministry of Electronics and Information Technology</p>
                     </div>
                 </div>
             </div>

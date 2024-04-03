@@ -10,6 +10,7 @@ import Carrier from './Component/Carrier'
 import Contact from './Component/Contactus'
 import { Navigate } from 'react-router-dom';
 import ApplyForm from './Component/ApplyForm';
+import Porfolioatul from './Component/Portfolioatul';
 const Allroutes = () => {
   return (
     <div>
@@ -22,6 +23,7 @@ const Allroutes = () => {
                 <Route path="/about-us" element={ <Aboutus/>}/>
                 <Route path="/carrier" element={ <Carrier/>}/>
                 <Route path="/contact-us" element={ <Contact/>}/>
+                <Route path="/portfolio-atul" element={ <Porfolioatul/>}/>
                 <Route path="/applyform" element={ <ApplyForm/>}/>
                 <Route path="*" element={<Navigate to="/" />} />
 

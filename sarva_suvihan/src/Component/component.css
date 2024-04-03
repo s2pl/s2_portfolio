@@ -1,5 +1,5 @@
 .carrier-top {
-    background-image: url('../static_data/web_content/carrier-top.svg');
+    background-image: url('../static_data/web_content/carrier-top.jpg');
     height: 35vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -333,7 +333,7 @@
 }
 
 .bg-counter {
-    background: url("../static_data/web_content/carrier-middle-2.svg") no-repeat;
+    background: url("../static_data/web_content/carrier-middle-2.jpg") no-repeat;
     background-size: cover;
 }
 
@@ -418,7 +418,7 @@
 }
 
 .potfoliobg-1 {
-    background: url("../static_data/web_content/carrier-middle-2.svg") no-repeat 50% 50%;
+    background: url("../static_data/web_content/carrier-middle-2.jpg") no-repeat 50% 50%;
     background-size: cover;
 }
 
@@ -449,7 +449,7 @@
 }
 
 .about-bg-counter {
-    background: url("../static_data/web_content/carrier-top.svg") no-repeat;
+    background: url("../static_data/web_content/carrier-top.jpg") no-repeat;
     background-size: cover;
 
 }
@@ -459,14 +459,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  
+
 }
-.creater{
+
+.creater {
     padding: 1.5rem;
 }
-.creater h1{
+
+.creater h1 {
     text-align: center;
 }
+
 .cover-ceo {
     width: 80%;
     display: flex;
@@ -535,44 +538,6 @@
 }
 
 
-@media (max-width:800px) {
-    .ceo-quotes {
-        padding: 0rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-    }
-
-    .cover-ceo {
-        width: 95%;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        background-color: #303032;
-        color: white;
-    }
-
-    .ceo-photo-bg {
-        width: 100%;
-    }
-
-    .ceo-photo {
-        background: url("../static_data/web_content/carrier-top.svg") no-repeat;
-        height: 50vh;
-        width: 100%;
-    }
-
-    .ceo-few {
-        width: 100%;
-    }
-
-    .about-item-img {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-}
 
 .service-item {
     position: relative;
@@ -641,89 +606,243 @@
     height: 50vh;
     width: 100%;
 }
-.portfolio-card-container{
+
+.portfolio-card-container {
     display: flex;
     align-items: center;
     justify-content: center;
     padding-bottom: 4rem;
     padding-top: 4rem;
-  }
-  .portfolio-card {
+}
+
+.portfolio-card {
     padding: 0rem 3rem;
     width: 80%;
-  }
-  
-  .government{
+}
+
+.government {
     padding: 2rem;
     margin-top: 2rem;
-  }
-  .government h1{
+}
+
+.government h1 {
     text-align: center;
-  }
-  .govern{
+}
+
+.govern {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-  }
-  .govern-card{
+}
+
+.govern-card {
     padding: 1rem;
     box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.184);
     margin-top: 2rem;
     border-radius: 15px;
     width: 25%;
-  }
-  .support-img{
+}
+
+.support-img {
     box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.125);
     border-radius: 5px;
-  }
-  .support-img img{
+}
+
+.support-img img {
     width: 100%;
     height: 40vh;
-  }
-  .govern-card p{
+}
+
+.govern-card p {
     text-align: center;
     padding: 0.5rem;
     font-size: 1.2rem;
     font-weight: 800;
-  }
-  @media (max-width: 550px) {
+}
+
+.partner {
+    padding: 2rem 1rem;
+}
+
+.partner-heading {
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.partner-cover {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.partner-card {
+    padding: 1rem;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.184);
+    margin-top: 2rem;
+    border-radius: 15px;
+
+}
+
+.partner-cover img {
+    width: 100%;
+    height: 24vh;
+}
+
+.description {
+    padding: 2rem;
+    margin-top: 2rem;
+    box-shadow: 1px 1px 0px 4px rgba(0, 0, 0, 0.184);
+}
+
+.discription-cover {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.front-intro {
+    width: 40%;
+}
+
+.front-intro h3 {
+    margin: 0.5rem 0.5rem 0.5rem 0rem;
+}
+
+.front-intro p {
+    margin: 1rem 0.5rem 0.5rem 0.5rem;
+    text-align: justify;
+    color: #000;
+
+}
+
+.front-img {
+    width: 40%;
+}
+
+@media (max-width: 550px) {
     .govern {
-      display: flex;
-      align-items: center;
-      justify-content: space-evenly;
-      flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
     }
+
     .govern-card {
-      padding: 1rem;
-      box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.184);
-      margin-top: 2rem;
-      border-radius: 15px;
-      width: 100%;
+        padding: 1rem;
+        box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.184);
+        margin-top: 2rem;
+        border-radius: 15px;
+        width: 100%;
     }
-    .govern-card p{
+
+    .govern-card p {
         text-align: center;
         padding: 0.5rem;
         font-size: 1rem;
         font-weight: 800;
-      }
-  }
-  
-  @media (max-width: 700px) {
+    }
+
+    .partner-cover {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+    }
+
+    .partner-card {
+        padding: 0.5rem;
+        box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.184);
+        margin-top: 2rem;
+        border-radius: 15px;
+
+    }
+
+    .partner-cover img {
+        width: 100%;
+        height: 17vh;
+    }
+    .description {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 700px) {
     .portfolio-card-container {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding-bottom: 4rem;
-      padding-top: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 4rem;
+        padding-top: 4rem;
     }
+
     .portfolio-card {
-      padding: 0rem;
-      width: 95%;
+        padding: 0rem;
+        width: 95%;
     }
+
     .service-item {
-      position: relative;
-      padding-left: 10px;
-      transition: transform 0.3s ease-in-out;
+        position: relative;
+        padding-left: 10px;
+        transition: transform 0.3s ease-in-out;
     }
-  }
-  
+}
+@media (max-width:800px) {
+    .ceo-quotes {
+        padding: 0rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .cover-ceo {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-color: #303032;
+        color: white;
+    }
+
+    .ceo-photo-bg {
+        width: 100%;
+    }
+
+    .ceo-photo {
+        background: url("../static_data/web_content/carrier-top.jpg") no-repeat;
+        height: 50vh;
+        width: 100%;
+    }
+
+    .ceo-few {
+        width: 100%;
+    }
+
+    .about-item-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .discription-cover {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    
+.front-intro {
+    width: 95%;
+}
+.front-img {
+    width: 90%;
+  margin-top: 1.5rem;
+}
+}
+
