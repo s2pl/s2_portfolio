@@ -481,7 +481,9 @@ img {
     align-items: center;
     
   }
-
+  .responsive {
+    padding: 0rem;
+  }
   .item .content {
     text-align: justify;
     color: #fff;
@@ -594,9 +596,15 @@ img {
     flex-direction: column;
     margin-top: 1rem;
   }
-
+  .footer {
+    padding-left: 2px;
+    padding-right: 2px;
+  }
   .btn-main {
     margin-top: 0.5rem;
+  }
+  .responsive {
+    padding: 12px;
   }
 }
 
