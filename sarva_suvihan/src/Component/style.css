@@ -649,7 +649,11 @@ img {
   background-size: cover;
   padding: 50px 0px;
 }
-
+.apply-pop{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .cta-block {
   background: urlurl('../static_data/web_content/cta_bg.jpg') no-repeat;
   background-size: cover;

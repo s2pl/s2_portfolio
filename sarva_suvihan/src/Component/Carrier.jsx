@@ -112,14 +112,15 @@ const Carrier = () => {
                   <li>Salary/ Stipend: As per industry standards</li>
                 </ul>
               </div>
-
-              <button className='apply-btn' onClick={() => setShowModal(true)}>
-                Veiw details
-              </button>
-
+              <div className='btn-apply'>
+                <button className='apply-btn' onClick={() => setShowModal(true)}>
+                  Veiw details
+                </button>
+                <button className='apply-btn just-apply ' ><a href="https://docs.google.com/forms/d/1wYJenXrIO8Ia7WIz9ndpskvFmG5H1JJX7W7Aw1STlMM/edit" target="_blank">Apply Now</a></button>
+              </div>
             </div>
             <CModal visible={showModal} backdrop="static" aria-labelledby="ScoreNow" className="custom-modal"
-               size="xl"
+              size="xl"
               onClose={() => {
                 setShowModal(false);
               }}  >
@@ -197,7 +198,8 @@ const Carrier = () => {
                     </div>
                   </div>
                 </div>
-                <button className='apply-btn' ><Link to="/applyform">Apply Now</Link></button>
+                <button className='apply-btn' ><a href="https://docs.google.com/forms/d/1wYJenXrIO8Ia7WIz9ndpskvFmG5H1JJX7W7Aw1STlMM/edit" target="_blank">Apply Now</a></button>
+
               </CModalBody>
               <CModalFooter>
                 <CButton className="custom-button" onClick={() => setShowModal(false)}>
@@ -217,10 +219,13 @@ const Carrier = () => {
                   <li>Salary/ Stipend: As per industry standards</li>
                 </ul>
               </div>
-
+              <div className='btn-apply'>
               <button className='apply-btn' onClick={() => setShowModalPyhton(true)}>
                 Veiw details
               </button>
+                <button className='apply-btn just-apply ' ><a href="https://docs.google.com/forms/d/1wYJenXrIO8Ia7WIz9ndpskvFmG5H1JJX7W7Aw1STlMM/edit" target="_blank">Apply Now</a></button>
+              </div>
+            
 
             </div>
             <CModal visible={showModalPyhton} backdrop="static" aria-labelledby="ScoreNow" className="custom-modal" size="xl"
@@ -297,7 +302,8 @@ const Carrier = () => {
                     </div>
                   </div>
                 </div>
-                <button className='apply-btn'><Link to="/applyform">Apply Now</Link></button>
+                <button className='apply-btn' ><a href="https://docs.google.com/forms/d/1wYJenXrIO8Ia7WIz9ndpskvFmG5H1JJX7W7Aw1STlMM/edit" target="_blank">Apply Now</a></button>
+
               </CModalBody>
               <CModalFooter>
                 <CButton className="custom-button" onClick={() => setShowModalPyhton(false)}>
@@ -317,10 +323,13 @@ const Carrier = () => {
                   <li>Salary/ Stipend: As per industry standards</li>
                 </ul>
               </div>
-
+              <div className='btn-apply'>
               <button className='apply-btn' onClick={() => setShowModalFront(true)}>
                 Veiw details
               </button>
+                <button className='apply-btn just-apply ' ><a href="https://docs.google.com/forms/d/1wYJenXrIO8Ia7WIz9ndpskvFmG5H1JJX7W7Aw1STlMM/edit" target="_blank">Apply Now</a></button>
+              </div>
+
 
             </div>
             <CModal visible={showModalFront} backdrop="static" aria-labelledby="ScoreNow" className="custom-modal" size="xl"
@@ -402,7 +411,8 @@ const Carrier = () => {
                     </div>
                   </div>
                 </div>
-                <button className='apply-btn'><Link to="/applyform">Apply Now</Link></button>
+                <button className='apply-btn' ><a href="https://docs.google.com/forms/d/1wYJenXrIO8Ia7WIz9ndpskvFmG5H1JJX7W7Aw1STlMM/edit" target="_blank">Apply Now</a></button>
+
               </CModalBody>
               <CModalFooter>
                 <CButton className="custom-button" onClick={() => setShowModalFront(false)}>
@@ -422,10 +432,13 @@ const Carrier = () => {
                   <li>Salary/ Stipend: As per industry standards</li>
                 </ul>
               </div>
-
+              <div className='btn-apply'>
               <button className='apply-btn' onClick={() => setShowModalIOt(true)}>
                 Veiw details
               </button>
+                <button className='apply-btn just-apply ' ><a href="https://docs.google.com/forms/d/1wYJenXrIO8Ia7WIz9ndpskvFmG5H1JJX7W7Aw1STlMM/edit" target="_blank">Apply Now</a></button>
+              </div>
+             
 
             </div>
             <CModal visible={showModalIot} backdrop="static" aria-labelledby="ScoreNow" className="custom-modal" size="xl"
@@ -507,7 +520,8 @@ const Carrier = () => {
                     </div>
                   </div>
                 </div>
-                <button className='apply-btn'><Link to="/applyform">Apply Now</Link></button>
+                <button className='apply-btn' ><a href="https://docs.google.com/forms/d/1wYJenXrIO8Ia7WIz9ndpskvFmG5H1JJX7W7Aw1STlMM/edit" target="_blank">Apply Now</a></button>
+
               </CModalBody>
               <CModalFooter>
                 <CButton className="custom-button" onClick={() => setShowModalIOt(false)}>
