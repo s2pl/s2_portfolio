@@ -261,14 +261,7 @@ const Aboutus = () => {
 
 
       <div className='team-detail' >
-        <div className='team-intro'>
-          <div className='team-mate'> <img src={profile}alt="portfolio" className='team-mate'></img></div>
-          <div className='name'>team-Atul </div>
-          <div className="post">teamleader</div>
-
-
-        </div>
-        <div className='team-intro'>
+          <div className='team-intro'>
           <div className='team-mate'> <img src={profile} alt="portfolio" className='team-mate'></img></div>
           <div className='name'>Manyan Singh Tomar </div>
           <div className="post">Team -leader</div>

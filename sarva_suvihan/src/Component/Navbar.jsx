@@ -17,7 +17,7 @@ const Navbar = () => {
           <li className='email'>
 
 
-            <a href="https://wa.me/9123183988?text=Hello%20from%20your%20website" target="_blank">
+            <a href="https://wa.me/9955481699?text=Hello%20from%20your%20website" target="_blank">
               <i class="fa-brands fa-whatsapp what phone "></i>  <button>Contact Us on WhatsApp</button>
             </a>
 
@@ -28,13 +28,13 @@ const Navbar = () => {
             <span class="material-symbols-outlined  phone gmail">
               mail
             </span>
-            <a href="mailto:sarva.suvidhaen@gmail.com" className='pointer'><span>SarvaSuvidhaen@gmail.com</span></a>
+            <a href="mailto:sarva.suvidhaen@gmail.com" className='pointer'><span>sarva.suvidhaen@gmail.com</span></a>
 
           </li>
           <li className='email'>
             <span class="material-symbols-outlined phone call">
               call
-            </span > <a href="tel:91231 83988" className='pointer'>Call Us : <span className='pointer text-gray-700'>+91 9955481699
+            </span > <a href="tel:99554 81699" className='pointer'>Call Us : <span className='pointer text-gray-700'>+91 9955481699
             </span></a>
           </li>
         </ul>
