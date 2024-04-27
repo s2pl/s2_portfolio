@@ -144,6 +144,7 @@
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 14px 14px 14px 14px rgba(0, 0, 0, 0.279);
+
 }
 
 .apply-content {
@@ -151,17 +152,26 @@
     justify-content: space-between;
     align-items: center;
     padding: 2rem;
-
+   border-bottom:2px double gray;
 }
 
 .apply-btn {
-    padding: 17px 38px;
+    padding: 5px 20px;
     border-radius: 3px;
-    background-color: #2e7eed;
-    ;
+    background-color: #2e7eed;;
     color: #fff;
 }
 
+.just-apply{
+    background-color: #2ee3ed;;
+    margin-top: 1rem;
+}
+.btn-apply{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
 .apply-btn:hover {
     background: #2075ec00;
     color: #000;
