@@ -733,7 +733,15 @@
 .front-img {
     width: 40%;
 }
-
+.modal-img {
+    width: 50%;
+   
+}
+.read-modal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 @media (max-width: 550px) {
     .govern {
         display: flex;
