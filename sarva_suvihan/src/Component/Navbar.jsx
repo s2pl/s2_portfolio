@@ -8,7 +8,7 @@ const Navbar = () => {
 
   const [showMedia, setMedia] = useState(false)
   const [showdrop, setdrop] = useState(false)
- 
+
   return (
     <div>
       <div classNameName="navigate">
@@ -16,25 +16,26 @@ const Navbar = () => {
         <ul className='nav'>
           <li className='email'>
 
-         
-            <a href="https://wa.me/9123183988?text=Hello%20from%20your%20website" target="_blank">
-             <i class="fa-brands fa-whatsapp phone "></i>  <button>Contact Us on WhatsApp</button>
+
+            <a href="https://wa.me/9955481699?text=Hello%20from%20your%20website" target="_blank">
+              <i class="fa-brands fa-whatsapp what phone "></i>  <button>Contact Us on WhatsApp</button>
             </a>
 
 
           </li>
           <li className='email'>
 
-            <span class="material-symbols-outlined phone">
+            <span class="material-symbols-outlined  phone gmail">
               mail
             </span>
-            <a href="mailto:sarvasuvidhan@gmail.com" className='pointer'><span>SarvaSuvidhan@gmail.com</span></a>
+            <a href="mailto:sarva.suvidhaen@gmail.com" className='pointer'><span>sarva.suvidhaen@gmail.com</span></a>
 
           </li>
           <li className='email'>
-            <span class="material-symbols-outlined phone">
+            <span class="material-symbols-outlined phone call">
               call
-            </span > <a href="tel:91231 83988" className='pointer'>Call Us : <span className='pointer text-gray-700'>+91 91231 83988</span></a>
+            </span > <a href="tel:99554 81699" className='pointer'>Call Us : <span className='pointer text-gray-700'>+91 9955481699
+            </span></a>
           </li>
         </ul>
 
@@ -44,7 +45,7 @@ const Navbar = () => {
               <div className="col-lg-12">
                 <nav className="navbar navbar-expand-lg px-0 py-2">
                   <div className='logo-cover'>
-                    <Link className="navbar-brand  logo" to="/">
+                    <Link to='/' className="navbar-brand  logo" >
                       <img src={logo} alt="logo"></img>
                     </Link>
                     <button className="navbar-toggler collapsed" onClick={() => setMedia(!showMedia)} type="button" data-toggle="collapse" data-target="#navbarsExample09"
