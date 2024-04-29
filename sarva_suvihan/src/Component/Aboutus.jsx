@@ -8,9 +8,9 @@ import sidepic from '../static_data/web_content/network.jpg'
 import cerificate from '../static_data/web_content/certified.jpg';
 import director from '../static_data/founders/atul_anand.jpg'
 import founder from '../static_data/founders/sanjay_ranjan.jpg'
+import "./component.css"
 import rutval from '../static_data/teams/rutval.jpg'
 import akhil from '../static_data/teams/akil_sir.jpg'
-
 const Aboutus = () => {
   const [counter, setCounter] = useState(false);
   const [read1, setread1] = useState(false);
@@ -97,22 +97,6 @@ const Aboutus = () => {
               importance, we can cultivate a meaningful and satisfying existence.
             </p>
             <h2 className="mt-2 mb-1 position-relative content-title text-gray">Neeta Sinha</h2>
-            <p className='text-gray'>Founder</p>
-           
-          </div>
-        </div>
-      </div>
-      <div className='ceo-quotes'>
-        <div className='cover-ceo'>
-          <div className='ceo-photo-bg'>
-            <div className='ceo-photo-1'>
-
-            </div></div>
-          <div className='ceo-few p-3'>
-            <h3 className="mt-2 mb-1 position-relative content-title text-gray">Stay hungry, stay foolish</h3>
-            <p className="mb-1">Stay hungry, stay foolish" is a powerful quote by Steve Jobs, encouraging perpetual curiosity and embracing risk in the pursuit of innovation. It advocates maintaining an insatiable appetite for knowledge and being open to unconventional ideas, fostering personal and professional growth through a fearless and inquisitive mindset.
-            </p>
-            <h3 className="mt-2 mb-1 position-relative content-title text-gray">sanjay_ranjan</h3>
             <p className='text-gray'>Founder</p>
            
           </div>
