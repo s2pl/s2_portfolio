@@ -84,7 +84,9 @@ const Fotter = () => {
             <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1">
               <div className="col-span-1 md:col-span-1 lg:col-span-1">
                 <div className="copyright">
-                  © 2023 suvidhaen.com All rights reserved  <Link to="/" className="cursor-pointer " style={{ color: "#175ef7", marginLeft: "1.5rem" }}>Sarva Suvidhan PVT.LTD</Link>
+                  © 2023 suvidhaen.com All rights reserved  <Link to='/privacypolicy'  style={{ fontSize:"1.2rem",color: "#175ef7", marginLeft: "1rem",cursor: "pointer" }}>
+                  Privacy&nbsp;policy
+</Link>
                 </div>
               </div>
             </div>

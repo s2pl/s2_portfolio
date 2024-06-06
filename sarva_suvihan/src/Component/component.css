@@ -784,6 +784,21 @@
     align-items: center;
     justify-content: center;
 }
+.apply-details{
+    padding: 2rem;
+}
+.apply-about{
+    padding-bottom:1rem ;
+}
+.apply-list{
+    padding-bottom:0.5rem ;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.apply-list h5{
+    margin-left: 1rem;
+}
 @media (max-width: 550px) {
     .govern {
         display: flex;
