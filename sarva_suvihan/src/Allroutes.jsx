@@ -11,6 +11,7 @@ import Contact from './Component/Contactus'
 import { Navigate } from 'react-router-dom';
 import ApplyForm from './Component/ApplyForm';
 import Porfolioatul from './Component/Portfolioatul';
+import Privacypolicy from './Component/Privacypolicy';
 const Allroutes = () => {
   return (
     <div>
@@ -25,6 +26,7 @@ const Allroutes = () => {
                 <Route path="/contact-us" element={ <Contact/>}/>
                 <Route path="/portfolio-atul" element={ <Porfolioatul/>}/>
                 <Route path="/applyform" element={ <ApplyForm/>}/>
+                <Route path="/privacypolicy" element={ <Privacypolicy/>}/>
                 <Route path="*" element={<Navigate to="/" />} />
 
                  
