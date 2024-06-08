@@ -55,7 +55,7 @@ const Porfolioatul = () => {
               <Slider {...settings_services}>
 
                 <div className="card card-show" style={{ width: "15rem;" }}>
-                  <div className='img-slide'><img src={homepage} className="card-img-top" alt="..." /></div>
+                  <div className='img-slide'><img src={homepage} className="card-img-top" alt="..."  loading="lazy" /></div>
                   <div className="card-body text-center">
                     <h5 className="card-title ">Global Partnership Submit - 2023</h5>
                     <p className="card-text pb-4">
@@ -66,7 +66,7 @@ const Porfolioatul = () => {
                   </div>
                 </div>
                 <div className="card card-show" style={{ width: "15rem;" }}>
-                  <div className='img-slide'>   <img src={special} className="card-img-top" alt="..." /></div>
+                  <div className='img-slide'>   <img src={special} className="card-img-top" alt="..."  loading="lazy" /></div>
                   <div className="card-body text-center">
                     <h5 className="card-title">Meeting  with Ashwini kumar Chowaye (Minister of State for Consumer Affairs)</h5>
                     <p className="card-text pb-4">During the Global Partnership Summit 2023, it was an honor to meet with Ashwini Kumar Choubey, the Minister of State for Consumer Affairs, Food, and Public Distribution of India. The meeting provided a valuable platform to discuss collaborative initiatives aimed at enhancing consumer welfare, ensuring food security, and optimizing public distribution systems. We engaged in constructive dialogues on leveraging technology and innovative solutions to address evolving challenges in these critical sectors. The insightful exchange of ideas and commitment to fostering global partnerships reaffirmed our collective dedication to advancing the well-being of consumers and optimizing public services. This encounter with Minister Ashwini Kumar Choubey marked a significant step toward collaborative efforts for sustainable development and inclusive governance. We look forward to contributing actively to the shared vision of fostering a resilient and consumer-centric future. </p>
@@ -74,7 +74,7 @@ const Porfolioatul = () => {
                   </div>
                 </div>
                 <div className="card card-show" style={{ width: "15rem;" }}>
-                  <div className='img-slide'>   <img src={special2} className="card-img-top" alt="..." /></div>
+                  <div className='img-slide'>   <img src={special2} className="card-img-top" alt="..."  loading="lazy" /></div>
                   <div className="card-body text-center">
                     <h5 className="card-title">convergence of diverse industrialists and innovators</h5>
                     <p className="card-text pb-4">The Global Partnership Summit 2023 was a convergence of diverse industrialists and innovators, fostering collaboration and knowledge exchange. At this transformative event, we had the privilege of engaging with a spectrum of industry leaders, visionaries, and influencers from across the globe. It provided a unique platform to explore synergies, share insights, and forge partnerships that transcend geographical boundaries. Discussions spanned a myriad of industries, from technology and finance to sustainability and healthcare, reflecting the interconnected nature of our global ecosystem. Through these meaningful interactions, we not only expanded our network but also gained valuable perspectives that will undoubtedly shape the future of our endeavors. The Global Partnership Summit served as a catalyst for cross-sector collaboration, amplifying the impact of our collective efforts on a global scale. As we reflect on this enriching experience, we look forward to translating these connections into tangible partnerships that drive innovation, sustainability, and progress across industries worldwide</p>
@@ -82,7 +82,7 @@ const Porfolioatul = () => {
                   </div>
                 </div>
                 <div className="card card-show" style={{ width: "15rem;" }}>
-                  <div className='img-slide'><img src={servicesImg1} className="card-img-top" alt="..." /></div>
+                  <div className='img-slide'><img src={servicesImg1} className="card-img-top" alt="..."  loading="lazy" /></div>
                   <div className="card-body text-center">
                     <h5 className="card-title ">Smart Bihar Hackthon-2023</h5>
                     <p className="card-text pb-4">
@@ -107,7 +107,7 @@ const Porfolioatul = () => {
                   </div>
                 </div>
                 <div className="card card-show" style={{ width: "15rem;" }}>
-                  <div className='img-slide'>  <img src={servicesImg2} className="card-img-top" alt="..." /> </div>
+                  <div className='img-slide'>  <img src={servicesImg2} className="card-img-top" alt="..."  loading="lazy" /> </div>
                   <div className="card-body text-center">
                     <h5 className="card-title">Bihar Industries Association Award</h5>
                     <p className="card-text pb-4">We are immensely proud to announce that our startup has clinched the prestigious Bihar Industries
@@ -126,7 +126,7 @@ const Porfolioatul = () => {
                 </div>
 
                 <div className="card card-show" style={{ width: "15rem;" }}>
-                  <div className='img-slide'>    <img src={servicesImg4} className="card-img-top" alt="..." /></div>
+                  <div className='img-slide'>    <img src={servicesImg4} className="card-img-top" alt="..."  loading="lazy" /></div>
                   <div className="card-body text-center">
                     <h5 className="card-title">Destination Bihar Expo-2024</h5>
                     <p className="card-text pb-4">Participation in the Destination Bihar Expo-2024 marks a significant milestone for us. Engaging in this prestigious event allows us to showcase our commitment to excellence, innovation, and contributing to the growth of Bihar's economic landscape. By actively participating, we aim to forge valuable connections, explore collaborations, and highlight the unique offerings of our business.

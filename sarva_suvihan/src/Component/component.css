@@ -6,7 +6,25 @@
     background-position: center;
 
 }
+.term-top {
+    background-image: url('../static_data/web_content/tc.jpg');
+    height: 35vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 
+}
+.semi_list{
+    padding: 0.1rem;
+    list-style: disc;
+    margin-left: 3.5rem;
+}
+.apply-about p{
+    margin-left: 1.5rem;
+}
+.semi-h5{
+    margin: 0;
+}
 .carrier-top-cover {
     background-color: rgba(0, 0, 0, 0.432);
     height: 35vh;
@@ -795,6 +813,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    list-style: decimal;
 }
 .apply-list h5{
     margin-left: 1rem;
