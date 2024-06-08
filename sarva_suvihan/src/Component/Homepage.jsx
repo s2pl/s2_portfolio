@@ -23,6 +23,7 @@ import railmadad from '../static_data/web_content/@S2_Portfolio (2).jpg'
 import ACP from '../static_data/web_content/project2.jpg'
 import AWMS from '../static_data/web_content/side_pic.jpg'
 import Automated from '../static_data/web_content/project5.jpg'
+import LazyLoad from 'react-lazyload';
 import { CButton, CModal, CModalBody, CModalFooter, CModalHeader, } from '@coreui/react';
 const Homepage = () => {
     const sliderRef = useRef(null);
@@ -107,17 +108,17 @@ const Homepage = () => {
                 </div>
                 <div className='partner-cover'>
                     <div className='partner-card'>
-                        <img src={PartnerImg1} alt="" />
+                        <img src={PartnerImg1} alt=""  loading="lazy" />
                     </div>
 
                     <div className='partner-card'>
-                        <img src={PartnerImg3} alt="" />
+                        <img src={PartnerImg3} alt=""  loading="lazy" />
                     </div>
                     <div className='partner-card'>
-                        <img src={PartnerImg4} alt="" />
+                        <img src={PartnerImg4} alt=""  loading="lazy" />
                     </div>
                     <div className='partner-card'>
-                        <img src={PartnerImg2} alt="" />
+                        <img src={PartnerImg2} alt=""  loading="lazy" />
                     </div>
                 </div>
             </div>
@@ -125,7 +126,7 @@ const Homepage = () => {
                 <div className='discription-cover'>
                     <div className='front-intro'>
                         <h3>Who We Are :</h3>
-                        <p>Sarva Suvidhan is a recognized leader in developing process in developing automationfor complex organization and institutional concerns.Our mission is to bring automation, technology
+                        <p>Sarva Suvidhaen is a recognized leader in developing process in developing automationfor complex organization and institutional concerns.Our mission is to bring automation, technology
                             and innovation to simplify complex problem. We add value by increasing efficiency and drive data and analytics for higher quality standards.
                         </p>
                         <p>Since our inception, we have worked with large organization to delay inteliigent automation which has helped improve turnarround, improve services quality and bring higher customer satisfaction.</p>
@@ -133,7 +134,7 @@ const Homepage = () => {
                         <p>we are a recoganized DIPP Startup from Bihar and are proud recipients of multiples awards.</p>
                     </div>
                     <div className='front-img'>
-                        <img src={rightpic} alt="" />
+                        <img src={rightpic} alt=""  loading="lazy" />
                     </div>
                 </div>
             </div>
@@ -361,19 +362,19 @@ const Homepage = () => {
                 <div className='govern'>
                     <div className='govern-card'>
                         <div className='support-img'>
-                            <img src={supportImg1} alt="" />
+                            <img src={supportImg1} alt=""  loading="lazy" />
 
                         </div><p>IIT Patna Incubation Centre</p>
                     </div>
                     <div className='govern-card'>
                         <div className='support-img'>
-                            <img src={supportImg2} alt="" />
+                            <img src={supportImg2} alt=""  loading="lazy" />
                         </div>
                         <p>Startup Bihar</p>
                     </div>
                     <div className='govern-card'>
                         <div className='support-img'>
-                            <img src={supportImg3} alt="" />
+                            <img src={supportImg3} alt=""  loading="lazy" />
                         </div>
                         <p>Ministry of Electronics and Information Technology</p>
                     </div>
@@ -401,7 +402,7 @@ const Homepage = () => {
                             </div>
                             <div className='read-modal'>
                                 <div className='modal-img' >
-                                    <img src={rightpic} alt="" />
+                                    <img src={rightpic} alt=""  loading="lazy" />
                                 </div>
                             </div>
                         </CModalBody>
@@ -435,7 +436,7 @@ const Homepage = () => {
                             </div>
                             <div className='read-modal'>
                                 <div className='modal-img' >
-                                    <img src={Automated} alt="" />
+                                    <img src={Automated} alt=""  loading="lazy" />
                                 </div>
                             </div>
                         </CModalBody>
@@ -467,7 +468,7 @@ const Homepage = () => {
                             </div>
                             <div className='read-modal'>
                                 <div className='modal-img' >
-                                    <img src={railmadad} alt="" />
+                                    <img src={railmadad} alt=""  loading="lazy" />
                                 </div>
                             </div>
                         </CModalBody>
@@ -492,7 +493,7 @@ const Homepage = () => {
                                         <p>Furthermore, ACP Monitoring facilitates proactive decision-making by enabling authorities to respond swiftly to ACP incidents, minimize train delays, and enhance passenger safety and satisfaction. By harnessing the power of IoT technology, ACP Monitoring represents a significant step forward in the modernization of railway systems, ultimately leading to a more reliable, punctual, and passenger-friendly rail network.</p>
                                         <div className='read-modal'>
                                             <div className='modal-img' >
-                                                <img src={ACP} alt="" />
+                                                <img src={ACP} alt=""  loading="lazy" />
                                             </div>
                                         </div>
                                     </div>
@@ -533,7 +534,7 @@ const Homepage = () => {
                                             Overall, AWMS represents a significant advancement in train water management technology, offering railway operators a cost-effective and sustainable solution for ensuring reliable access to water resources while enhancing passenger comfort and satisfaction.</p>
                                         <div className='read-modal'>
                                             <div className='modal-img' >
-                                                <img src={AWMS} alt="" />
+                                            <LazyLoad >  <img src={AWMS} alt=""  loading="lazy" /></LazyLoad>
                                             </div>
                                         </div>
                                     </div>

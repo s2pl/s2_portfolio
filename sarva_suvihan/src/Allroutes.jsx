@@ -12,29 +12,31 @@ import { Navigate } from 'react-router-dom';
 import ApplyForm from './Component/ApplyForm';
 import Porfolioatul from './Component/Portfolioatul';
 import Privacypolicy from './Component/Privacypolicy';
+import Term_condition from './Component/Termcondition';
 const Allroutes = () => {
   return (
     <div>
       <Router>
-               <Navbar/>
-               <Routes>
-                <Route path="/" element={ <Homepage/>}/>
-                <Route path="/services" element={ <Services/>}/>
-                <Route path="/porfolio" element={ <Porfolio/>}/>
-                <Route path="/about-us" element={ <Aboutus/>}/>
-                <Route path="/carrier" element={ <Carrier/>}/>
-                <Route path="/contact-us" element={ <Contact/>}/>
-                <Route path="/portfolio-atul" element={ <Porfolioatul/>}/>
-                <Route path="/applyform" element={ <ApplyForm/>}/>
-                <Route path="/privacypolicy" element={ <Privacypolicy/>}/>
-                <Route path="*" element={<Navigate to="/" />} />
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/porfolio" element={<Porfolio />} />
+          <Route path="/about-us" element={<Aboutus />} />
+          <Route path="/carrier" element={<Carrier />} />
+          <Route path="/contact-us" element={<Contact />} />
+          <Route path="/portfolio-atul" element={<Porfolioatul />} />
+          <Route path="/applyform" element={<ApplyForm />} />
+          <Route path="/privacypolicy" element={<Privacypolicy />} />
+          <Route path="/termcondition" element={<Term_condition />} />
+          <Route path="*" element={<Navigate to="/" />} />
 
-                 
-               </Routes>
-   
-<Fotter/>
+
+        </Routes>
+
+        <Fotter />
       </Router>
- 
+
     </div>
   )
 }

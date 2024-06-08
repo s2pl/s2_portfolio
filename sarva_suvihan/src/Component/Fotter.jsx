@@ -38,10 +38,10 @@ const Fotter = () => {
                   </span><Link to="/portfolio">Portfolio</Link></li>
                   <li className='fotter-list'><span class="material-symbols-outlined">
                     arrow_circle_right
-                  </span><Link to="/carrier">Carrier</Link></li>
+                  </span><Link to='/privacypolicy'>Privacy&nbsp;policy</Link></li>
                   <li className='fotter-list'><span class="material-symbols-outlined">
                     arrow_circle_right
-                  </span><Link to="/contact-us">Contact</Link></li>
+                  </span><Link to="/termcondition">Term & condition</Link></li>
                 </ul>
               </div>
             </div>
@@ -84,7 +84,7 @@ const Fotter = () => {
             <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1">
               <div className="col-span-1 md:col-span-1 lg:col-span-1">
                 <div className="copyright">
-                  © 2023 suvidhaen.com All rights reserved  <Link to='/privacypolicy'  style={{ fontSize:"1.2rem",color: "#175ef7", marginLeft: "1rem",cursor: "pointer" }}>
+                  © 2023 suvidhaen.com All rights reserved  <Link to='/privacypolicy'  style={{ fontSize:"1rem",color: "#175ef7", marginLeft: "1rem",cursor: "pointer" }}>
                   Privacy&nbsp;policy
 </Link>
                 </div>

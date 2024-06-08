@@ -54,7 +54,7 @@ const Services = () => {
           <div className="row justify-content-center p-4">
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="service-item mb-5">
-                <img src={servicesImg1} className="card-img-top" alt="..." />
+                <img src={servicesImg1} className="card-img-top" alt="..."  loading="lazy" />
                 <h4 className="mb-3">
                   RailMadad Analytics.</h4>
                 <p>Our expertise lies in extracting valuable insights from RailMadad Data, enabling informed decisions and actionable outcomes. By analyzing this data, we drive a deeper understanding of rail operations, enhancing efficiency, safety, and overall performance.                  .</p>
@@ -65,7 +65,7 @@ const Services = () => {
 
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="service-item mb-5">
-                <img src={userInterface} className="card-img-top" alt="..." />
+                <img src={userInterface} className="card-img-top" alt="..."  loading="lazy" />
                 <h4 className="mb-3">Interface Design.</h4>
                 <p><span className='bold'>Our Software: Where Innovation Meets User-Friendly Design</span>Experience the future of technology with an intuitive interface that makes Software accessible to everyone.
                   Our software's user-friendly design puts the power of IOT at your fingertips,
@@ -77,7 +77,7 @@ const Services = () => {
 
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="service-item mb-5">
-                <img src={phone} className="card-img-top" alt="..." />
+                <img src={phone} className="card-img-top" alt="..."  loading="lazy" />
                 <h4 className="mb-3">SwachhDNR.</h4>
                 <p>Our integrated platform, comprising a website and mobile app, streamlines employee performance record management. Currently utilized at Patna and Danapur Junction, it offers a user-friendly and effective solution. Simplifying the process, it ensures efficient tracking and assessment of employee performance records.</p>
                 <a href="#" className="service-btn btn-primary" onClick={() => setShowModal(true)}>Read More</a>
@@ -87,7 +87,7 @@ const Services = () => {
 
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="service-item mb-5 mb-lg-0">
-                <img src={servicesImg4} className="card-img-top" alt="..." />
+                <img src={servicesImg4} className="card-img-top" alt="..."  loading="lazy" />
                 <h4 className="mb-3">AWMS - Automated Water Monitoring System.</h4>
                 <p>Revolutionizing train water management, our IoT solution provides real-time updates on water tank storage to upcoming stations. Through an attached GSM module, this innovative system ensures timely communication, optimizing water availability and utilization during train journeys.</p>
                 <a href="#" className="service-btn btn-primary" onClick={() => setShowModalAwms(true)}>Read More</a>  </div>
@@ -95,7 +95,7 @@ const Services = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="service-item mb-5 mb-lg-0">
-                <img src={servicesImg3} className="card-img-top" alt="..." />
+                <img src={servicesImg3} className="card-img-top" alt="..."  loading="lazy" />
                 <h4 className="mb-3">Automated Monitoring System.</h4>
                 <p>This integrated solution merges embedded systems and software to real-time monitor solar panel efficiency. It records solar cell and battery voltage, facilitating remote device oversight. Presently deployed at IIT Patna for enhanced performance tracking.</p>
                 <a href="#" className="service-btn btn-primary" onClick={() => setShowModalPyhton(true)}>Read More</a></div>
@@ -104,7 +104,7 @@ const Services = () => {
 
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="service-item mb-5 mb-lg-0">
-                <img src={servicesImg2} className="card-img-top" alt="..." />
+                <img src={servicesImg2} className="card-img-top" alt="..."  loading="lazy" />
                 <h4 className="mb-3">ACP Monitoring.</h4>
                 <p>An IoT-driven railway enhancement system records and tallies Alarm Chain Pulling (ACP) instances, capturing GPS location, trigger time, and resultant train delay. Real-time transmission via attached GSM ensures seamless data relay, optimizing operations and safety measures.</p>
                 <a href="#" className="service-btn btn-primary mt-3" onClick={() => setShowModalIOt(true)}>Read More</a>

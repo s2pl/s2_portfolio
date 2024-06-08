@@ -876,12 +876,11 @@ color: #175ef7;
 .custom-modal-body {
   width: 100%;
 }
-
+.termcondition-body{
+  width: 100%;
+  margin-top: 1.5rem;
+}
 .apply-ollist {
   padding: 1rem;
 }
 
-.apply-ollist li {
-  list-style: disc;
-
-}

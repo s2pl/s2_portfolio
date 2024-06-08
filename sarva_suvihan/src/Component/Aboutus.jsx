@@ -8,6 +8,7 @@ import sidepic from '../static_data/web_content/network.jpg'
 import cerificate from '../static_data/web_content/certified.jpg';
 import director from '../static_data/founders/atul_anand.jpg'
 import founder from '../static_data/founders/sanjay_ranjan.jpg'
+import LazyLoad from 'react-lazyload';
 import "./component.css"
 import rutval from '../static_data/teams/rutval.jpg'
 import akhil from '../static_data/teams/akil_sir.jpg'
@@ -70,7 +71,7 @@ const Aboutus = () => {
             </div>
             <div className="col-lg-6" data-aos="fade-up">
               <div className="">
-                <img loading="lazy" src={sidepic} alt="about-image" className="img-fluid" />
+              <LazyLoad ><img loading="lazy" src={sidepic} alt="about-image" className="img-fluid" /></LazyLoad> 
               </div>
             </div>
           </div>
@@ -124,7 +125,7 @@ const Aboutus = () => {
       {/* cerificate */}
       <div className="about-item-img p-5 " data-aos="fade-up">
         <div className=" col-8 ">
-          <img loading="lazy" src={cerificate} alt="about-image" className="img-fluid" />
+        <LazyLoad ><img loading="lazy" src={cerificate} alt="about-image" className="img-fluid" /></LazyLoad>   
         </div>
       </div>
       {/* cerificate end*/}
@@ -246,7 +247,8 @@ const Aboutus = () => {
 
       <div className='team-detail' >
           <div className='team-intro'>
-          <div className='team-mate'> <img src={profile} alt="portfolio" className='team-mate'></img></div>
+          <div className='team-mate'>
+          <LazyLoad ><img src={profile} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad> </div>
           <div className='name'>Manyan Singh Tomar </div>
           <div className="post">Team -leader</div>
 
@@ -254,12 +256,13 @@ const Aboutus = () => {
 
         </div>
         <div className='team-intro'>
-          <div className='team-mate'> <img src={akhil} alt="portfolio" className='team-mate'></img></div>
+          <div className='team-mate'><LazyLoad ><img src={akhil} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad> </div>
           <div className='name'>Akhil</div>
           <div className="post">Team -leader</div>
         </div>
         <div className='team-intro'>
-          <div className='team-mate'> <img src={rutval} alt="portfolio" className='team-mate'></img></div>
+          <div className='team-mate'> 
+          <LazyLoad ><img src={rutval} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad></div>
           <div className='name'>Rutval B. Thonge</div>
           <div className="post">Developer</div>
 
@@ -269,13 +272,13 @@ const Aboutus = () => {
         </div>
         
         <div className='team-intro'>
-          <div className='team-mate'> <img src={profile} alt="portfolio" className='team-mate'></img></div>
+          <div className='team-mate'> <LazyLoad ><img src={profile} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad></div>
           <div className='name'>************</div>
           <div className="post">************</div>
 
         </div>
         <div className='team-intro'>
-          <div className='team-mate'> <img src={profile} alt="portfolio" className='team-mate'></img></div>
+          <div className='team-mate'> <LazyLoad ><img src={profile} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad></div>
           <div className='name'>************</div>
           <div className="post">************</div>
 
@@ -284,28 +287,28 @@ const Aboutus = () => {
         </div>
 
         <div className='team-intro'>
-          <div className='team-mate'> <img src={profile} alt="portfolio" className='team-mate'></img></div>
+          <div className='team-mate'><LazyLoad ><img src={profile} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad> </div>
           <div className='name'>************ </div>
           <div className="post">************</div>
 
 
         </div>
         <div className='team-intro'>
-          <div className='team-mate'> <img src={profile} alt="portfolio" className='team-mate'></img></div>
+          <div className='team-mate'><LazyLoad ><img src={profile} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad> </div>
           <div className='name'>************</div>
           <div className="post">************</div>
 
-
+          
         </div>
         <div className='team-intro'>
-          <div className='team-mate'> <img src={profile} alt="portfolio" className='team-mate'></img></div>
+          <div className='team-mate'> <LazyLoad ><img src={profile} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad></div>
           <div className='name'>************ </div>
           <div className="post">************</div>
 
 
         </div>
         <div className='team-intro'>
-          <div className='team-mate'> <img src={profile} alt="portfolio" className='team-mate'></img></div>
+          <div className='team-mate'> <LazyLoad ><img src={profile} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad></div>
           <div className='name'>************</div>
           <div className="post">************</div>
 
@@ -314,7 +317,7 @@ const Aboutus = () => {
 
 
         <div className='team-intro'>
-          <div className='team-mate'> <img src={profile} alt="portfolio" className='team-mate'></img></div>
+          <div className='team-mate'> <LazyLoad ><img src={profile} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad></div>
           <div className='name'>************</div>
           <div className="post">************</div>
 
@@ -322,7 +325,7 @@ const Aboutus = () => {
         </div>
 
         <div className='team-intro'>
-          <div className='team-mate'> <img src={profile} alt="portfolio" className='team-mate'></img></div>
+          <div className='team-mate'><LazyLoad > <img src={profile} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad></div>
           <div className='name'>************</div>
           <div className="post">************</div>
 

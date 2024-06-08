@@ -6,6 +6,7 @@ import carrierm1 from '../static_data/web_content/carrier-middle-2.jpg'
 import carrierm2 from '../static_data/web_content/carrier-middle.jpg'
 import carrierm3 from '../static_data/web_content/carrier-miidle-3.jpg'
 import { CButton, CModal, CModalBody, CModalFooter } from '@coreui/react';
+import LazyLoad from 'react-lazyload';
 import { Link } from 'react-router-dom'
 const Carrier = () => {
   const [showModal, setShowModal] = useState(false);
@@ -44,20 +45,20 @@ const Carrier = () => {
             </div>
             <div className='right-carrier-quotes'>
               <div className='carrier-quotesimage'>
-                <img src={Looking} alt="logo" loading="lazy"></img>
+              <LazyLoad ><img src={Looking} alt="logo" loading="lazy"></img></LazyLoad>   
               </div>
             </div>
           </div>
         </div>
         <div className='carrier-picture'>
           <div className='carrier-pic1'>
-            <img src={carrierm1} alt="logo" loading="lazy"></img>
+          <LazyLoad ><img src={carrierm1} alt="logo" loading="lazy"></img></LazyLoad> 
           </div>
           <div className='carrier-pic1'>
-            <img src={carrierm2} alt="logo" loading="lazy"></img>
+          <LazyLoad ><img src={carrierm2} alt="logo" loading="lazy"></img></LazyLoad>   
           </div>
           <div className='carrier-pic1'>
-            <img src={carrierm3} alt="logo" loading="lazy"></img>
+          <LazyLoad ><img src={carrierm3} alt="logo" loading="lazy"></img></LazyLoad> 
           </div>
         </div>
         <div className='employe-req'>
