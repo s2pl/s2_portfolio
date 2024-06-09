@@ -11,7 +11,7 @@ import gpai3 from '../static_data/web_content/iciit.jpeg'
 import gpai4 from '../static_data/web_content/side_pic.jpg'
 import servicesImg4 from '../static_data/web_content/certificatenitish.jpg'
 import patnaaward from '../static_data/web_content/patnaAward.jpg'
-
+import LazyLoad from 'react-lazyload';
 const porfolio = () => {
   var settings_services = {
     dots: true,
@@ -53,8 +53,9 @@ const porfolio = () => {
           <div className='portfolio-card-container '>
             <div className='portfolio-card'>
               <Slider {...settings_services}>
-              <div className="card card-show" style={{ width: "15rem;" }}>
-                  <div className='img-slide'>   <img src={special2} className="card-img-top" alt="..."  loading="lazy" /></div>
+                <div className="card card-show" style={{ width: "15rem;" }}>
+                  <div className='img-slide'>
+                    <LazyLoad><img src={special2} className="card-img-top" alt="..." loading="lazy" /></LazyLoad> </div>
                   <div className="card-body text-center">
                     <h5 className="card-title">SawachDNR application </h5>
                     <p className="card-text pb-4">Sarva Suvidhan is a recognized leader in developing process in developing automationfor complex organization and institutional concerns.Our mission is to bring automation, technology and innovation to simplify complex problem. We add value by increasing efficiency and drive data and analytics for higher quality standards.
@@ -68,7 +69,9 @@ const porfolio = () => {
                   </div>
                 </div>
                 <div className="card card-show" style={{ width: "15rem;" }}>
-                  <div className='img-slide'>   <img src={special} className="card-img-top" alt="..."  loading="lazy" /></div>
+                  <div className='img-slide'>
+                    <LazyLoad><img src={special} className="card-img-top" alt="..." loading="lazy" /></LazyLoad>
+                  </div>
                   <div className="card-body text-center">
                     <h5 className="card-title">he certificate offered by entities such as the Bihar Startup Innovation Program and the IIT Patna Incubation Center serves</h5>
                     <p className="card-text pb-4">For startups participating in programs like the Bihar Startup Innovation Program, the certificate signifies their commitment to innovation and entrepreneurship within the region. It acts as a testament to their potential to drive positive change and contribute to economic growth. Moreover, this recognition from established institutions such as IIT Patna adds credibility to their projects and ideas.
@@ -82,7 +85,8 @@ const porfolio = () => {
                   </div>
                 </div>
                 <div className="card card-show" style={{ width: "15rem;" }}>
-                  <div className='img-slide'><img src={servicesImg1} className="card-img-top" alt="..."  loading="lazy" /></div>
+                  <div className='img-slide'>
+                    <LazyLoad><img src={servicesImg1} className="card-img-top" alt="..." loading="lazy" /></LazyLoad>  </div>
                   <div className="card-body text-center">
                     <h5 className="card-title ">Smart Bihar Hackthon-2023</h5>
                     <p className="card-text pb-4">
@@ -107,7 +111,8 @@ const porfolio = () => {
                   </div>
                 </div>
                 <div className="card card-show" style={{ width: "15rem;" }}>
-                  <div className='img-slide'>  <img src={servicesImg2} className="card-img-top" alt="..."  loading="lazy" /> </div>
+                  <div className='img-slide'>
+                    <LazyLoad> <img src={servicesImg2} className="card-img-top" alt="..." loading="lazy" /></LazyLoad>  </div>
                   <div className="card-body text-center">
                     <h5 className="card-title">Bihar Industries Association Award</h5>
                     <p className="card-text pb-4">We are immensely proud to announce that our startup has clinched the prestigious Bihar Industries
@@ -126,7 +131,8 @@ const porfolio = () => {
                 </div>
 
                 <div className="card card-show" style={{ width: "15rem;" }}>
-                  <div className='img-slide'>    <img src={servicesImg4} className="card-img-top" alt="..."  loading="lazy" /></div>
+                  <div className='img-slide'>
+                    <LazyLoad> <img src={servicesImg4} className="card-img-top" alt="..." loading="lazy" /></LazyLoad>  </div>
                   <div className="card-body text-center">
                     <h5 className="card-title">Destination Bihar Expo-2024</h5>
                     <p className="card-text pb-4">Participation in the Destination Bihar Expo-2024 marks a significant milestone for us. Engaging in this prestigious event allows us to showcase our commitment to excellence, innovation, and contributing to the growth of Bihar's economic landscape. By actively participating, we aim to forge valuable connections, explore collaborations, and highlight the unique offerings of our business.
@@ -136,7 +142,8 @@ const porfolio = () => {
                   </div>
                 </div>
                 <div className="card card-show" style={{ width: "15rem;" }}>
-                  <div className='img-slide'><img src={homepage} className="card-img-top" alt="..."  loading="lazy" /></div>
+                  <div className='img-slide'>
+                    <LazyLoad><img src={homepage} className="card-img-top" alt="..." loading="lazy" /></LazyLoad></div>
                   <div className="card-body text-center">
                     <h5 className="card-title ">Railmadad analytics software provide from my company sarva suvidhean private limited</h5>
                     <p className="card-text pb-4">
@@ -145,7 +152,7 @@ const porfolio = () => {
                   </div>
                 </div>
 
-                
+
               </Slider>
             </div>
           </div>
@@ -165,47 +172,47 @@ const porfolio = () => {
 
             <div className="row">
               <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
-                <img
+                <LazyLoad> <img
                   src={gpai1}
                   className="w-80 shadow-1-strong rounded mb-4 image-center galary-mg"
                   alt="Boat on Calm Water"
-                />
+                /></LazyLoad>
 
-                <img
+                <LazyLoad> <img
                   src={gpai2}
                   className="w-80 shadow-1-strong rounded mb-4 image-center galary-mg"
                   alt="Wintry Mountain Landscape"
-                />
+                /></LazyLoad>
               </div>
 
               <div className="col-lg-4 mb-4 mb-lg-0">
-                <img
+                <LazyLoad><img
                   src={gpai3}
                   className="w-80 shadow-1-strong rounded mb-4 image-center galary-mg"
                   alt="Mountains in the Clouds"
-                />
+                /></LazyLoad>
 
-                <img
+                <LazyLoad><img
                   src={gpai4}
                   className="w-100 shadow-1-strong rounded mb-4 image-center galary-mg"
                   alt="Boat on Calm Water"
-                />
+                /></LazyLoad>
               </div>
 
               <div className="col-lg-4 mb-4 mb-lg-0">
-                <img
+                <LazyLoad> <img
                   src={homepage}
                   className="w-70 shadow-1-strong rounded mb-4 image-center galary-mg"
                   alt="Waves at Sea"
-                />
+                /></LazyLoad>
 
-                <img
+                <LazyLoad> <img
                   src={patnaaward}
                   className="w-80 shadow-1-strong rounded mb-4 image-center galary-mg"
                   alt="Yosemite National Park"
-                />
+                /></LazyLoad>
               </div>
-              
+
             </div>
 
           </div>

@@ -4,7 +4,7 @@ import "./style.css"
 const Fotter = () => {
   return (
     <div>
-      <footer className="footer section   px-12 pt-12">
+      <footer className="footer section  px-12 pt-12">
         <div className="container mx-auto px-12 responsive">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="col-span-1 md:col-span-2 lg:col-span-1">
