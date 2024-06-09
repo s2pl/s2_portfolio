@@ -11,7 +11,7 @@ import gpai3 from '../static_data/web_content/NEILIT_Ropar.jpeg'
 import gpai4 from '../static_data/web_content/STPI_DG_and_Chairman_STPINEXT_Arvind_Kumar.jpeg'
 import servicesImg4 from '../static_data/web_content/certificatenitish.jpg'
 import patnaaward from '../static_data/web_content/patnaAward.jpg'
-
+import LazyLoad from 'react-lazyload';
 const Porfolioatul = () => {
   var settings_services = {
     dots: true,
@@ -55,7 +55,8 @@ const Porfolioatul = () => {
               <Slider {...settings_services}>
 
                 <div className="card card-show" style={{ width: "15rem;" }}>
-                  <div className='img-slide'><img src={homepage} className="card-img-top" alt="..."  loading="lazy" /></div>
+                  <div className='img-slide'>
+                    <LazyLoad><img src={homepage} className="card-img-top" alt="..." loading="lazy" /></LazyLoad></div>
                   <div className="card-body text-center">
                     <h5 className="card-title ">Global Partnership Submit - 2023</h5>
                     <p className="card-text pb-4">
@@ -66,7 +67,7 @@ const Porfolioatul = () => {
                   </div>
                 </div>
                 <div className="card card-show" style={{ width: "15rem;" }}>
-                  <div className='img-slide'>   <img src={special} className="card-img-top" alt="..."  loading="lazy" /></div>
+                  <div className='img-slide'>  <LazyLoad><img src={special} className="card-img-top" alt="..." loading="lazy" /></LazyLoad> </div>
                   <div className="card-body text-center">
                     <h5 className="card-title">Meeting  with Ashwini kumar Chowaye (Minister of State for Consumer Affairs)</h5>
                     <p className="card-text pb-4">During the Global Partnership Summit 2023, it was an honor to meet with Ashwini Kumar Choubey, the Minister of State for Consumer Affairs, Food, and Public Distribution of India. The meeting provided a valuable platform to discuss collaborative initiatives aimed at enhancing consumer welfare, ensuring food security, and optimizing public distribution systems. We engaged in constructive dialogues on leveraging technology and innovative solutions to address evolving challenges in these critical sectors. The insightful exchange of ideas and commitment to fostering global partnerships reaffirmed our collective dedication to advancing the well-being of consumers and optimizing public services. This encounter with Minister Ashwini Kumar Choubey marked a significant step toward collaborative efforts for sustainable development and inclusive governance. We look forward to contributing actively to the shared vision of fostering a resilient and consumer-centric future. </p>
@@ -74,7 +75,7 @@ const Porfolioatul = () => {
                   </div>
                 </div>
                 <div className="card card-show" style={{ width: "15rem;" }}>
-                  <div className='img-slide'>   <img src={special2} className="card-img-top" alt="..."  loading="lazy" /></div>
+                  <div className='img-slide'>  <LazyLoad><img src={special2} className="card-img-top" alt="..." loading="lazy" /></LazyLoad> </div>
                   <div className="card-body text-center">
                     <h5 className="card-title">convergence of diverse industrialists and innovators</h5>
                     <p className="card-text pb-4">The Global Partnership Summit 2023 was a convergence of diverse industrialists and innovators, fostering collaboration and knowledge exchange. At this transformative event, we had the privilege of engaging with a spectrum of industry leaders, visionaries, and influencers from across the globe. It provided a unique platform to explore synergies, share insights, and forge partnerships that transcend geographical boundaries. Discussions spanned a myriad of industries, from technology and finance to sustainability and healthcare, reflecting the interconnected nature of our global ecosystem. Through these meaningful interactions, we not only expanded our network but also gained valuable perspectives that will undoubtedly shape the future of our endeavors. The Global Partnership Summit served as a catalyst for cross-sector collaboration, amplifying the impact of our collective efforts on a global scale. As we reflect on this enriching experience, we look forward to translating these connections into tangible partnerships that drive innovation, sustainability, and progress across industries worldwide</p>
@@ -82,7 +83,7 @@ const Porfolioatul = () => {
                   </div>
                 </div>
                 <div className="card card-show" style={{ width: "15rem;" }}>
-                  <div className='img-slide'><img src={servicesImg1} className="card-img-top" alt="..."  loading="lazy" /></div>
+                  <div className='img-slide'><LazyLoad><img src={servicesImg1} className="card-img-top" alt="..." loading="lazy" /></LazyLoad></div>
                   <div className="card-body text-center">
                     <h5 className="card-title ">Smart Bihar Hackthon-2023</h5>
                     <p className="card-text pb-4">
@@ -107,7 +108,7 @@ const Porfolioatul = () => {
                   </div>
                 </div>
                 <div className="card card-show" style={{ width: "15rem;" }}>
-                  <div className='img-slide'>  <img src={servicesImg2} className="card-img-top" alt="..."  loading="lazy" /> </div>
+                  <div className='img-slide'><LazyLoad><img src={servicesImg2} className="card-img-top" alt="..." loading="lazy" /></LazyLoad>   </div>
                   <div className="card-body text-center">
                     <h5 className="card-title">Bihar Industries Association Award</h5>
                     <p className="card-text pb-4">We are immensely proud to announce that our startup has clinched the prestigious Bihar Industries
@@ -126,7 +127,7 @@ const Porfolioatul = () => {
                 </div>
 
                 <div className="card card-show" style={{ width: "15rem;" }}>
-                  <div className='img-slide'>    <img src={servicesImg4} className="card-img-top" alt="..."  loading="lazy" /></div>
+                  <div className='img-slide'><LazyLoad> <img src={servicesImg4} className="card-img-top" alt="..." loading="lazy" /></LazyLoad>   </div>
                   <div className="card-body text-center">
                     <h5 className="card-title">Destination Bihar Expo-2024</h5>
                     <p className="card-text pb-4">Participation in the Destination Bihar Expo-2024 marks a significant milestone for us. Engaging in this prestigious event allows us to showcase our commitment to excellence, innovation, and contributing to the growth of Bihar's economic landscape. By actively participating, we aim to forge valuable connections, explore collaborations, and highlight the unique offerings of our business.
@@ -150,53 +151,53 @@ const Porfolioatul = () => {
             </div>
           </div>
 
-         <div className='galary'>
-       
-<div class="row">
-  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-    <img
-      src={gpai1}
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Boat on Calm Water"
-    />
+          <div className='galary'>
 
-    <img
-      src={gpai2}
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Wintry Mountain Landscape"
-    />
-  </div>
+            <div class="row">
+              <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                <LazyLoad><img
+                  src={gpai1}
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Boat on Calm Water"
+                /></LazyLoad>
+                <LazyLoad><img
+                  src={gpai2}
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Wintry Mountain Landscape"
+                /></LazyLoad>
 
-  <div class="col-lg-4 mb-4 mb-lg-0">
-    <img
-      src={gpai3}
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Mountains in the Clouds"
-    />
+              </div>
 
-    <img
-      src={gpai4}
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Boat on Calm Water"
-    />
-  </div>
+              <div class="col-lg-4 mb-4 mb-lg-0">
+                <LazyLoad><img
+                  src={gpai3}
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Mountains in the Clouds"
+                /></LazyLoad>
+                <LazyLoad><img
+                  src={gpai4}
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Boat on Calm Water"
+                /></LazyLoad>
 
-  <div class="col-lg-4 mb-4 mb-lg-0">
-    <img
-      src={homepage}
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Waves at Sea"
-    />
+              </div>
 
-    <img
-      src={patnaaward}
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Yosemite National Park"
-    />
-  </div>
-</div>
+              <div class="col-lg-4 mb-4 mb-lg-0">
+                <LazyLoad> <img
+                  src={homepage}
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Waves at Sea"
+                /></LazyLoad>
 
-         </div>
+                <LazyLoad><img
+                  src={patnaaward}
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Yosemite National Park"
+                /></LazyLoad>
+              </div>
+            </div>
+
+          </div>
         </div>
       </section>
     </div>

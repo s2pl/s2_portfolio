@@ -28,14 +28,14 @@ const Navbar = () => {
             <span class="material-symbols-outlined  phone gmail">
               mail
             </span>
-            <a href="mailto:sarva.suvidhaen@gmail.com" className='pointer'><span>sarva.suvidhaen@gmail.com</span></a>
+            <a href="mailto:sarva.suvidhaen@gmail.com" className='pointer'>sarva.suvidhaen@gmail.com</a>
 
           </li>
           <li className='email'>
             <span class="material-symbols-outlined phone call">
               call
-            </span > <a href="tel:99554 81699" className='pointer'>Call Us : <span className='pointer text-gray-700'>+91 9955481699
-            </span></a>
+            </span > <a href="tel:99554 81699" className='pointer text-gray-700'>Call Us : +91 9955481699
+            </a>
           </li>
         </ul>
 

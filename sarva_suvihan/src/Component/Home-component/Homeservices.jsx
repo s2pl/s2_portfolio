@@ -1,135 +1,116 @@
 import React from 'react'
 import { useState } from 'react';
-import phone from '../static_data/web_content/mobilepic.png'
-import servicesImg1 from '../static_data/web_content/idrail.jpg'
-import servicesImg2 from '../static_data/web_content/awms.jpg'
-import servicesImg3 from '../static_data/web_content/diot.jpg'
-import servicesImg4 from '../static_data/web_content/water.jpg'
-import userInterface from '../static_data/web_content/@S2_Portfolio.jpg'
-import rightpic from '../static_data/web_content/@S2_Portfolio.jpg'
-import railmadad from '../static_data/web_content/@S2_Portfolio (2).jpg'
-import ACP from '../static_data/web_content/project2.jpg'
-import AWMS from '../static_data/web_content/side_pic.jpg'
-import Automated from '../static_data/web_content/project5.jpg'
-import UI from '../static_data/web_content/project4.jpg'
-import LazyLoad from 'react-lazyload';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from 'react-slick';
+import servicesImg1 from '../../static_data/web_content/idrail.jpg'
+import servicesImg2 from '../../static_data/web_content/awms.jpg'
+import servicesImg3 from '../../static_data/web_content/diot.jpg'
+import servicesImg4 from '../../static_data/web_content/water.jpg'
+import railmadad from '../../static_data/web_content/@S2_Portfolio (2).jpg'
+import ACP from '../../static_data/web_content/project2.jpg'
+import AWMS from '../../static_data/web_content/side_pic.jpg'
+import Automated from '../../static_data/web_content/project5.jpg'
+import phone from '../../static_data/web_content/mobilepic.png'
+import rightpic from '../../static_data/web_content/@S2_Portfolio.jpg'
+import LazyLoad from 'react-lazyload'
 import { CButton, CModal, CModalBody, CModalFooter, CModalHeader, } from '@coreui/react';
-import { Link } from 'react-router-dom';
-const Services = () => {
-  const [showModal, setShowModal] = useState(false);
-  const [showModalFront, setShowModalFront] = useState(false);
-  const [showModalPyhton, setShowModalPyhton] = useState(false);
-  const [showModalIot, setShowModalIOt] = useState(false);
-  const [showModalAwms, setShowModalAwms] = useState(false);
-  const [showModalUI, setShowModalUI] = useState(false);
+const Homeservices = () => {
+
+    const [showModal, setShowModal] = useState(false);
+    const [showModalFront, setShowModalFront] = useState(false);
+    const [showModalPyhton, setShowModalPyhton] = useState(false);
+    const [showModalIot, setShowModalIOt] = useState(false);
+    const [showModalAwms, setShowModalAwms] = useState(false);
+    var settings_services = {
+        dots: true,
+        speed: 1500,
+        autoplay: true,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        nextArrow: null,
+        responsive: [
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },
+
+        ]
+
+    }
   return (
     <div>
-      <section className=" servicesbg-1">
-        <div className='carrier-top-cover'>
-          <div className="container">
-            <div className="row">
-              <div className="col-md-12">
-                <div className="block text-center  mb-4" data-aos="fade-up">
-                  <h1 className="text-capitalize  text-white">Services </h1>
-                  <span className="text-white ">What we do</span>
-
-                  <p></p>
+        <div className='services'>
+                <div className='services-head'>
+                    <p>Best Service</p>
+                    <p className='paragraph'>
+                        Service We Provide
+                    </p>
+                    <div className='design'>
+                        <div className='line'>
+                        </div>
+                        <div className='circle'>
+                            <span class="material-symbols-outlined">
+                                radio_button_checked
+                            </span>
+                        </div>
+                        <div className='line'>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-        </div>
-      </section>
-      <section className="section service border-top  pb-5 p-4">
-        <div className="container ">
-          <div className="row justify-content-center">
-            <div className="col-lg-7 text-center">
-              <div className="section-title" data-aos="fade-up">
-                <span className="h6 text-color">Our Services</span>
-                <h2 className="mt-3 content-title ">We provide the softwere and IOT Product to  their Solve daily life problem </h2>
-              </div>
-            </div>
-          </div>
+            <div className='services-card-container '>
+                <div className='services-card'>
+                    <Slider {...settings_services}>
+                        <div className="card card-show " style={{ width: "15rem;" }}>
 
-          <div className="row justify-content-center p-4">
-            <div className="col-lg-4 col-md-6 col-sm-6">
-              <div className="service-item mb-5">
-              <LazyLoad><img src={servicesImg1} className="card-img-top" alt="..."  loading="lazy" /></LazyLoad>  
-                <h4 className="mb-3">
-                  RailMadad Analytics.</h4>
-                <p>Our expertise lies in extracting valuable insights from RailMadad Data, enabling informed decisions and actionable outcomes. By analyzing this data, we drive a deeper understanding of rail operations, enhancing efficiency, safety, and overall performance.                  .</p>
-                <a href="#" className="service-btn btn-primary" onClick={() => setShowModalFront(true)}>Read More</a>
-              </div>
-
-            </div>
-
-            <div className="col-lg-4 col-md-6 col-sm-6">
-              <div className="service-item mb-5">
-              <LazyLoad><img src={userInterface} className="card-img-top" alt="..."  loading="lazy" /></LazyLoad>
-                <h4 className="mb-3">Interface Design.</h4>
-                <p><span className='bold'>Our Software: Where Innovation Meets User-Friendly Design</span>Experience the future of technology with an intuitive interface that makes Software accessible to everyone.
-                  Our software's user-friendly design puts the power of IOT at your fingertips,
-                  simplifying complex tasks and enhancing your workflow.</p>
-                <a href="#" className="service-btn btn-primary"onClick={() => setShowModalUI(true)}>Read More</a>
-              </div>
-
-            </div>
-
-            <div className="col-lg-4 col-md-6 col-sm-6">
-              <div className="service-item mb-5">
-              <LazyLoad><img src={phone} className="card-img-top" alt="..."  loading="lazy" /></LazyLoad>  
-                <h4 className="mb-3">SwachhDNR.</h4>
-                <p>Our integrated platform, comprising a website and mobile app, streamlines employee performance record management. Currently utilized at Patna and Danapur Junction, it offers a user-friendly and effective solution. Simplifying the process, it ensures efficient tracking and assessment of employee performance records.</p>
-                <a href="#" className="service-btn btn-primary" onClick={() => setShowModal(true)}>Read More</a>
-              </div>
-
-            </div>
-
-            <div className="col-lg-4 col-md-6 col-sm-6">
-              <div className="service-item mb-5 mb-lg-0">
-              <LazyLoad><img src={servicesImg4} className="card-img-top" alt="..."  loading="lazy" /></LazyLoad>  
-                <h4 className="mb-3">AWMS - Automated Water Monitoring System.</h4>
-                <p>Revolutionizing train water management, our IoT solution provides real-time updates on water tank storage to upcoming stations. Through an attached GSM module, this innovative system ensures timely communication, optimizing water availability and utilization during train journeys.</p>
-                <a href="#" className="service-btn btn-primary" onClick={() => setShowModalAwms(true)}>Read More</a>  </div>
-
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-6">
-              <div className="service-item mb-5 mb-lg-0">
-              <LazyLoad><img src={servicesImg3} className="card-img-top" alt="..."  loading="lazy" /></LazyLoad>   
-                <h4 className="mb-3">Automated Monitoring System.</h4>
-                <p>This integrated solution merges embedded systems and software to real-time monitor solar panel efficiency. It records solar cell and battery voltage, facilitating remote device oversight. Presently deployed at IIT Patna for enhanced performance tracking.</p>
-                <a href="#" className="service-btn btn-primary" onClick={() => setShowModalPyhton(true)}>Read More</a></div>
-
-            </div>
-
-            <div className="col-lg-4 col-md-6 col-sm-6">
-              <div className="service-item mb-5 mb-lg-0">
-              <LazyLoad><img src={servicesImg2} className="card-img-top" alt="..."  loading="lazy" /></LazyLoad>   
-                <h4 className="mb-3">ACP Monitoring.</h4>
-                <p>An IoT-driven railway enhancement system records and tallies Alarm Chain Pulling (ACP) instances, capturing GPS location, trigger time, and resultant train delay. Real-time transmission via attached GSM ensures seamless data relay, optimizing operations and safety measures.</p>
-                <a href="#" className="service-btn btn-primary mt-3" onClick={() => setShowModalIOt(true)}>Read More</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className=" service-contact mb-4">
-        <div className='cover-cta-2'>
-          <div className="container ">
-            <div className="cta-block p-5 rounded">
-              <div className="row justify-content-center align-items-center" data-aos="fade-up">
-                <div className="col-lg-7 text-center text-lg-left " >
-                  <span className=" text-white">For Every type software</span>
-                  <h2 className="mt-2 text-white" >Commit Your softwere to Our Skilled and Experienced Professionals</h2>
+                          <LazyLoad> <img src={phone} className="card-img-top" alt="..." loading="lazy" /></LazyLoad> 
+                            <div className="card-body text-center">
+                                <h5 className="card-title">SwachDNR station</h5>
+                                <p className="card-text pb-4">Our integrated platform, comprising a website and mobile app, streamlines employee performance record management. </p>
+                                <a href="#" className="service-btn btn-primary" onClick={() => setShowModal(true)}>Read More</a>
+                            </div>
+                        </div>
+                        <div className="card card-show" style={{ width: "15rem;" }}>
+                        <LazyLoad> <img src={servicesImg1} className="card-img-top" alt="..." loading="lazy" /></LazyLoad>
+                            <div className="card-body text-center">
+                                <h5 className="card-title ">RailMadad Analytics</h5>
+                                <p className="card-text pb-4">
+                                    Our expertise lies in extracting valuable insights from RailMadad Data, enabling informed decisions and actionable outcomes. </p>
+                                <a href="#" className="service-btn btn-primary" onClick={() => setShowModalFront(true)}>Read More</a>
+                            </div>
+                        </div>
+                        <div className="card card-show" style={{ width: "15rem;" }}>
+                          <LazyLoad><img src={servicesImg2} className="card-img-top" alt="..." loading="lazy" /></LazyLoad>  
+                            <div className="card-body text-center">
+                                <h5 className="card-title">Automated Monitoring System</h5>
+                                <p className="card-text pb-4">This integrated solution merges embedded systems and software to real-time monitor solar panel efficiency.</p>
+                                <a href="#" className="service-btn btn-primary" onClick={() => setShowModalPyhton(true)}>Read More</a>
+                            </div>
+                        </div>
+                        <div className="card card-show" style={{ width: "15rem;" }}>
+                        <LazyLoad> <img src={servicesImg3} className="card-img-top" alt="..." loading="lazy" /></LazyLoad>
+                            <div className="card-body text-center">
+                                <h5 className="card-title">ACP Monitoring</h5>
+                                <p className="card-text pb-4">An IoT-driven railway enhancement system records and tallies Alarm Chain Pulling (ACP) instances, capturing GPS location, trigger time, and resultant train delay. </p>
+                                <a href="#" className="service-btn btn-primary" onClick={() => setShowModalIOt(true)}>Read More</a>
+                            </div>
+                        </div>
+                        <div className="card card-show" style={{ width: "15rem;" }}>
+                          <LazyLoad><img src={servicesImg4} className="card-img-top" alt="..." loading="lazy" /></LazyLoad>  
+                            <div className="card-body text-center">
+                                <h5 className="card-title">AWMS - Automated Water Monitoring System</h5>
+                                <p className="card-text pb-4">Revolutionizing train water management, our IoT solution provides real-time updates on water tank storage to upcoming stations.</p>
+                                <a href="#" className="service-btn btn-primary" onClick={() => setShowModalAwms(true)}>Read More</a>
+                            </div>
+                        </div>
+                    </Slider>
                 </div>
-                <div className="col-lg-4 text-center text-lg-right mt-4 mt-lg-0">
-                  <Link to="/contact-us" className="btn btn-main btn-round-full float-lg-right ">Contact Us</Link>
-                </div>
-              </div>
             </div>
-          </div>
-        </div>
-        <div className='carrier-apply'>
+            <div className='carrier-apply'>
                 <div className=''>
                     <CModal visible={showModal} backdrop="static" aria-labelledby="ScoreNow" className="custom-modal"
                         size="xl"
@@ -151,7 +132,7 @@ const Services = () => {
                             </div>
                             <div className='read-modal'>
                                 <div className='modal-img' >
-                                <LazyLoad><img src={rightpic} alt="" /></LazyLoad>   
+                                 <LazyLoad><img src={rightpic} alt=""  loading="lazy" /></LazyLoad>   
                                 </div>
                             </div>
                         </CModalBody>
@@ -185,7 +166,7 @@ const Services = () => {
                             </div>
                             <div className='read-modal'>
                                 <div className='modal-img' >
-                                <LazyLoad><img src={Automated} alt="" /></LazyLoad>   
+                                   <LazyLoad><img src={Automated} alt=""  loading="lazy" /></LazyLoad> 
                                 </div>
                             </div>
                         </CModalBody>
@@ -217,7 +198,7 @@ const Services = () => {
                             </div>
                             <div className='read-modal'>
                                 <div className='modal-img' >
-                                <LazyLoad><img src={railmadad} alt="" /></LazyLoad>
+                                 <LazyLoad><img src={railmadad} alt=""  loading="lazy" /></LazyLoad>   
                                 </div>
                             </div>
                         </CModalBody>
@@ -242,7 +223,7 @@ const Services = () => {
                                         <p>Furthermore, ACP Monitoring facilitates proactive decision-making by enabling authorities to respond swiftly to ACP incidents, minimize train delays, and enhance passenger safety and satisfaction. By harnessing the power of IoT technology, ACP Monitoring represents a significant step forward in the modernization of railway systems, ultimately leading to a more reliable, punctual, and passenger-friendly rail network.</p>
                                         <div className='read-modal'>
                                             <div className='modal-img' >
-                                            <LazyLoad> <img src={ACP} alt="" /></LazyLoad>  
+                                             <LazyLoad><img src={ACP} alt=""  loading="lazy" /></LazyLoad>   
                                             </div>
                                         </div>
                                     </div>
@@ -283,7 +264,7 @@ const Services = () => {
                                             Overall, AWMS represents a significant advancement in train water management technology, offering railway operators a cost-effective and sustainable solution for ensuring reliable access to water resources while enhancing passenger comfort and satisfaction.</p>
                                         <div className='read-modal'>
                                             <div className='modal-img' >
-                                            <LazyLoad><img src={AWMS} alt="" /></LazyLoad>  
+                                            <LazyLoad >  <img src={AWMS} alt=""  loading="lazy" /></LazyLoad>
                                             </div>
                                         </div>
                                     </div>
@@ -298,43 +279,10 @@ const Services = () => {
                             </CButton>
                         </CModalFooter>
                     </CModal>
-                    <CModal visible={showModalUI} backdrop="static" aria-labelledby="ScoreNow" className="custom-modal" size="xl"
-                        onClose={() => {
-                          setShowModalUI(false);
-                        }}  >
-                        <CModalBody className="custom-modal-body">
-                            <div className='apply-details'>
-                                <div className='="apply-des'>
-                                    <p className='apply-heading'>User-Friendly Interface Design</p>
-                                    <div className='apply-des-content'>
-
-                          <p>The Interface Design developed by Sarva Suvidhaen embodies the essence of user-friendliness, seamlessly blending innovation with accessibility to create an unparalleled user experience. At its core, this design philosophy is centered around making technology intuitive and easily navigable for users of all backgrounds and skill levels.</p>
-                               <p>With a focus on simplicity and clarity, the Interface Design ensures that users can effortlessly interact with the software, regardless of their familiarity with IoT or technology in general. By incorporating intuitive layouts, recognizable icons, and straightforward navigation paths, the design empowers users to quickly grasp the functionality of the software and accomplish tasks with ease.</p>
-                                  <p>Moreover, the Interface Design prioritizes user feedback and input, continuously evolving and improving based on user interactions and preferences. This iterative approach ensures that the software remains responsive to the needs and expectations of its users, fostering a sense of ownership and engagement among its user base.</p>
-                                            <p>By placing the power of IoT technology at users' fingertips in a user-friendly manner, Sarva Suvidhaen's Interface Design enhances workflow efficiency and productivity, enabling users to leverage the full potential of the software without feeling overwhelmed or intimidated. In essence, it represents a harmonious convergence of innovation and usability, shaping the future of technology in a way that is inclusive and accessible to all.
-                                      </p>    <div className='read-modal'>
-                                            <div className='modal-img' >
-                                            <LazyLoad><img src={UI} alt="" /></LazyLoad>  
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                        </CModalBody>
-                        <CModalFooter>
-                            <CButton className="custom-button" onClick={() => setShowModalUI(false)}>
-                                Ok
-                            </CButton>
-                        </CModalFooter>
-                    </CModal>
                 </div>
             </div>
-      </section>
-
     </div>
   )
 }
 
-export default Services
+export default Homeservices
