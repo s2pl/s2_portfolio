@@ -1,5 +1,5 @@
 .carrier-top {
-    background-image: url('../static_data/web_content/carrier-top.jpg');
+    background-image: url('../static_data/web_content/carrier-top.webp');
     height: 35vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -361,7 +361,7 @@
 }
 
 .bg-counter {
-    background: url("../static_data/web_content/carrier-middle-2.jpg") no-repeat;
+    background: url("../static_data/web_content/carrier-middle-2.webp") no-repeat;
     background-size: cover;
 }
 
@@ -436,17 +436,17 @@
 }
 
 .bg-1 {
-    background: url("../static_data/web_content/iotabout.jpg") no-repeat 50% 50%;
+    background: url("../static_data/web_content/iotabout.webp") no-repeat 50% 50%;
     background-size: cover;
 }
 
 .servicesbg-1 {
-    background: url("../static_data/web_content/service-2.jpg") no-repeat 50% 50%;
+    background: url("../static_data/web_content/service-2.webp") no-repeat 50% 50%;
     background-size: cover
 }
 
 .potfoliobg-1 {
-    background: url("../static_data/web_content/carrier-middle-2.jpg") no-repeat 50% 50%;
+    background: url("../static_data/web_content/carrier-middle-2.webp") no-repeat 50% 50%;
     background-size: cover;
 }
 
@@ -477,7 +477,7 @@
 }
 
 .about-bg-counter {
-    background: url("../static_data/web_content/carrier-top.jpg") no-repeat;
+    background: url("../static_data/web_content/carrier-top.webp") no-repeat;
     background-size: cover;
 
 }
@@ -909,7 +909,7 @@
     }
 
     .ceo-photo {
-        background: url("../static_data/web_content/carrier-top.jpg") no-repeat;
+        background: url("../static_data/web_content/carrier-top.webp") no-repeat;
         height: 50vh;
         width: 100%;
     }

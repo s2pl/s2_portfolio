@@ -1,6 +1,8 @@
 import React from 'react'
 import { useState } from 'react';
 import phone from '../static_data/web_content/mobilepic.png'
+import Skeleton from 'react-loading-skeleton'
+import 'react-loading-skeleton/dist/skeleton.css'
 import servicesImg1 from '../static_data/web_content/idrail.jpg'
 import servicesImg2 from '../static_data/web_content/awms.jpg'
 import servicesImg3 from '../static_data/web_content/diot.jpg'
@@ -54,7 +56,7 @@ const Services = () => {
           <div className="row justify-content-center p-4">
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="service-item mb-5">
-              <LazyLoad><img src={servicesImg1} className="card-img-top" alt="..."  loading="lazy" /></LazyLoad>  
+              <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={servicesImg1} className="card-img-top" alt="..."  loading="lazy" /></LazyLoad>  
                 <h4 className="mb-3">
                   RailMadad Analytics.</h4>
                 <p>Our expertise lies in extracting valuable insights from RailMadad Data, enabling informed decisions and actionable outcomes. By analyzing this data, we drive a deeper understanding of rail operations, enhancing efficiency, safety, and overall performance.                  .</p>
@@ -65,7 +67,7 @@ const Services = () => {
 
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="service-item mb-5">
-              <LazyLoad><img src={userInterface} className="card-img-top" alt="..."  loading="lazy" /></LazyLoad>
+              <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={userInterface} className="card-img-top" alt="..."  loading="lazy" /></LazyLoad>
                 <h4 className="mb-3">Interface Design.</h4>
                 <p><span className='bold'>Our Software: Where Innovation Meets User-Friendly Design</span>Experience the future of technology with an intuitive interface that makes Software accessible to everyone.
                   Our software's user-friendly design puts the power of IOT at your fingertips,
@@ -77,7 +79,7 @@ const Services = () => {
 
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="service-item mb-5">
-              <LazyLoad><img src={phone} className="card-img-top" alt="..."  loading="lazy" /></LazyLoad>  
+              <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={phone} className="card-img-top" alt="..."  loading="lazy" /></LazyLoad>  
                 <h4 className="mb-3">SwachhDNR.</h4>
                 <p>Our integrated platform, comprising a website and mobile app, streamlines employee performance record management. Currently utilized at Patna and Danapur Junction, it offers a user-friendly and effective solution. Simplifying the process, it ensures efficient tracking and assessment of employee performance records.</p>
                 <a href="#" className="service-btn btn-primary" onClick={() => setShowModal(true)}>Read More</a>
@@ -87,7 +89,7 @@ const Services = () => {
 
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="service-item mb-5 mb-lg-0">
-              <LazyLoad><img src={servicesImg4} className="card-img-top" alt="..."  loading="lazy" /></LazyLoad>  
+              <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={servicesImg4} className="card-img-top" alt="..."  loading="lazy" /></LazyLoad>  
                 <h4 className="mb-3">AWMS - Automated Water Monitoring System.</h4>
                 <p>Revolutionizing train water management, our IoT solution provides real-time updates on water tank storage to upcoming stations. Through an attached GSM module, this innovative system ensures timely communication, optimizing water availability and utilization during train journeys.</p>
                 <a href="#" className="service-btn btn-primary" onClick={() => setShowModalAwms(true)}>Read More</a>  </div>
@@ -95,7 +97,7 @@ const Services = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="service-item mb-5 mb-lg-0">
-              <LazyLoad><img src={servicesImg3} className="card-img-top" alt="..."  loading="lazy" /></LazyLoad>   
+              <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={servicesImg3} className="card-img-top" alt="..."  loading="lazy" /></LazyLoad>   
                 <h4 className="mb-3">Automated Monitoring System.</h4>
                 <p>This integrated solution merges embedded systems and software to real-time monitor solar panel efficiency. It records solar cell and battery voltage, facilitating remote device oversight. Presently deployed at IIT Patna for enhanced performance tracking.</p>
                 <a href="#" className="service-btn btn-primary" onClick={() => setShowModalPyhton(true)}>Read More</a></div>
@@ -104,7 +106,7 @@ const Services = () => {
 
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="service-item mb-5 mb-lg-0">
-              <LazyLoad><img src={servicesImg2} className="card-img-top" alt="..."  loading="lazy" /></LazyLoad>   
+              <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={servicesImg2} className="card-img-top" alt="..."  loading="lazy" /></LazyLoad>   
                 <h4 className="mb-3">ACP Monitoring.</h4>
                 <p>An IoT-driven railway enhancement system records and tallies Alarm Chain Pulling (ACP) instances, capturing GPS location, trigger time, and resultant train delay. Real-time transmission via attached GSM ensures seamless data relay, optimizing operations and safety measures.</p>
                 <a href="#" className="service-btn btn-primary mt-3" onClick={() => setShowModalIOt(true)}>Read More</a>
@@ -151,7 +153,7 @@ const Services = () => {
                             </div>
                             <div className='read-modal'>
                                 <div className='modal-img' >
-                                <LazyLoad><img src={rightpic} alt="" /></LazyLoad>   
+                                <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={rightpic} alt="" /></LazyLoad>   
                                 </div>
                             </div>
                         </CModalBody>
@@ -185,7 +187,7 @@ const Services = () => {
                             </div>
                             <div className='read-modal'>
                                 <div className='modal-img' >
-                                <LazyLoad><img src={Automated} alt="" /></LazyLoad>   
+                                <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={Automated} alt="" /></LazyLoad>   
                                 </div>
                             </div>
                         </CModalBody>
@@ -217,7 +219,7 @@ const Services = () => {
                             </div>
                             <div className='read-modal'>
                                 <div className='modal-img' >
-                                <LazyLoad><img src={railmadad} alt="" /></LazyLoad>
+                                <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={railmadad} alt="" /></LazyLoad>
                                 </div>
                             </div>
                         </CModalBody>
@@ -242,7 +244,7 @@ const Services = () => {
                                         <p>Furthermore, ACP Monitoring facilitates proactive decision-making by enabling authorities to respond swiftly to ACP incidents, minimize train delays, and enhance passenger safety and satisfaction. By harnessing the power of IoT technology, ACP Monitoring represents a significant step forward in the modernization of railway systems, ultimately leading to a more reliable, punctual, and passenger-friendly rail network.</p>
                                         <div className='read-modal'>
                                             <div className='modal-img' >
-                                            <LazyLoad> <img src={ACP} alt="" /></LazyLoad>  
+                                            <LazyLoad placeholder={<Skeleton width={240} height={240} />}> <img src={ACP} alt="" /></LazyLoad>  
                                             </div>
                                         </div>
                                     </div>
@@ -283,7 +285,7 @@ const Services = () => {
                                             Overall, AWMS represents a significant advancement in train water management technology, offering railway operators a cost-effective and sustainable solution for ensuring reliable access to water resources while enhancing passenger comfort and satisfaction.</p>
                                         <div className='read-modal'>
                                             <div className='modal-img' >
-                                            <LazyLoad><img src={AWMS} alt="" /></LazyLoad>  
+                                            <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={AWMS} alt="" /></LazyLoad>  
                                             </div>
                                         </div>
                                     </div>
@@ -314,7 +316,7 @@ const Services = () => {
                                             <p>By placing the power of IoT technology at users' fingertips in a user-friendly manner, Sarva Suvidhaen's Interface Design enhances workflow efficiency and productivity, enabling users to leverage the full potential of the software without feeling overwhelmed or intimidated. In essence, it represents a harmonious convergence of innovation and usability, shaping the future of technology in a way that is inclusive and accessible to all.
                                       </p>    <div className='read-modal'>
                                             <div className='modal-img' >
-                                            <LazyLoad><img src={UI} alt="" /></LazyLoad>  
+                                            <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={UI} alt="" /></LazyLoad>  
                                             </div>
                                         </div>
                                     </div>

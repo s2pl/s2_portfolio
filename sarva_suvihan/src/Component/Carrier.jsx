@@ -1,6 +1,8 @@
 import React from 'react'
 import './component.css'
 import { useState } from 'react'
+import Skeleton from 'react-loading-skeleton'
+import 'react-loading-skeleton/dist/skeleton.css'
 import Looking from '../static_data/web_content/looking.jpg'
 import carrierm1 from '../static_data/web_content/carrier-middle-2.jpg'
 import carrierm2 from '../static_data/web_content/carrier-middle.jpg'
@@ -45,20 +47,20 @@ const Carrier = () => {
             </div>
             <div className='right-carrier-quotes'>
               <div className='carrier-quotesimage'>
-              <LazyLoad ><img src={Looking} alt="logo" loading="lazy"></img></LazyLoad>   
+              <LazyLoad placeholder={<Skeleton width={240} height={240} />} ><img src={Looking} alt="logo" loading="lazy"></img></LazyLoad>   
               </div>
             </div>
           </div>
         </div>
         <div className='carrier-picture'>
           <div className='carrier-pic1'>
-          <LazyLoad ><img src={carrierm1} alt="logo" loading="lazy"></img></LazyLoad> 
+          <LazyLoad placeholder={<Skeleton width={240} height={240} />} ><img src={carrierm1} alt="logo" loading="lazy"></img></LazyLoad> 
           </div>
           <div className='carrier-pic1'>
-          <LazyLoad ><img src={carrierm2} alt="logo" loading="lazy"></img></LazyLoad>   
+          <LazyLoad placeholder={<Skeleton width={240} height={240} />} ><img src={carrierm2} alt="logo" loading="lazy"></img></LazyLoad>   
           </div>
           <div className='carrier-pic1'>
-          <LazyLoad ><img src={carrierm3} alt="logo" loading="lazy"></img></LazyLoad> 
+          <LazyLoad placeholder={<Skeleton width={240} height={240} />} ><img src={carrierm3} alt="logo" loading="lazy"></img></LazyLoad> 
           </div>
         </div>
         <div className='employe-req'>

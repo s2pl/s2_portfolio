@@ -3,6 +3,8 @@ import { useRef } from 'react';
 import { useState } from 'react';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Skeleton from 'react-loading-skeleton'
+import 'react-loading-skeleton/dist/skeleton.css'
 import ScrollTrigger from 'react-scroll-trigger';
 import CountUp from 'react-countup';
 import Slider from 'react-slick';
@@ -61,7 +63,7 @@ const Homepage = () => {
                                 </div>
                             </div>
                             <div className='img'>
-                             <LazyLoad><img src={phone} loading="lazy"></img></LazyLoad>   
+                             <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={phone} loading="lazy"></img></LazyLoad>   
                             </div>
                         </div>
                     </div>
@@ -81,7 +83,7 @@ const Homepage = () => {
                         <p>we are a recoganized DIPP Startup from Bihar and are proud recipients of multiples awards.</p>
                     </div>
                     <div className='front-img'>
-                       <LazyLoad><img src={rightpic} alt=""  loading="lazy" /></LazyLoad> 
+                       <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={rightpic} alt=""  loading="lazy" /></LazyLoad> 
                     </div>
                 </div>
             </div>
@@ -241,19 +243,19 @@ const Homepage = () => {
                 <div className='govern'>
                     <div className='govern-card'>
                         <div className='support-img'>
-                          <LazyLoad><img src={supportImg1} alt=""  loading="lazy" /></LazyLoad>  
+                          <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={supportImg1} alt=""  loading="lazy" /></LazyLoad>  
 
                         </div><p>IIT Patna Incubation Centre</p>
                     </div>
                     <div className='govern-card'>
                         <div className='support-img'>
-                          <LazyLoad><img src={supportImg2} alt=""  loading="lazy" /></LazyLoad>  
+                          <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={supportImg2} alt=""  loading="lazy" /></LazyLoad>  
                         </div>
                         <p>Startup Bihar</p>
                     </div>
                     <div className='govern-card'>
                         <div className='support-img'>
-                        <LazyLoad>  <img src={supportImg3} alt=""  loading="lazy" /></LazyLoad> 
+                        <LazyLoad placeholder={<Skeleton width={240} height={240} />}>  <img src={supportImg3} alt=""  loading="lazy" /></LazyLoad> 
                         </div>
                         <p>Ministry of Electronics and Information Technology</p>
                     </div>
