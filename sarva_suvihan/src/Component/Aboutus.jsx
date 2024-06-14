@@ -8,6 +8,8 @@ import sidepic from '../static_data/web_content/network.jpg'
 import cerificate from '../static_data/web_content/certified.jpg';
 import director from '../static_data/founders/atul_anand.jpg'
 import founder from '../static_data/founders/sanjay_ranjan.jpg'
+import Skeleton from 'react-loading-skeleton'
+import 'react-loading-skeleton/dist/skeleton.css'
 import LazyLoad from 'react-lazyload';
 import "./component.css"
 import rutval from '../static_data/teams/rutval.jpg'
@@ -71,7 +73,7 @@ const Aboutus = () => {
             </div>
             <div className="col-lg-6" data-aos="fade-up">
               <div className="">
-              <LazyLoad ><img loading="lazy" src={sidepic} alt="about-image" className="img-fluid" /></LazyLoad> 
+              <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img loading="lazy" src={sidepic} alt="about-image" className="img-fluid" /></LazyLoad> 
               </div>
             </div>
           </div>
@@ -125,7 +127,7 @@ const Aboutus = () => {
       {/* cerificate */}
       <div className="about-item-img p-5 " data-aos="fade-up">
         <div className=" col-8 ">
-        <LazyLoad ><img loading="lazy" src={cerificate} alt="about-image" className="img-fluid" /></LazyLoad>   
+        <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img loading="lazy" src={cerificate} alt="about-image" className="img-fluid" /></LazyLoad>   
         </div>
       </div>
       {/* cerificate end*/}
@@ -248,7 +250,7 @@ const Aboutus = () => {
       <div className='team-detail' >
           <div className='team-intro'>
           <div className='team-mate'>
-          <LazyLoad ><img src={profile} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad> </div>
+          <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={profile} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad> </div>
           <div className='name'>Manyan Singh Tomar </div>
           <div className="post">Team -leader</div>
 
@@ -256,13 +258,13 @@ const Aboutus = () => {
 
         </div>
         <div className='team-intro'>
-          <div className='team-mate'><LazyLoad ><img src={akhil} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad> </div>
+          <div className='team-mate'><LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={akhil} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad> </div>
           <div className='name'>Akhil</div>
           <div className="post">Team -leader</div>
         </div>
         <div className='team-intro'>
           <div className='team-mate'> 
-          <LazyLoad ><img src={rutval} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad></div>
+          <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={rutval} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad></div>
           <div className='name'>Rutval B. Thonge</div>
           <div className="post">Developer</div>
 
@@ -272,13 +274,13 @@ const Aboutus = () => {
         </div>
         
         <div className='team-intro'>
-          <div className='team-mate'> <LazyLoad ><img src={profile} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad></div>
+          <div className='team-mate'> <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={profile} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad></div>
           <div className='name'>************</div>
           <div className="post">************</div>
 
         </div>
         <div className='team-intro'>
-          <div className='team-mate'> <LazyLoad ><img src={profile} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad></div>
+          <div className='team-mate'> <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={profile} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad></div>
           <div className='name'>************</div>
           <div className="post">************</div>
 
@@ -287,28 +289,28 @@ const Aboutus = () => {
         </div>
 
         <div className='team-intro'>
-          <div className='team-mate'><LazyLoad ><img src={profile} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad> </div>
+          <div className='team-mate'><LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={profile} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad> </div>
           <div className='name'>************ </div>
           <div className="post">************</div>
 
 
         </div>
         <div className='team-intro'>
-          <div className='team-mate'><LazyLoad ><img src={profile} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad> </div>
+          <div className='team-mate'><LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={profile} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad> </div>
           <div className='name'>************</div>
           <div className="post">************</div>
 
           
         </div>
         <div className='team-intro'>
-          <div className='team-mate'> <LazyLoad ><img src={profile} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad></div>
+          <div className='team-mate'> <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={profile} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad></div>
           <div className='name'>************ </div>
           <div className="post">************</div>
 
 
         </div>
         <div className='team-intro'>
-          <div className='team-mate'> <LazyLoad ><img src={profile} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad></div>
+          <div className='team-mate'> <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={profile} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad></div>
           <div className='name'>************</div>
           <div className="post">************</div>
 
@@ -317,7 +319,7 @@ const Aboutus = () => {
 
 
         <div className='team-intro'>
-          <div className='team-mate'> <LazyLoad ><img src={profile} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad></div>
+          <div className='team-mate'> <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={profile} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad></div>
           <div className='name'>************</div>
           <div className="post">************</div>
 
@@ -325,7 +327,7 @@ const Aboutus = () => {
         </div>
 
         <div className='team-intro'>
-          <div className='team-mate'><LazyLoad > <img src={profile} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad></div>
+          <div className='team-mate'><LazyLoad placeholder={<Skeleton width={240} height={240} />}> <img src={profile} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad></div>
           <div className='name'>************</div>
           <div className="post">************</div>
 

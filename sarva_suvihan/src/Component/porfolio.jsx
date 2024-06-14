@@ -1,5 +1,7 @@
 import React from 'react'
 import Slider from 'react-slick';
+import Skeleton from 'react-loading-skeleton'
+import 'react-loading-skeleton/dist/skeleton.css'
 import special from '../static_data/web_content/@S2_Portfolio (1).jpg'
 import special2 from '../static_data/web_content/@S2_Portfolio.jpg'
 import homepage from '../static_data/web_content/@S2_Portfolio (2).jpg'
@@ -55,7 +57,7 @@ const porfolio = () => {
               <Slider {...settings_services}>
                 <div className="card card-show" style={{ width: "15rem;" }}>
                   <div className='img-slide'>
-                    <LazyLoad><img src={special2} className="card-img-top" alt="..." loading="lazy" /></LazyLoad> </div>
+                    <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={special2} className="card-img-top" alt="..." loading="lazy" /></LazyLoad> </div>
                   <div className="card-body text-center">
                     <h5 className="card-title">SawachDNR application </h5>
                     <p className="card-text pb-4">Sarva Suvidhan is a recognized leader in developing process in developing automationfor complex organization and institutional concerns.Our mission is to bring automation, technology and innovation to simplify complex problem. We add value by increasing efficiency and drive data and analytics for higher quality standards.
@@ -70,7 +72,7 @@ const porfolio = () => {
                 </div>
                 <div className="card card-show" style={{ width: "15rem;" }}>
                   <div className='img-slide'>
-                    <LazyLoad><img src={special} className="card-img-top" alt="..." loading="lazy" /></LazyLoad>
+                    <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={special} className="card-img-top" alt="..." loading="lazy" /></LazyLoad>
                   </div>
                   <div className="card-body text-center">
                     <h5 className="card-title">he certificate offered by entities such as the Bihar Startup Innovation Program and the IIT Patna Incubation Center serves</h5>
@@ -86,7 +88,7 @@ const porfolio = () => {
                 </div>
                 <div className="card card-show" style={{ width: "15rem;" }}>
                   <div className='img-slide'>
-                    <LazyLoad><img src={servicesImg1} className="card-img-top" alt="..." loading="lazy" /></LazyLoad>  </div>
+                    <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={servicesImg1} className="card-img-top" alt="..." loading="lazy" /></LazyLoad>  </div>
                   <div className="card-body text-center">
                     <h5 className="card-title ">Smart Bihar Hackthon-2023</h5>
                     <p className="card-text pb-4">
@@ -112,7 +114,7 @@ const porfolio = () => {
                 </div>
                 <div className="card card-show" style={{ width: "15rem;" }}>
                   <div className='img-slide'>
-                    <LazyLoad> <img src={servicesImg2} className="card-img-top" alt="..." loading="lazy" /></LazyLoad>  </div>
+                    <LazyLoad placeholder={<Skeleton width={240} height={240} />}> <img src={servicesImg2} className="card-img-top" alt="..." loading="lazy" /></LazyLoad>  </div>
                   <div className="card-body text-center">
                     <h5 className="card-title">Bihar Industries Association Award</h5>
                     <p className="card-text pb-4">We are immensely proud to announce that our startup has clinched the prestigious Bihar Industries
@@ -132,7 +134,7 @@ const porfolio = () => {
 
                 <div className="card card-show" style={{ width: "15rem;" }}>
                   <div className='img-slide'>
-                    <LazyLoad> <img src={servicesImg4} className="card-img-top" alt="..." loading="lazy" /></LazyLoad>  </div>
+                    <LazyLoad placeholder={<Skeleton width={240} height={240} />}> <img src={servicesImg4} className="card-img-top" alt="..." loading="lazy" /></LazyLoad>  </div>
                   <div className="card-body text-center">
                     <h5 className="card-title">Destination Bihar Expo-2024</h5>
                     <p className="card-text pb-4">Participation in the Destination Bihar Expo-2024 marks a significant milestone for us. Engaging in this prestigious event allows us to showcase our commitment to excellence, innovation, and contributing to the growth of Bihar's economic landscape. By actively participating, we aim to forge valuable connections, explore collaborations, and highlight the unique offerings of our business.
@@ -143,7 +145,7 @@ const porfolio = () => {
                 </div>
                 <div className="card card-show" style={{ width: "15rem;" }}>
                   <div className='img-slide'>
-                    <LazyLoad><img src={homepage} className="card-img-top" alt="..." loading="lazy" /></LazyLoad></div>
+                    <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={homepage} className="card-img-top" alt="..." loading="lazy" /></LazyLoad></div>
                   <div className="card-body text-center">
                     <h5 className="card-title ">Railmadad analytics software provide from my company sarva suvidhean private limited</h5>
                     <p className="card-text pb-4">
@@ -172,13 +174,13 @@ const porfolio = () => {
 
             <div className="row">
               <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
-                <LazyLoad> <img
+                <LazyLoad placeholder={<Skeleton width={240} height={240} />}> <img
                   src={gpai1}
                   className="w-80 shadow-1-strong rounded mb-4 image-center galary-mg"
                   alt="Boat on Calm Water"
                 /></LazyLoad>
 
-                <LazyLoad> <img
+                <LazyLoad placeholder={<Skeleton width={240} height={240} />}> <img
                   src={gpai2}
                   className="w-80 shadow-1-strong rounded mb-4 image-center galary-mg"
                   alt="Wintry Mountain Landscape"
@@ -186,13 +188,13 @@ const porfolio = () => {
               </div>
 
               <div className="col-lg-4 mb-4 mb-lg-0">
-                <LazyLoad><img
+                <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img
                   src={gpai3}
                   className="w-80 shadow-1-strong rounded mb-4 image-center galary-mg"
                   alt="Mountains in the Clouds"
                 /></LazyLoad>
 
-                <LazyLoad><img
+                <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img
                   src={gpai4}
                   className="w-100 shadow-1-strong rounded mb-4 image-center galary-mg"
                   alt="Boat on Calm Water"
@@ -200,13 +202,13 @@ const porfolio = () => {
               </div>
 
               <div className="col-lg-4 mb-4 mb-lg-0">
-                <LazyLoad> <img
+                <LazyLoad placeholder={<Skeleton width={240} height={240} />}> <img
                   src={homepage}
                   className="w-70 shadow-1-strong rounded mb-4 image-center galary-mg"
                   alt="Waves at Sea"
                 /></LazyLoad>
 
-                <LazyLoad> <img
+                <LazyLoad placeholder={<Skeleton width={240} height={240} />}> <img
                   src={patnaaward}
                   className="w-80 shadow-1-strong rounded mb-4 image-center galary-mg"
                   alt="Yosemite National Park"
