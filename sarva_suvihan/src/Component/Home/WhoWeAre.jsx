@@ -13,7 +13,7 @@ export const WhoWeAre = () => {
         </ul>
       </div>
       <div className="md:w-2/5 flex justify-center items-center">
-      <img src="who.jpg" width={400} alt="" />
+      <img src="images/who.jpg" width={400} alt="" />
       </div>
     </div>
   );

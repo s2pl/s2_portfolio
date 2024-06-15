@@ -17,7 +17,7 @@ export const GetInTouch = () => {
               placeholder="Name"
             />
             <input
-              className="p-2 rounded-md bg-neutral-400 placeholder-neutral-700"
+              className="p-2 my-2 rounded-md bg-neutral-400 placeholder-neutral-700"
               type="text"
               placeholder="Organization"
             />
@@ -29,7 +29,7 @@ export const GetInTouch = () => {
               placeholder="Phone"
             />
             <input
-              className="p-2 rounded-md bg-neutral-400 placeholder-neutral-700"
+              className="p-2 my-2 rounded-md bg-neutral-400 placeholder-neutral-700"
               type="text"
               placeholder="Email"
             />

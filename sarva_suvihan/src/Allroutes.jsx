@@ -13,6 +13,7 @@ import ApplyForm from './Component/ApplyForm';
 import Porfolioatul from './Component/Portfolioatul';
 import Privacypolicy from './Component/Privacypolicy';
 import Term_condition from './Component/Termcondition';
+import {Home} from './Component/Home/Home'
 const Allroutes = () => {
   return (
     <div>
@@ -30,6 +31,8 @@ const Allroutes = () => {
           <Route path="/privacypolicy" element={<Privacypolicy />} />
           <Route path="/termcondition" element={<Term_condition />} />
           <Route path="*" element={<Navigate to="/" />} />
+          <Route path="/home" element={<Home />}  />
+          
 
 
         </Routes>

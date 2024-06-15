@@ -7,7 +7,7 @@ export const Testimonials = () => {
         <div className="pt-10 md:flex justify-center ">
         <div className="flex justify-center items-center border rounded-md  m-10 shadow-md ">
             <div className="flex justify-center items-center">
-                <img src="process.jpg" className="rounded-s-md" width={150} alt="" />
+                <img src="images/process.jpg" className="rounded-s-md w-[150px]" alt="" />
             </div>
             <div className="m-7">
                 <h3 className="font-bold text-xl">Comment from Clinet XYZ</h3>
@@ -17,7 +17,7 @@ export const Testimonials = () => {
         </div>
         <div className="flex justify-center items-center border rounded-md  m-10 shadow-md ">
             <div className="flex justify-center items-center">
-                <img src="process.jpg" className="rounded-s-md" width={150} alt="" />
+                <img src="images/process.jpg" className="rounded-s-md w-[150px]"  alt="" />
             </div>
             <div className="m-7">
                 <h3 className="font-bold text-xl">Comment from Clinet ZYX</h3>

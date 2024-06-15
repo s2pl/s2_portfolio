@@ -2,7 +2,7 @@ export const Banner = () => {
   return (
     <div className="min-h-[300px]  bg-cover  "
     style={{ 
-      backgroundImage: `url("ux-indonesia.jpg")` 
+      backgroundImage: `url("images/ux-indonesia.jpg")` 
     }}>
       <div className="py-14  flex items-center justify-center  inset-0 bg-white opacity-80 ">
       <div className=" mx-5 md:mx-10 flex-wrap justify-center items-center ">

@@ -6,8 +6,8 @@ export const Partners = () => {
       {partners.map((partner, index) => (
         <div key={index} className="md:mx-10   flex justify-center items-center">
           <div className="py-2 ">
-          <img src={partner.img} width={100} alt="" />
-          <p className="text-sm pt-1">{partner.name}</p>
+          <img src={`images/${partner.img}`} className="w-[100px]" alt="" />
+          <p className="text-sm pt-1 text-center">{partner.name}</p>
           </div>
          
         </div>
