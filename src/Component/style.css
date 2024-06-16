@@ -600,13 +600,7 @@ img {
   padding: 0rem 3rem;
   width: 80%;
 }
-
-@media (max-width: 800px) {
-  .services-card {
-    padding: 0rem;
-    width: 80%;
-  }
-
+/* @media (max-width: 800px) {
   .link-btn {
     display: flex;
     align-items: center;
@@ -614,6 +608,14 @@ img {
     flex-direction: column;
     margin-top: 1rem;
   }
+} */
+@media (max-width: 800px) {
+  .services-card {
+    padding: 0rem;
+    width: 80%;
+  }
+
+  
   .footer {
     padding-left: 2px;
     padding-right: 2px;
