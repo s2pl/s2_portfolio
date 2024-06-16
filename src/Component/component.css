@@ -940,5 +940,19 @@
     }
 }
 
-
+@media (min-width: 512px) and (max-width: 1370px) {
+    .govern {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem; 
+        margin-top: 2rem;
+    }
+    .govern-card {
+        padding: 2rem;
+        box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.184);
+        margin: 0;
+        border-radius: 15px;
+        width: 100%;
+    }
+}  
 
