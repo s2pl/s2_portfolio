@@ -833,7 +833,10 @@
         border-radius: 15px;
         width: 100%;
     }
-
+    .support-img img {
+        width: 100%;
+        height: 20vh;
+    }
     .govern-card p {
         text-align: center;
         padding: 0.5rem;
@@ -931,21 +934,38 @@
         flex-direction: column;
     }
     
-    .front-intro {
-        width: 95%;
-    }
-    .front-img {
-        width: 90%;
-    margin-top: 1.5rem;
-    }
+.front-intro {
+    width: 95%;
+}
+.front-img {
+    width: 90%;
+  margin-top: 1.5rem;
+}
 }
 
+@media (min-width: 512px) and (max-width: 900px) {
+    .support-img img {
+        width: 100%;
+        height: 20vh;
+    }
+    .govern-card p {
+        text-align: center;
+        padding: 0.5rem;
+        font-size: 0.8rem;
+        font-weight: 800;
+    }
+    .government {
+        padding: 0.5rem;
+        margin-top: 2rem;
+    }
+} 
 @media (min-width: 512px) and (max-width: 1370px) {
     .govern {
         display: flex;
         flex-wrap: wrap;
+        align-items: center;
+        gap: 2rem; 
         margin-top: 2rem;
-        gap: 2rem;
     }
     .govern-card {
         padding: 2rem;
@@ -953,6 +973,4 @@
         width: 45%;
     }
 }  
-
-
 
