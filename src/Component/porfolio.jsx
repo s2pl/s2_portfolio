@@ -128,7 +128,7 @@ Receiving a certificate from the Destination Bihar Expo-2024 is an esteemed ackn
                   <div className='img-slide'>
                     <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={homepage} className="card-img-top" alt="..." loading="lazy" /></LazyLoad></div>
                   <div className="card-body text-center">
-                    <h5 className="card-title ">Railmadad analytics software provide from my company sarva suvidhean private limited</h5>
+                    <h5 className="card-title ">Railmadad analytics software is provided by my company, Sarva Suvidhaen Private Limited.</h5>
                     <p className="card-text pb-4">
                       RailMadad Analytics is a cutting-edge software solution provided by Sarva Suvidhean Private Limited, tailored to revolutionize the railway industry. This innovative platform offers comprehensive analytics capabilities designed to enhance operational efficiency, safety, and customer satisfaction within the rail sector. By leveraging advanced data analytics techniques, RailMadad Analytics empowers railway authorities to make informed decisions, optimize resource allocation, and proactively address challenges. From predictive maintenance to route optimization and passenger flow analysis, this software equips railway operators with actionable insights to streamline operations and deliver a seamless travel experience. With RailMadad Analytics, Sarva Suvidhean Private Limited continues to drive innovation and transform the railway ecosystem for the better. </p>
 
