@@ -29,7 +29,7 @@ const Fotter = () => {
                   </span><Link to="/">Home</Link></li>
                   <li className='fotter-list' ><span class="material-symbols-outlined">
                     arrow_circle_right
-                  </span><Link to="/about-us">Abouts us</Link></li>
+                  </span><Link to="/about-us">About us</Link></li>
                   <li className='fotter-list'><span class="material-symbols-outlined">
                     arrow_circle_right
                   </span><Link to="/services">Services</Link></li>
