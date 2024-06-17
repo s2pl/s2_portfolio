@@ -60,13 +60,13 @@ const porfolio = () => {
                     <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={special2} className="card-img-top" alt="..." loading="lazy" /></LazyLoad> </div>
                   <div className="card-body text-center">
                     <h5 className="card-title">SawachDNR application </h5>
-                    <p className="card-text pb-4">Sarva Suvidhan is a recognized leader in developing process in developing automationfor complex organization and institutional concerns.Our mission is to bring automation, technology and innovation to simplify complex problem. We add value by increasing efficiency and drive data and analytics for higher quality standards.
+                    <p className="card-text pb-4">Sarva Suvidhan is a recognized leader in developing automation for complex organizational and institutional concerns. Our mission is to bring automation, technology, and innovation to simplify complex problems. We add value by increasing efficiency and driving data and analytics for higher quality standards.
 
-                      Since our inception, we have worked with large organization to delay inteliigent automation which has helped improve turnarround, improve services quality and bring higher customer satisfaction.
+Since our inception, we have worked with large organizations to deploy intelligent automation, which has helped improve turnaround times, enhance service quality, and achieve higher customer satisfaction.
 
-                      Our team of solution architects, designer and developer will help you craft a solution fitted to yur requirements.
+Our team of solution architects, designers, and developers will help you craft a solution tailored to your requirements.
 
-                      we are a recoganized DIPP Startup from Bihar and are proud recipients of multiples awards.</p>
+We are a recognized DIPP startup from Bihar and are proud recipients of multiple awards.</p>
 
                   </div>
                 </div>
@@ -75,14 +75,12 @@ const porfolio = () => {
                     <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={special} className="card-img-top" alt="..." loading="lazy" /></LazyLoad>
                   </div>
                   <div className="card-body text-center">
-                    <h5 className="card-title">he certificate offered by entities such as the Bihar Startup Innovation Program and the IIT Patna Incubation Center serves</h5>
+                    <h5 className="card-title">The certificate offered by entities such as the Bihar Startup Innovation Program and the IIT Patna Incubation Center serves</h5>
                     <p className="card-text pb-4">For startups participating in programs like the Bihar Startup Innovation Program, the certificate signifies their commitment to innovation and entrepreneurship within the region. It acts as a testament to their potential to drive positive change and contribute to economic growth. Moreover, this recognition from established institutions such as IIT Patna adds credibility to their projects and ideas.
 
                       The certificate obtained through the IIT Patna Incubation Center is a mark of quality and excellence in innovation. It reflects the rigorous evaluation and support provided by one of India's premier academic institutions. Startups receiving this certificate gain access to resources, mentorship, and networking opportunities essential for their growth and success.
 
-                      Furthermore.
-
-                      In essence, the certificate obtained from programs like the Bihar Startup Innovation Program and the IIT Patna Incubation Center not only recognizes the efforts of startups but also acts as a catalyst for their growth and success in the dynamic landscape of innovation and entrepreneurship. </p>
+                      Furthermore, the certificate obtained from programs like the Bihar Startup Innovation Program and the IIT Patna Incubation Center not only recognizes the efforts of startups but also acts as a catalyst for their growth and success in the dynamic landscape of innovation and entrepreneurship. </p>
 
                   </div>
                 </div>
@@ -92,23 +90,11 @@ const porfolio = () => {
                   <div className="card-body text-center">
                     <h5 className="card-title ">Smart Bihar Hackthon-2023</h5>
                     <p className="card-text pb-4">
-                      In the Smart Bihar Hackathon 2023, our team\
-                      emerged victorious, securing the first prize\
-                      for our innovative startup idea focused on IT services
-                      and IoT software solutions. Our winning concept
-                      reflects a commitment to harnessing cutting-edge
-                      technology to address real-world challenges in Bihar.
-                      By blending expertise in information technology and
-                      IoT, our startup envisions transformative solutions
-                      that enhance connectivity, efficiency, and sustainability.
-                      This achievement underscores our dedication to
-                      driving positive change through innovation. As we forge ahead, we are poised to bring our winning idea to fruition, leveraging our skills and passion
-                      to contribute meaningfully to the technological landscape. Our success
-                      in the hackathon serves as a testament to the creativity, teamwork,
-                      and forward-thinking approach that define our
-                      venture. With this accolade, we are eager to showcase our capabilities and explore opportunities for
-                      collaboration and growth. The journey doesn't end here; it marks the beginning of a promising venture that aims to make a lasting impact in the realm of IT services and IoT software development. Join us on this exciting journey as we continue to push boundaries and pioneer
-                      advancements in the tech industry. </p>
+                    In the Smart Bihar Hackathon 2023, our team emerged victorious, securing the first prize for our innovative startup idea focused on IT services and IoT software solutions. Our winning concept reflects a commitment to harnessing cutting-edge technology to address real-world challenges in Bihar. By blending expertise in information technology and IoT, our startup envisions transformative solutions that enhance connectivity, efficiency, and sustainability.
+
+This achievement underscores our dedication to driving positive change through innovation. As we forge ahead, we are poised to bring our winning idea to fruition, leveraging our skills and passion to contribute meaningfully to the technological landscape. Our success in the hackathon serves as a testament to the creativity, teamwork, and forward-thinking approach that define our venture.
+
+With this accolade, we are eager to showcase our capabilities and explore opportunities for collaboration and growth. The journey doesn't end here; it marks the beginning of a promising venture that aims to make a lasting impact in the realm of IT services and IoT software development. Join us on this exciting journey as we continue to push boundaries and pioneer advancements in the tech industry.</p>
 
                   </div>
                 </div>
@@ -117,16 +103,11 @@ const porfolio = () => {
                     <LazyLoad placeholder={<Skeleton width={240} height={240} />}> <img src={servicesImg2} className="card-img-top" alt="..." loading="lazy" /></LazyLoad>  </div>
                   <div className="card-body text-center">
                     <h5 className="card-title">Bihar Industries Association Award</h5>
-                    <p className="card-text pb-4">We are immensely proud to announce that our startup has clinched the prestigious Bihar Industries
-                      Association Award, securing the top position in the IT Services and IoT Software category. This
-                      recognition reaffirms our commitment to innovation, excellence, and impactful solutions.
-                      At the intersection of cutting-edge Information Technology services and pioneering IoT software,
-                      we have consistently pushed boundaries to deliver unparalleled value to our clients. This accolade
-                      not only reflects our team's dedication but also underscores the transformative impact of our services
-                      on the industry. As we celebrate this milestone, we look forward to continuing our journey of technological
-                      innovation, driving positive change, and delivering exceptional results for our clients. This award serves as
-                      a testament to our vision, hard work, and the collective effort of our talented team, motivating us to reach
-                      new heights in the dynamic landscape of IT and IoT.
+                    <p className="card-text pb-4">We are immensely proud to announce that our startup has clinched the prestigious Bihar Industries Association Award, securing the top position in the IT Services and IoT Software category. This recognition reaffirms our commitment to innovation, excellence, and impactful solutions.
+
+At the intersection of cutting-edge Information Technology services and pioneering IoT software, we have consistently pushed boundaries to deliver unparalleled value to our clients. This accolade not only reflects our team's dedication but also underscores the transformative impact of our services on the industry.
+
+As we celebrate this milestone, we look forward to continuing our journey of technological innovation, driving positive change, and delivering exceptional results for our clients. This award serves as a testament to our vision, hard work, and the collective effort of our talented team, motivating us to reach new heights in the dynamic landscape of IT and IoT.
                     </p>
 
                   </div>
