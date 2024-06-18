@@ -11,12 +11,11 @@ const Contactus = () => {
   const [agreed, setAgreed] = useState(false)
   const [showModalFront, setShowModalFront] = useState(false);
   return (
-    <div>
-     
-      <div className="bg-white px-6 py-18 sm:py-20 lg:px-8" >
+    <div >
+      <div className="bg-white px-6 md:py-18 py-20 lg:px-72" >
         <div className='' style={{ boxShadow: "14px 14px 14px 14px rgba(0, 0, 0, 0.279)", padding: "1rem" }}>
           <div
-            className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"
+            className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem] "
             aria-hidden="true"
 
           >
@@ -30,15 +29,12 @@ const Contactus = () => {
             />
           </div>
           <div className="mx-auto max-w-2xl text-center">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Contact With Sarva Suvidhaen</h2>
-            <p className="mt-2 text-lg leading-8 text-gray-600">
-
-            </p>
+            <h2 className="text-3xl font-bold tracking-tight pt-4 text-gray-900 sm:text-4xl">Contact With Sarva Suvidhaen</h2>
           </div>
-          <form className="mx-auto mt-16 max-w-xl sm:mt-20">
+          <form className="mx-auto mt-10 max-w-xl sm:mt-10">
             <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
               <div>
-                <label htmlFor="first-name" className="block text-sm font-semibold leading-6 text-gray-900">
+                <label htmlFor="first-name" className="block text-md font-semibold leading-6 text-gray-900">
                   First name
                 </label>
                 <div className="mt-2.5">
@@ -47,12 +43,12 @@ const Contactus = () => {
                     name="first-name"
                     id="first-name"
                     autoComplete="given-name"
-                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-1 border-neutral-800 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
               <div>
-                <label htmlFor="last-name" className="block text-sm font-semibold leading-6 text-gray-900">
+                <label htmlFor="last-name" className="block text-md font-semibold leading-6 text-gray-900">
                   Last name
                 </label>
                 <div className="mt-2.5">
@@ -61,12 +57,12 @@ const Contactus = () => {
                     name="last-name"
                     id="last-name"
                     autoComplete="family-name"
-                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-1 border-neutral-800 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
               <div className="sm:col-span-2">
-                <label htmlFor="company" className="block text-sm font-semibold leading-6 text-gray-900">
+                <label htmlFor="company" className="block text-md font-semibold leading-6 text-gray-900">
                   Company
                 </label>
                 <div className="mt-2.5">
@@ -75,12 +71,12 @@ const Contactus = () => {
                     name="company"
                     id="company"
                     autoComplete="organization"
-                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-1 border-neutral-800 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
               <div className="sm:col-span-2">
-                <label htmlFor="email" className="block text-sm font-semibold leading-6 text-gray-900">
+                <label htmlFor="email" className="block text-md font-semibold leading-6 text-gray-900">
                   Email
                 </label>
                 <div className="mt-2.5">
@@ -89,12 +85,12 @@ const Contactus = () => {
                     name="email"
                     id="email"
                     autoComplete="email"
-                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-1 border-neutral-800 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
               <div className="sm:col-span-2">
-                <label htmlFor="phone-number" className="block text-sm font-semibold leading-6 text-gray-900">
+                <label htmlFor="phone-number" className="block text-md font-semibold leading-6 text-gray-900">
                   Phone number
                 </label>
                 <div className="relative mt-2.5">
@@ -105,7 +101,7 @@ const Contactus = () => {
                     <select
                       id="country"
                       name="country"
-                      className="h-full rounded-md border-0  bg-none py-0 pl-4 pr-9 text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm"
+                      className="h-full   rounded-md border-1 border-neutral-800  bg-none py-0 pl-4 pr-9 text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm"
                     >
                       <option>India</option>
 
@@ -117,12 +113,12 @@ const Contactus = () => {
                     name="phone-number"
                     id="phone-number"
                     autoComplete="tel"
-                    className="block w-full rounded-md border-0 px-3.5 py-2 pl-20 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-1  border-neutral-800 px-3.5 py-2 pl-20 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
               <div className="sm:col-span-2">
-                <label htmlFor="message" className="block text-sm font-semibold leading-6 text-gray-900">
+                <label htmlFor="message" className="block text-md font-semibold leading-6 text-gray-900">
                   Message
                 </label>
                 <div className="mt-2.5">
@@ -130,7 +126,7 @@ const Contactus = () => {
                     name="message"
                     id="message"
                     rows={4}
-                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-1 border-neutral-800 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                     defaultValue={''}
                   />
                 </div>
@@ -164,10 +160,10 @@ const Contactus = () => {
               </Switch.Group>
 
             </div>
-            <div className="mt-10">
+            <div className="my-10 ">
               <button
                 type="submit"
-                className="block w-full rounded-md bg-gray-600 px-4 py-3 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="block w-full rounded-md bg-gray-600 px-4 py-3  text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 Let's talk
               </button>
