@@ -155,45 +155,45 @@ const Porfolioatul = () => {
 
           <div className='galary'>
 
-            <div class="row">
-              <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+            <div className="row">
+              <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
                 <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img
                   src={gpai1}
-                  class="w-100 shadow-1-strong rounded mb-4"
+                  className="w-100 shadow-1-strong rounded mb-4"
                   alt="Boat on Calm Water"
                 /></LazyLoad>
                 <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img
                   src={gpai2}
-                  class="w-100 shadow-1-strong rounded mb-4"
+                  className="w-100 shadow-1-strong rounded mb-4"
                   alt="Wintry Mountain Landscape"
                 /></LazyLoad>
 
               </div>
 
-              <div class="col-lg-4 mb-4 mb-lg-0">
+              <div className="col-lg-4 mb-4 mb-lg-0">
                 <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img
                   src={gpai3}
-                  class="w-100 shadow-1-strong rounded mb-4"
+                  className="w-100 shadow-1-strong rounded mb-4"
                   alt="Mountains in the Clouds"
                 /></LazyLoad>
                 <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img
                   src={gpai4}
-                  class="w-100 shadow-1-strong rounded mb-4"
+                  className="w-100 shadow-1-strong rounded mb-4"
                   alt="Boat on Calm Water"
                 /></LazyLoad>
 
               </div>
 
-              <div class="col-lg-4 mb-4 mb-lg-0">
+              <div className="col-lg-4 mb-4 mb-lg-0">
                 <LazyLoad placeholder={<Skeleton width={240} height={240} />}> <img
                   src={homepage}
-                  class="w-100 shadow-1-strong rounded mb-4"
+                  className="w-100 shadow-1-strong rounded mb-4"
                   alt="Waves at Sea"
                 /></LazyLoad>
 
                 <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img
                   src={patnaaward}
-                  class="w-100 shadow-1-strong rounded mb-4"
+                  className="w-100 shadow-1-strong rounded mb-4"
                   alt="Yosemite National Park"
                 /></LazyLoad>
               </div>

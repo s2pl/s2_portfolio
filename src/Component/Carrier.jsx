@@ -70,28 +70,28 @@ const Carrier = () => {
           </div>
           <div className='employee-satisfy'>
             <div className='employee-satisfy-part'>
-              <span class="material-symbols-outlined">
+              <span className="material-symbols-outlined">
                 timer
               </span>
               <h4>Flexible hours</h4>
 
             </div>
             <div className='employee-satisfy-part'>
-              <span class="material-symbols-outlined">
+              <span className="matNameclassNameerial-symbols-outlined">
                 filter_alt
               </span>
               <h4>Free Snacks & Drinks</h4>
 
             </div>
             <div className='employee-satisfy-part'>
-              <span class="material-symbols-outlined">
+              <span className="matNameclassNameerial-symbols-outlined">
                 stadia_controller
               </span>
               <h4>Gaming</h4>
 
             </div>
             <div className='employee-satisfy-part'>
-              <span class="material-symbols-outlined">
+              <span className="matNameclassNameerial-symbols-outlined">
                 calendar_month
               </span>
               <h4>6 Working Days</h4>
