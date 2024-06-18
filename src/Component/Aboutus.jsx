@@ -184,9 +184,9 @@ const Aboutus = () => {
             <div className="" data-aos="fade-up">
               <div className="about-info-item mb-4 mb-lg-4 vision-detail ">
                 <input id="ch1" type='checkbox'></input>
-             <label htmlFor="ch1" className="vision-h3 " onClick={() => setread1(!read1)}>    <h3 className="vision-h3 "><span classNa="text-color mr-2 text-md ">01. Our Mission	</span>	</h3>{read1 ? (<span classNa="material-symbols-outlined">
+             <label htmlFor="ch1" className="vision-h3 " onClick={() => setread1(!read1)}>    <h3 className="vision-h3 "><span className="text-color mr-2 text-md ">01. Our Mission	</span>	</h3>{read1 ? (<span className="material-symbols-outlined">
                   remove
-                </span>) : (<span classNa="material-symbols-outlined">
+                </span>) : (<span className="material-symbols-outlined">
                   add
                 </span>)}	</label>
 
@@ -202,9 +202,9 @@ const Aboutus = () => {
             </div>
             <div className="about-info-item mb-4 mb-lg-4 vision-detail">
               <input id="ch2" type='checkbox'></input>
-              <label htmlFor="ch2" className="vision-h3 " onClick={() => setread2(!read2)}>     <h3 ><span classNa="text-color mr-2 text-md ">02. Our Vision</span>		</h3>	{read2 ? (<span classNa="material-symbols-outlined">
+              <label htmlFor="ch2" className="vision-h3 " onClick={() => setread2(!read2)}>     <h3 ><span className="text-color mr-2 text-md ">02. Our Vision</span>		</h3>	{read2 ? (<span className="material-symbols-outlined">
                 remove
-              </span>) : (<span classNa="material-symbols-outlined">
+              </span>) : (<span className="material-symbols-outlined">
                 add
               </span>)}</label>
 
@@ -216,9 +216,9 @@ const Aboutus = () => {
             </div>
             <div className="about-info-item mb-4 mb-lg-4 vision-detail">
               <input id="ch3" type='checkbox'></input>
-              <label htmlFor="ch3" className="vision-h3 " onClick={() => setread3(!read3)}>    <h3 ><span classNa="text-color mr-2 text-md ">03. Our Approach</span> </h3>{read3 ? (<span classNa="material-symbols-outlined">
+              <label htmlFor="ch3" className="vision-h3 " onClick={() => setread3(!read3)}>    <h3 ><span className="text-color mr-2 text-md ">03. Our Approach</span> </h3>{read3 ? (<span className="material-symbols-outlined">
                 remove
-              </span>) : (<span classNa="material-symbols-outlined">
+              </span>) : (<span className="material-symbols-outlined">
                 add
               </span>)}		</label>
 
@@ -351,7 +351,7 @@ const Aboutus = () => {
                         <Slider {...settings_client}>
                             <div className="card feedback-card " style={{ width: "15rem;" }}>
                                 <div className="card-body ">
-                                    <span classNa="material-symbols-outlined quote">
+                                    <span className="material-symbols-outlined quote">
                                         format_quote
                                     </span>
                                     <p className="card-text pb-4">Our integrated platform, comprising a website and mobile app, streamlines employee performance record management. </p>
@@ -361,7 +361,7 @@ const Aboutus = () => {
                             </div>
                             <div className="card feedback-card" style={{ width: "15rem;" }}>
                                 <div className="card-body ">
-                                    <span classNa="material-symbols-outlined quote">
+                                    <span className="material-symbols-outlined quote">
                                         format_quote
                                     </span>
 
@@ -373,7 +373,7 @@ const Aboutus = () => {
                             </div>
                             <div className="card feedback-card" style={{ width: "15rem;" }}>
                                 <div className="card-body ">
-                                    <span classNa="material-symbols-outlined quote">
+                                    <span className="material-symbols-outlined quote">
                                         format_quote
                                     </span>
 
@@ -384,7 +384,7 @@ const Aboutus = () => {
                             </div>
                             <div className="card feedback-card" style={{ width: "15rem;" }}>
                                 <div className="card-body ">
-                                    <span classNa="material-symbols-outlined quote">
+                                    <span className="material-symbols-outlined quote">
                                         format_quote
                                     </span>
 
@@ -395,7 +395,7 @@ const Aboutus = () => {
                             </div>
                             <div className="card feedback-card" style={{ width: "15rem;" }}>
                                 <div className="card-body">
-                                    <span classNa="material-symbols-outlined quote">
+                                    <span className="material-symbols-outlined quote">
                                         format_quote
                                     </span>
 
