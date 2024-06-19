@@ -40,10 +40,10 @@ const Homepage = () => {
     return (
         <div>
             {/*  header slider section*/}
-            <div className='poster-slider'>
-                <div className='poster'>
+            <div className='poster-slider min-h-[250px]  lg:min-h-[340px]'>
+                <div className='poster '>
                     <div className="item" id="item1" >
-                        <div className='item-cover'>
+                        <div className='item-cover '>
                             <div className="content" data-aos="fade-down">
                                 <div className="name">
                                     <div className='head-name'>
