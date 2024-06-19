@@ -47,20 +47,20 @@ const Carrier = () => {
             </div>
             <div className='right-carrier-quotes'>
               <div className='carrier-quotesimage'>
-              <LazyLoad placeholder={<Skeleton width={240} height={240} />} ><img src={Looking} alt="logo" loading="lazy"></img></LazyLoad>   
+              <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />} ><img src={Looking} alt="logo" loading="lazy"></img></LazyLoad>   
               </div>
             </div>
           </div>
         </div>
         <div className='carrier-picture'>
           <div className='carrier-pic1'>
-          <LazyLoad placeholder={<Skeleton width={240} height={240} />} ><img src={carrierm1} alt="logo" loading="lazy"></img></LazyLoad> 
+          <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />} ><img src={carrierm1} alt="logo" loading="lazy"></img></LazyLoad> 
           </div>
           <div className='carrier-pic1'>
-          <LazyLoad placeholder={<Skeleton width={240} height={240} />} ><img src={carrierm2} alt="logo" loading="lazy"></img></LazyLoad>   
+          <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />} ><img src={carrierm2} alt="logo" loading="lazy"></img></LazyLoad>   
           </div>
           <div className='carrier-pic1'>
-          <LazyLoad placeholder={<Skeleton width={240} height={240} />} ><img src={carrierm3} alt="logo" loading="lazy"></img></LazyLoad> 
+          <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />} ><img src={carrierm3} alt="logo" loading="lazy"></img></LazyLoad> 
           </div>
         </div>
         <div className='employe-req'>
