@@ -56,10 +56,10 @@ const Homepage = () => {
                                 <div className='link-btn'>
                                     <button className='btn-main'><a target="_blank"
                                         href="https://play.google.com/store/apps/details?id=com.cms.android.cleaningmanagementsystem.app"
-                                        class="text-decoration-none">DOWNLOAD NOW</a></button>
+                                        className="text-decoration-none">DOWNLOAD NOW</a></button>
                                     <button className='btn-main btn-margin'><a target="_blank"
                                         href="https://cms.suvidhaen.com/"
-                                        class="text-decoration-none">VISIT NOW</a></button>
+                                        className="text-decoration-none">VISIT NOW</a></button>
                                 </div>
                             </div>
                             <div className='img'>
@@ -126,23 +126,23 @@ const Homepage = () => {
                                 <h2 className="text-2xl mt-2 mb-4">Who We Are?</h2>
                                 <p className="text-lg mb-4">Have any software required then? For immediate support:</p>
                                 <ul className='service-unlist'>
-                                    <li className='service-list'><span class="material-symbols-outlined">
+                                    <li className='service-list'><span className="material-symbols-outlined">
                                         arrow_circle_right
                                     </span>RailMadad Analytics</li>
-                                    <li className='service-list'><span class="material-symbols-outlined">
+                                    <li className='service-list'><span className="material-symbols-outlined">
                                         arrow_circle_right
                                     </span>SwachhDNR</li>
-                                    <li className='service-list'><span class="material-symbols-outlined">
+                                    <li className='service-list'><span className="material-symbols-outlined">
                                         arrow_circle_right
                                     </span>AWMS - Automated Water Monitoring System</li>
-                                    <li className='service-list'><span class="material-symbols-outlined">
+                                    <li className='service-list'><span className="material-symbols-outlined">
                                         arrow_circle_right
                                     </span>
                                         Automated Monitoring System</li>
-                                    <li className='service-list'><span class="material-symbols-outlined">
+                                    <li className='service-list'><span className="material-symbols-outlined">
                                         arrow_circle_right
                                     </span>ACP Monitoring</li>
-                                    <li className='service-list'><span class="material-symbols-outlined">
+                                    <li className='service-list'><span className="material-symbols-outlined">
                                         arrow_circle_right
                                     </span>Gyan</li>
                                 </ul>
@@ -167,7 +167,7 @@ const Homepage = () => {
                             <div className='line'>
                             </div>
                             <div className='circle'>
-                                <span class="material-symbols-outlined">
+                                <span className="material-symbols-outlined">
                                     radio_button_checked
                                 </span>
                             </div>
@@ -181,7 +181,7 @@ const Homepage = () => {
                         <Slider {...settings_client}>
                             <div className="card feedback-card " style={{ width: "15rem;" }}>
                                 <div className="card-body ">
-                                    <span class="material-symbols-outlined quote">
+                                    <span className="material-symbols-outlined quote">
                                         format_quote
                                     </span>
                                     <p className="card-text pb-4">Our integrated platform, comprising a website and mobile app, streamlines employee performance record management. </p>
@@ -191,7 +191,7 @@ const Homepage = () => {
                             </div>
                             <div className="card feedback-card" style={{ width: "15rem;" }}>
                                 <div className="card-body ">
-                                    <span class="material-symbols-outlined quote">
+                                    <span className="material-symbols-outlined quote">
                                         format_quote
                                     </span>
 
@@ -203,7 +203,7 @@ const Homepage = () => {
                             </div>
                             <div className="card feedback-card" style={{ width: "15rem;" }}>
                                 <div className="card-body ">
-                                    <span class="material-symbols-outlined quote">
+                                    <span className="material-symbols-outlined quote">
                                         format_quote
                                     </span>
 
@@ -214,7 +214,7 @@ const Homepage = () => {
                             </div>
                             <div className="card feedback-card" style={{ width: "15rem;" }}>
                                 <div className="card-body ">
-                                    <span class="material-symbols-outlined quote">
+                                    <span className="material-symbols-outlined quote">
                                         format_quote
                                     </span>
 
@@ -225,7 +225,7 @@ const Homepage = () => {
                             </div>
                             <div className="card feedback-card" style={{ width: "15rem;" }}>
                                 <div className="card-body">
-                                    <span class="material-symbols-outlined quote">
+                                    <span className="material-symbols-outlined quote">
                                         format_quote
                                     </span>
 

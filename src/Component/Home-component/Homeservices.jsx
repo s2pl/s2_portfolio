@@ -62,9 +62,9 @@ const Homeservices = () => {
         </div>
       </div>
       <div className='services-card-container'>
-        <div className='services-card'>
+        <div className='services-card '>
           <Slider {...settings_services}>
-            <div className="card card-show" style={{ width: "15rem" }}>
+            <div className="card card-show  lg:min-w-[15rem] md:min-h-[28rem]" >
               <LazyLoad placeholder={<Skeleton width={240} height={240} />}>
                 <img src={phone} className="card-img-top" alt="..." loading="lazy" />
               </LazyLoad>
@@ -74,7 +74,7 @@ const Homeservices = () => {
                 <a href="#" className="service-btn btn-primary" onClick={() => setShowModal(true)}>Read More</a>
               </div>
             </div>
-            <div className="card card-show" style={{ width: "15rem" }}>
+            <div className="card card-show md:min-w-[15rem] md:min-h-[28rem]" >
               <LazyLoad placeholder={<Skeleton width={240} height={240} />}>
                 <img src={servicesImg1} className="card-img-top" alt="..." loading="lazy" />
               </LazyLoad>
@@ -84,7 +84,7 @@ const Homeservices = () => {
                 <a href="#" className="service-btn btn-primary" onClick={() => setShowModalFront(true)}>Read More</a>
               </div>
             </div>
-            <div className="card card-show" style={{ width: "15rem" }}>
+            <div className="card card-show md:min-w-[15rem] md:min-h-[28rem]">
               <LazyLoad placeholder={<Skeleton width={240} height={240} />}>
                 <img src={servicesImg2} className="card-img-top" alt="..." loading="lazy" />
               </LazyLoad>
@@ -94,7 +94,7 @@ const Homeservices = () => {
                 <a href="#" className="service-btn btn-primary" onClick={() => setShowModalPyhton(true)}>Read More</a>
               </div>
             </div>
-            <div className="card card-show" style={{ width: "15rem" }}>
+            <div className="card card-show md:min-w-[15rem] md:min-h-[28rem]" >
               <LazyLoad placeholder={<Skeleton width={240} height={240} />}>
                 <img src={servicesImg3} className="card-img-top" alt="..." loading="lazy" />
               </LazyLoad>
@@ -104,7 +104,7 @@ const Homeservices = () => {
                 <a href="#" className="service-btn btn-primary" onClick={() => setShowModalIOt(true)}>Read More</a>
               </div>
             </div>
-            <div className="card card-show" style={{ width: "15rem" }}>
+            <div className="card card-show md:min-w-[15rem] md:min-h-[28rem]" >
               <LazyLoad placeholder={<Skeleton width={240} height={240} />}>
                 <img src={servicesImg4} className="card-img-top" alt="..." loading="lazy" />
               </LazyLoad>

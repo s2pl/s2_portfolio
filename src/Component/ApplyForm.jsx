@@ -87,13 +87,13 @@ const ApplyForm = () => {
                                 <h2 className="text-center">
                                     Job Application
                                 </h2>
-                                <p className='text-center'>Please complete the form below to apply for a position with us.</p>
+                                <p className='text-center'>Please complete the form below to apply htmlFor a position with us.</p>
                                 <div className='border-2'>
 
                                 </div>
                                 <form onSubmit={handleSubmit} id="request-send">
                                     <div className="row mt-3 ">
-                                        <label for="name" className="small bold"> Full name</label>
+                                        <label htmlFor="name" className="small bold"> Full name</label>
                                         <div className="col-lg-3 mb-3 ">
 
                                             <input
@@ -103,7 +103,7 @@ const ApplyForm = () => {
                                                 className="form-control"
                                                 onChange={handleChange}
                                             />
-                                            <label for="name" className="small"> first Name</label>
+                                            <label htmlFor="name" className="small"> first Name</label>
 
                                         </div>
                                         <div className="col-lg-3 mb-3">
@@ -114,7 +114,7 @@ const ApplyForm = () => {
                                                 id="name"
                                                 className="form-control"
                                                 onChange={handleChange}
-                                            /><label for="name" className="small">middle Name</label>
+                                            /><label htmlFor="name" className="small">middle Name</label>
                                         </div>
                                         <div className="col-lg-3 mb-3">
 
@@ -124,10 +124,10 @@ const ApplyForm = () => {
                                                 id="name"
                                                 className="form-control"
                                                 onChange={handleChange}
-                                            /><label for="name" className="small">last Name</label>
+                                            /><label htmlFor="name" className="small">last Name</label>
                                         </div>
                                         <div className="row mt-3">
-                                            <label for="name" className="small bold"> Birth Date</label>
+                                            <label htmlFor="name" className="small bold"> Birth Date</label>
                                             <div className="col-lg-3 mb-3 ">
 
                                                 <input
@@ -136,7 +136,7 @@ const ApplyForm = () => {
                                                     id="name"
                                                     className="form-control"
                                                     onChange={handleChange}
-                                                />    <label for="name" className="small"> Month </label>
+                                                />    <label htmlFor="name" className="small"> Month </label>
                                             </div>
                                             <div className="col-lg-3 mb-3">
 
@@ -146,7 +146,7 @@ const ApplyForm = () => {
                                                     id="name"
                                                     className="form-control"
                                                     onChange={handleChange}
-                                                /><label for="name" className="small"> Day</label>
+                                                /><label htmlFor="name" className="small"> Day</label>
                                             </div>
                                             <div className="col-lg-3 mb-3">
 
@@ -157,12 +157,12 @@ const ApplyForm = () => {
                                                     className="form-control"
                                                     onChange={handleChange}
                                                 />
-                                                <label for="name" className="small"> Year</label>
+                                                <label htmlFor="name" className="small"> Year</label>
                                             </div>
 
                                         </div>
                                         <div className="col-lg-12 mb-2">
-                                            <label for="Address" className="small bold">Current Address</label>
+                                            <label htmlFor="Address" className="small bold">Current Address</label>
                                             <input
                                                 type="text"
                                                 name="CAddress"
@@ -170,7 +170,7 @@ const ApplyForm = () => {
                                                 className="form-control"
                                                 onChange={handleChange}
                                             />
-                                            <label for="email" className="small">Street Address</label>
+                                            <label htmlFor="email" className="small">Street Address</label>
                                             <input
                                                 type="text"
                                                 name="SAddress"
@@ -178,7 +178,7 @@ const ApplyForm = () => {
                                                 className="form-control"
                                                 onChange={handleChange}
                                             />
-                                            <label for="city" className="small">Street Address Line 2</label>
+                                            <label htmlFor="city" className="small">Street Address Line 2</label>
                                             <div className="row mt-2">
                                                 <div className="col-lg-6 mb-3 ">
 
@@ -188,7 +188,7 @@ const ApplyForm = () => {
                                                         id="name"
                                                         className="form-control"
                                                         onChange={handleChange}
-                                                    />    <label for="name" className="small"> city</label>
+                                                    />    <label htmlFor="name" className="small"> city</label>
                                                 </div>
                                                 <div className="col-lg-6 mb-3">
 
@@ -198,14 +198,14 @@ const ApplyForm = () => {
                                                         id="name"
                                                         className="form-control"
                                                         onChange={handleChange}
-                                                    /><label for="name" className="small"> State/Province</label>
+                                                    /><label htmlFor="name" className="small"> State/Province</label>
                                                 </div>
 
 
                                             </div>
                                         </div>
                                         <div className="col-lg-6 mb-2">
-                                            <label for="role" className="small bold">Role</label>
+                                            <label htmlFor="role" className="small bold">Role</label>
                                             <select name="role" id="role" className="form-select">
                                                 <option value="" selected disabled>Select Job Role</option>
                                                 <option value="IoT hardware Developement">
@@ -224,7 +224,7 @@ const ApplyForm = () => {
                                             </select>
                                         </div>
                                         <div className="col-lg-6 mb-2">
-                                            <label for="job-type" className="small bold">Job Type</label>
+                                            <label htmlFor="job-type" className="small bold">Job Type</label>
                                             <select name="jobtype" id="job-type" className="form-select">
                                                 <option value="" selected disabled>Select Job Type</option>
                                                 <option value="Part Time / Internship">
@@ -234,7 +234,7 @@ const ApplyForm = () => {
                                             </select>
                                         </div>
                                         <div className="col-lg-12 mb-2">
-                                            <label for="resume-link" className="small bold">Resume Link</label>
+                                            <label htmlFor="resume-link" className="small bold">Resume Link</label>
                                             <input
                                                 type="url"
                                                 name="resumelink"
@@ -244,7 +244,7 @@ const ApplyForm = () => {
                                             />
                                         </div>
                                         <div className="col-lg-12 mb-2">
-                                            <label for="resume-link" className="small bold">Resume </label>
+                                            <label htmlFor="resume-link" className="small bold">Resume </label>
                                             <input
                                                 type="file"
                                                 name="resume"
@@ -254,7 +254,7 @@ const ApplyForm = () => {
                                             />
                                         </div>
                                         <div className="col-lg-12 mb-2">
-                                            <label for="resume-link" className="small bold">Cover letter </label>
+                                            <label htmlFor="resume-link" className="small bold">Cover letter </label>
                                             <input
                                                 type="file"
                                                 name="coverlink"
@@ -264,7 +264,7 @@ const ApplyForm = () => {
                                             />
                                         </div>
                                         <div className="col-lg-12 mb-2">
-                                            <label for="description" className="small bold">Description</label>
+                                            <label htmlFor="description" className="small bold">Description</label>
                                             <textarea
                                                 name="description"
                                                 id="description"

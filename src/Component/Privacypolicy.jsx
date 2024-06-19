@@ -17,7 +17,7 @@ const Privacypolicy = () => {
                         <div className='="apply-des'>
                             <div className='apply-des-content'>
                                 <ol className='apply-ollist'>
-                                    <li className='apply-list'><span class="material-symbols-outlined">
+                                    <li className='apply-list'><span className="material-symbols-outlined">
                                         calendar_month
                                     </span><h5>Effective date: Oct 23, 2023</h5></li>
 
@@ -50,7 +50,7 @@ const Privacypolicy = () => {
                                         </p>
                                     </div>
                                     <div className='apply-about'>
-                                        <li className='apply-list'> <span class="material-symbols-outlined">
+                                        <li className='apply-list'> <span className="material-symbols-outlined">
                                             import_contacts
                                         </span> <h5>Information Collection and Use :</h5></li>
                                         <p>
@@ -73,7 +73,7 @@ const Privacypolicy = () => {
                                         <p>Google Play Services</p>
                                     </div>
                                     <div className='apply-about'>
-                                        <li className='apply-list'> <span class="material-symbols-outlined">
+                                        <li className='apply-list'> <span className="material-symbols-outlined">
                                             description
                                         </span>  <h5>Log Data</h5> </li>
                                         <p>
@@ -88,7 +88,7 @@ const Privacypolicy = () => {
                                         </p>
                                     </div>
                                     <div className='apply-about'>
-                                        <li className='apply-list'> <span class="material-symbols-outlined">
+                                        <li className='apply-list'> <span className="material-symbols-outlined">
                                             cookie
                                         </span> <h5>Cookies:</h5></li>
                                         <p>
@@ -101,7 +101,7 @@ const Privacypolicy = () => {
                                         </p>
                                     </div>
                                     <div className='apply-about'>
-                                        <li className='apply-list'> <span class="material-symbols-outlined">
+                                        <li className='apply-list'> <span className="material-symbols-outlined">
                                             support_agent
                                         </span>  <h5>Service Providers :</h5> </li>
                                         <p>
@@ -115,7 +115,7 @@ const Privacypolicy = () => {
                                         </p>
                                     </div>
                                     <div className='apply-about'>
-                                        <li className='apply-list'>  <span class="material-symbols-outlined">
+                                        <li className='apply-list'>  <span className="material-symbols-outlined">
                                             verified_user
                                         </span>  <h5>Security :</h5></li>
                                         <p>
@@ -128,7 +128,7 @@ const Privacypolicy = () => {
                                         </p>
                                     </div>
                                     <div className='apply-about'>
-                                        <li className='apply-list'><span class="material-symbols-outlined">
+                                        <li className='apply-list'><span className="material-symbols-outlined">
                                             other_admission
                                         </span>   <h5>Links to Other Sites</h5></li>
                                         <p>
@@ -143,7 +143,7 @@ const Privacypolicy = () => {
                                         </p>
                                     </div>
                                     <div className='apply-about'>
-                                        <li className='apply-list'>  <span class="material-symbols-outlined">
+                                        <li className='apply-list'>  <span className="material-symbols-outlined">
                                             verified_user
                                         </span> <h5>Children's Privacy</h5></li>
                                         These Services do not address anyone under the age of
@@ -156,7 +156,7 @@ const Privacypolicy = () => {
 
                                     </div>
                                     <div className='apply-about'>
-                                        <li className='apply-list'> <span class="material-symbols-outlined">
+                                        <li className='apply-list'> <span className="material-symbols-outlined">
                                             change_circle
                                         </span><h5>Changes to This Privacy Policy</h5></li>
                                         <p>
@@ -167,7 +167,7 @@ const Privacypolicy = () => {
                                         </p>
                                     </div>
                                     <div className='apply-about'>
-                                        <li className='apply-list'>  <span class="material-symbols-outlined">
+                                        <li className='apply-list'>  <span className="material-symbols-outlined">
                                             contacts_product
                                         </span> <h5>Contact Us</h5></li>
                                         <p>
