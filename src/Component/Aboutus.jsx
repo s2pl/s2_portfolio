@@ -50,15 +50,15 @@ const Aboutus = () => {
       {/* section content part end */}
 
       {/* Section A part start */}
-      <section className="section about-2 position-relative  ">
+      <section className="section md:about-2 m-4 position-relative  ">
         <div className="container">
-          <div className="row">
-            <div className="col-lg-6">
+          <div className="row flex justify-center items-center">
+            <div className="col-lg-5">
 
-              <div className="about-item pr-3 mb-5 mb-lg-0 px-3 " data-aos="fade-up">
+              <div className="about-item md:pr-3 mb-5 mb-lg-0 md:px-3 " data-aos="fade-up">
                 <span className="h5 text-color mb-3">What We Do:</span>
-                <h2 className="mt-2 mb-3 position-relative content-title">We work with IOT & provide the softwere to User with their Solve daily life problem</h2>
-                <p className="mb-5">In our pursuit of excellence in the realm of Internet of Things (IoT),
+                <h2 className="my-3 position-relative content-title ">We work with IOT & provide the softwere to User with their Solve daily life problem</h2>
+                <p className="mb-3">In our pursuit of excellence in the realm of Internet of Things (IoT),
                   we specialize in developing and delivering cutting-edge software solutions that directly
                   address and resolve the everyday challenges faced by individuals. Our mission revolves around
                   providing users with tailored software applications designed to streamline and improve their daily
@@ -71,8 +71,8 @@ const Aboutus = () => {
 
               </div>
             </div>
-            <div className="col-lg-6" data-aos="fade-up">
-              <div className="">
+            <div className="col-lg-5 flex justify-center items-center" data-aos="fade-up">
+              <div className="flex justify-center items-center">
               <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />}><img loading="lazy" src={sidepic} alt="about-image" className="img-fluid" /></LazyLoad> 
               </div>
             </div>
@@ -83,7 +83,7 @@ const Aboutus = () => {
 
       {/* Section B part start */}
       <div className='creater'>
-        <h1>Our Founder</h1>
+        <h1 className='content-title '>Our Founder</h1>
       </div>
       <div className='ceo-quotes'>
         <div className='cover-ceo'>
@@ -99,7 +99,7 @@ const Aboutus = () => {
               suggesting that by aligning our efforts with what holds genuine
               importance, we can cultivate a meaningful and satisfying existence.
             </p>
-            <h2 className="mt-2 mb-1 position-relative content-title text-gray">Neeta Sinha</h2>
+            <h3 className="mt-2 mb-1 position-relative content-title text-gray">Neeta Sinha</h3>
             <p className='text-gray'>Founder</p>
            
           </div>
@@ -116,7 +116,7 @@ const Aboutus = () => {
             <p className="mb-1">
                    This quote encourages perseverance and optimism, emphasizing that continuous effort and a positive outlook lead to success. It inspires individuals to remain resilient in the face of challenges, conveying the belief that by persistently moving forward, one will ultimately achieve success in their endeavors.
             </p>
-            <h3 className="mt-2 mb-1 position-relative content-title text-gray">srishti</h3>
+            <h3 className="mt-2 mb-1 position-relative content-title text-gray">Srishti</h3>
             <p className='text-gray'>Founder</p>
            
           </div>
@@ -176,7 +176,7 @@ const Aboutus = () => {
 
       {/* Section C part End */}
       {/* Section vision part start */}
-      <section className="about-info section px-8 py-16">
+      <section className="about-info section md:px-8 py-16">
         <div className="container">
           <p>Best Reason</p>
           <h2 className="mt-1 mb-3 position-relative content-title ">Why Choose Us</h2>
@@ -184,7 +184,7 @@ const Aboutus = () => {
             <div className="" data-aos="fade-up">
               <div className="about-info-item mb-4 mb-lg-4 vision-detail ">
                 <input id="ch1" type='checkbox'></input>
-             <label htmlFor="ch1" className="vision-h3 " onClick={() => setread1(!read1)}>    <h3 className="vision-h3 "><span className="text-color mr-2 text-md ">01. Our Mission	</span>	</h3>{read1 ? (<span className="material-symbols-outlined">
+             <label htmlFor="ch1" className="vision-h3 " onClick={() => setread1(!read1)}>    <h3 className="vision-h3 "><span className="text-color mr-2 text-md md:text-2xl">01. Our Mission	</span>	</h3>{read1 ? (<span className="material-symbols-outlined">
                   remove
                 </span>) : (<span className="material-symbols-outlined">
                   add
@@ -202,7 +202,7 @@ const Aboutus = () => {
             </div>
             <div className="about-info-item mb-4 mb-lg-4 vision-detail">
               <input id="ch2" type='checkbox'></input>
-              <label htmlFor="ch2" className="vision-h3 " onClick={() => setread2(!read2)}>     <h3 ><span className="text-color mr-2 text-md ">02. Our Vision</span>		</h3>	{read2 ? (<span className="material-symbols-outlined">
+              <label htmlFor="ch2" className="vision-h3 " onClick={() => setread2(!read2)}>     <h3 ><span className="text-color mr-2 text-md md:text-2xl">02. Our Vision</span>		</h3>	{read2 ? (<span className="material-symbols-outlined">
                 remove
               </span>) : (<span className="material-symbols-outlined">
                 add
@@ -216,7 +216,7 @@ const Aboutus = () => {
             </div>
             <div className="about-info-item mb-4 mb-lg-4 vision-detail">
               <input id="ch3" type='checkbox'></input>
-              <label htmlFor="ch3" className="vision-h3 " onClick={() => setread3(!read3)}>    <h3 ><span className="text-color mr-2 text-md ">03. Our Approach</span> </h3>{read3 ? (<span className="material-symbols-outlined">
+              <label htmlFor="ch3" className="vision-h3 " onClick={() => setread3(!read3)}>    <h3 ><span className="text-color mr-2 text-md md:text-2xl">03. Our Approach</span> </h3>{read3 ? (<span className="material-symbols-outlined">
                 remove
               </span>) : (<span className="material-symbols-outlined">
                 add
@@ -236,7 +236,7 @@ const Aboutus = () => {
           <div className="row justify-content-center">
             <div className="col-lg-7 text-center">
               <div className="section-title">
-                <span className="h6 text-color">Our Team</span>
+                <span className="h6 text-color content-title">Our Team</span>
                 <h2 className="mt-3 content-title">Expert Team profileber to get best service</h2>
               </div>
             </div>
