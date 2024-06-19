@@ -609,13 +609,14 @@ img {
     margin-top: 1rem;
   }
 } */
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   .services-card {
     padding: 0rem;
     width: 80%;
   }
+}
 
-  
+@media (max-width: 800px) {
   .footer {
     padding-left: 2px;
     padding-right: 2px;
@@ -627,6 +628,20 @@ img {
     padding: 12px;
   }
 }
+
+.card-show {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 700px) and (max-width: 1280px) {
+  .services-card {
+    padding: 0rem 2rem;
+    width: 100%;
+  }
+}
+
 
 .card-show {
   background-color: #fff;

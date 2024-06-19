@@ -77,21 +77,21 @@ const Carrier = () => {
 
             </div>
             <div className='employee-satisfy-part'>
-              <span className="matNameclassNameerial-symbols-outlined">
+              <span class="material-symbols-outlined">
                 filter_alt
               </span>
               <h4>Free Snacks & Drinks</h4>
 
             </div>
             <div className='employee-satisfy-part'>
-              <span className="matNameclassNameerial-symbols-outlined">
+              <span className="material-symbols-outlined">
                 stadia_controller
               </span>
               <h4>Gaming</h4>
 
             </div>
             <div className='employee-satisfy-part'>
-              <span className="matNameclassNameerial-symbols-outlined">
+              <span className="material-symbols-outlined">
                 calendar_month
               </span>
               <h4>6 Working Days</h4>
@@ -100,7 +100,7 @@ const Carrier = () => {
           </div>
         </div>
         <div className='carrier-apply'>
-          <div className='apply-content-cover'>
+          <div className='apply-content-cover pt-3'>
             <p className='apply-heading'>Job Opening </p>
             <div className='apply-content'>
 
