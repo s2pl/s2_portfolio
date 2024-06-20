@@ -26,8 +26,8 @@
     margin: 0;
 }
 .carrier-top-cover {
-    background-color: rgba(0, 0, 0, 0.432);
-    height: 35vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    min-height: 35vh;
     padding: 2rem;
     display: flex;
     justify-content: center;
@@ -436,7 +436,7 @@
 }
 
 .bg-1 {
-    background: url("../static_data/web_content/iotabout.webp") no-repeat 50% 50%;
+    background: url("../static_data/web_content/aboutus1.png") no-repeat 50% 50%;
     background-size: cover;
 }
 
@@ -477,7 +477,7 @@
 }
 
 .about-bg-counter {
-    background: url("../static_data/web_content/carrier-top.webp") no-repeat;
+    background: url("../static_data/web_content/aboutus.jpg") no-repeat 50% 50%;
     background-size: cover;
 
 }
@@ -491,7 +491,7 @@
 }
 
 .creater {
-    padding: 1.5rem;
+    padding: 1rem;
 }
 
 .creater h1 {
@@ -902,9 +902,8 @@
         width: 95%;
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
-        background-color: #303032;
-        color: white;
+        justify-content: flex-start; 
+        color: black;
     }
 
     .ceo-photo-bg {
