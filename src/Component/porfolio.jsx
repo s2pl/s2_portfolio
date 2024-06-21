@@ -57,22 +57,34 @@ const porfolio = () => {
               <Slider {...settings_services}>
                 <div className="card card-show" style={{ width: "15rem;" }}>
                   <div className='img-slide'>
-                    <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={special2} className="card-img-top" alt="..." loading="lazy" /></LazyLoad> </div>
+                    <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />}><img src={special2} className="card-img-top" alt="..." loading="lazy" /></LazyLoad> </div>
                   <div className="card-body text-center">
                     <h5 className="card-title">SawachDNR application </h5>
                     <p className="card-text pb-4">Sarva Suvidhan is a recognized leader in developing automation for complex organizational and institutional concerns. Our mission is to bring automation, technology, and innovation to simplify complex problems. We add value by increasing efficiency and driving data and analytics for higher quality standards.
+
 
 Since our inception, we have worked with large organizations to deploy intelligent automation, which has helped improve turnaround times, enhance service quality, and achieve higher customer satisfaction.
 
 Our team of solution architects, designers, and developers will help you craft a solution tailored to your requirements.
 
 We are a recognized DIPP startup from Bihar and are proud recipients of multiple awards.</p>
-
+ <div className='visit-link'>
+                      visit now :
+                      <div className='app-name'><a target="_blank"
+                        href="https://cms.suvidhaen.com/"
+                        className="text-decoration-none">Swach Station website</a></div>
+                      <div className='app-name'><a target="_blank"
+                        href="https://play.google.com/store/apps/details?id=com.cms.android.cleaningmanagementsystem.app"
+                        className="text-decoration-none">Swach Station App</a></div>
+                      <div className='app-name'><a target="_blank"
+                        href="https://youtube.com/playlist?list=PLPXLxMmLRj-Ia_sqcsx6DGK__88I0SIUc&si=K1el360woew-sYAJ"
+                        className="text-decoration-none">Swach Station More Information... </a></div>
+                    </div>
                   </div>
                 </div>
                 <div className="card card-show" style={{ width: "15rem;" }}>
                   <div className='img-slide'>
-                    <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={special} className="card-img-top" alt="..." loading="lazy" /></LazyLoad>
+                    <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />}><img src={special} className="card-img-top" alt="..." loading="lazy" /></LazyLoad>
                   </div>
                   <div className="card-body text-center">
                     <h5 className="card-title">The certificate offered by entities such as the Bihar Startup Innovation Program and the IIT Patna Incubation Center serves</h5>
@@ -86,7 +98,7 @@ We are a recognized DIPP startup from Bihar and are proud recipients of multiple
                 </div>
                 <div className="card card-show" style={{ width: "15rem;" }}>
                   <div className='img-slide'>
-                    <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={servicesImg1} className="card-img-top" alt="..." loading="lazy" /></LazyLoad>  </div>
+                    <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />}><img src={servicesImg1} className="card-img-top" alt="..." loading="lazy" /></LazyLoad>  </div>
                   <div className="card-body text-center">
                     <h5 className="card-title ">Smart Bihar Hackthon-2023</h5>
                     <p className="card-text pb-4">
@@ -100,14 +112,16 @@ With this accolade, we are eager to showcase our capabilities and explore opport
                 </div>
                 <div className="card card-show" style={{ width: "15rem;" }}>
                   <div className='img-slide'>
-                    <LazyLoad placeholder={<Skeleton width={240} height={240} />}> <img src={servicesImg2} className="card-img-top" alt="..." loading="lazy" /></LazyLoad>  </div>
+                    <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />}> <img src={servicesImg2} className="card-img-top" alt="..." loading="lazy" /></LazyLoad>  </div>
                   <div className="card-body text-center">
                     <h5 className="card-title">Bihar Industries Association Award</h5>
+
                     <p className="card-text pb-4">We are immensely proud to announce that our startup has clinched the prestigious Bihar Industries Association Award, securing the top position in the IT Services and IoT Software category. This recognition reaffirms our commitment to innovation, excellence, and impactful solutions.
 
 At the intersection of cutting-edge Information Technology services and pioneering IoT software, we have consistently pushed boundaries to deliver unparalleled value to our clients. This accolade not only reflects our team's dedication but also underscores the transformative impact of our services on the industry.
 
 As we celebrate this milestone, we look forward to continuing our journey of technological innovation, driving positive change, and delivering exceptional results for our clients. This award serves as a testament to our vision, hard work, and the collective effort of our talented team, motivating us to reach new heights in the dynamic landscape of IT and IoT.
+
                     </p>
 
                   </div>
@@ -115,7 +129,7 @@ As we celebrate this milestone, we look forward to continuing our journey of tec
 
                 <div className="card card-show" style={{ width: "15rem;" }}>
                   <div className='img-slide'>
-                    <LazyLoad placeholder={<Skeleton width={240} height={240} />}> <img src={servicesImg4} className="card-img-top" alt="..." loading="lazy" /></LazyLoad>  </div>
+                    <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />}> <img src={servicesImg4} className="card-img-top" alt="..." loading="lazy" /></LazyLoad>  </div>
                   <div className="card-body text-center">
                     <h5 className="card-title">Destination Bihar Expo-2024</h5>
                     <p className="card-text pb-4">Participation in the Destination Bihar Expo-2024 marks a significant milestone for us. Engaging in this prestigious event allows us to showcase our commitment to excellence, innovation, and contributing to the growth of Bihar's economic landscape. By actively participating, we aim to forge valuable connections, explore collaborations, and highlight the unique offerings of our business.
@@ -126,7 +140,7 @@ Receiving a certificate from the Destination Bihar Expo-2024 is an esteemed ackn
                 </div>
                 <div className="card card-show" style={{ width: "15rem;" }}>
                   <div className='img-slide'>
-                    <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={homepage} className="card-img-top" alt="..." loading="lazy" /></LazyLoad></div>
+                    <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />}><img src={homepage} className="card-img-top" alt="..." loading="lazy" /></LazyLoad></div>
                   <div className="card-body text-center">
                     <h5 className="card-title ">Railmadad analytics software is provided by my company, Sarva Suvidhaen Private Limited.</h5>
                     <p className="card-text pb-4">
@@ -155,13 +169,13 @@ Receiving a certificate from the Destination Bihar Expo-2024 is an esteemed ackn
 
             <div className="row">
               <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
-                <LazyLoad placeholder={<Skeleton width={240} height={240} />}> <img
+                <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />}> <img
                   src={gpai1}
                   className="w-80 shadow-1-strong rounded mb-4 image-center galary-mg"
                   alt="Boat on Calm Water"
                 /></LazyLoad>
 
-                <LazyLoad placeholder={<Skeleton width={240} height={240} />}> <img
+                <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />}> <img
                   src={gpai2}
                   className="w-80 shadow-1-strong rounded mb-4 image-center galary-mg"
                   alt="Wintry Mountain Landscape"
@@ -169,13 +183,13 @@ Receiving a certificate from the Destination Bihar Expo-2024 is an esteemed ackn
               </div>
 
               <div className="col-lg-4 mb-4 mb-lg-0">
-                <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img
+                <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />}><img
                   src={gpai3}
                   className="w-80 shadow-1-strong rounded mb-4 image-center galary-mg"
                   alt="Mountains in the Clouds"
                 /></LazyLoad>
 
-                <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img
+                <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />}><img
                   src={gpai4}
                   className="w-100 shadow-1-strong rounded mb-4 image-center galary-mg"
                   alt="Boat on Calm Water"
@@ -183,13 +197,13 @@ Receiving a certificate from the Destination Bihar Expo-2024 is an esteemed ackn
               </div>
 
               <div className="col-lg-4 mb-4 mb-lg-0">
-                <LazyLoad placeholder={<Skeleton width={240} height={240} />}> <img
+                <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />}> <img
                   src={homepage}
                   className="w-70 shadow-1-strong rounded mb-4 image-center galary-mg"
                   alt="Waves at Sea"
                 /></LazyLoad>
 
-                <LazyLoad placeholder={<Skeleton width={240} height={240} />}> <img
+                <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />}> <img
                   src={patnaaward}
                   className="w-80 shadow-1-strong rounded mb-4 image-center galary-mg"
                   alt="Yosemite National Park"

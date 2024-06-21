@@ -40,10 +40,10 @@ const Homepage = () => {
     return (
         <div>
             {/*  header slider section*/}
-            <div className='poster-slider'>
-                <div className='poster'>
+            <div className='poster-slider min-h-[250px]  lg:min-h-[340px]'>
+                <div className='poster '>
                     <div className="item" id="item1" >
-                        <div className='item-cover'>
+                        <div className='item-cover '>
                             <div className="content" data-aos="fade-down">
                                 <div className="name">
                                     <div className='head-name'>
@@ -56,14 +56,14 @@ const Homepage = () => {
                                 <div className='link-btn'>
                                     <button className='btn-main'><a target="_blank"
                                         href="https://play.google.com/store/apps/details?id=com.cms.android.cleaningmanagementsystem.app"
-                                        class="text-decoration-none">DOWNLOAD NOW</a></button>
+                                        className="text-decoration-none">DOWNLOAD NOW</a></button>
                                     <button className='btn-main btn-margin'><a target="_blank"
                                         href="https://cms.suvidhaen.com/"
-                                        class="text-decoration-none">VISIT NOW</a></button>
+                                        className="text-decoration-none">VISIT NOW</a></button>
                                 </div>
                             </div>
                             <div className='img'>
-                             <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={phone} loading="lazy"></img></LazyLoad>   
+                             <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />}><img src={phone} loading="lazy"></img></LazyLoad>   
                             </div>
                         </div>
                     </div>
@@ -82,7 +82,7 @@ const Homepage = () => {
                         <p>We are a recognized DIPP Startup from Bihar and are proud recipients of multiple awards.</p>
                     </div>
                     <div className='front-img'>
-                       <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={rightpic} alt=""  loading="lazy" /></LazyLoad> 
+                       <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />}><img src={rightpic} alt=""  loading="lazy" /></LazyLoad> 
                     </div>
                 </div>
             </div>
@@ -125,23 +125,23 @@ const Homepage = () => {
                                 <h2 className="text-2xl mt-2 mb-4">Who We Are?</h2>
                                 <p className="text-lg mb-4">Have any software required then? For immediate support:</p>
                                 <ul className='service-unlist'>
-                                    <li className='service-list'><span class="material-symbols-outlined">
+                                    <li className='service-list'><span className="material-symbols-outlined">
                                         arrow_circle_right
                                     </span>RailMadad Analytics</li>
-                                    <li className='service-list'><span class="material-symbols-outlined">
+                                    <li className='service-list'><span className="material-symbols-outlined">
                                         arrow_circle_right
                                     </span>SwachhDNR</li>
-                                    <li className='service-list'><span class="material-symbols-outlined">
+                                    <li className='service-list'><span className="material-symbols-outlined">
                                         arrow_circle_right
                                     </span>AWMS - Automated Water Monitoring System</li>
-                                    <li className='service-list'><span class="material-symbols-outlined">
+                                    <li className='service-list'><span className="material-symbols-outlined">
                                         arrow_circle_right
                                     </span>
                                         Automated Monitoring System</li>
-                                    <li className='service-list'><span class="material-symbols-outlined">
+                                    <li className='service-list'><span className="material-symbols-outlined">
                                         arrow_circle_right
                                     </span>ACP Monitoring</li>
-                                    <li className='service-list'><span class="material-symbols-outlined">
+                                    <li className='service-list'><span className="material-symbols-outlined">
                                         arrow_circle_right
                                     </span>Gyan</li>
                                 </ul>
@@ -166,7 +166,7 @@ const Homepage = () => {
                             <div className='line'>
                             </div>
                             <div className='circle'>
-                                <span class="material-symbols-outlined">
+                                <span className="material-symbols-outlined">
                                     radio_button_checked
                                 </span>
                             </div>
@@ -180,7 +180,7 @@ const Homepage = () => {
                         <Slider {...settings_client}>
                             <div className="card feedback-card " style={{ width: "15rem;" }}>
                                 <div className="card-body ">
-                                    <span class="material-symbols-outlined quote">
+                                    <span className="material-symbols-outlined quote">
                                         format_quote
                                     </span>
                                     <p className="card-text pb-4">Our integrated platform, comprising a website and mobile app, streamlines employee performance record management. </p>
@@ -190,7 +190,7 @@ const Homepage = () => {
                             </div>
                             <div className="card feedback-card" style={{ width: "15rem;" }}>
                                 <div className="card-body ">
-                                    <span class="material-symbols-outlined quote">
+                                    <span className="material-symbols-outlined quote">
                                         format_quote
                                     </span>
 
@@ -202,7 +202,7 @@ const Homepage = () => {
                             </div>
                             <div className="card feedback-card" style={{ width: "15rem;" }}>
                                 <div className="card-body ">
-                                    <span class="material-symbols-outlined quote">
+                                    <span className="material-symbols-outlined quote">
                                         format_quote
                                     </span>
 
@@ -213,7 +213,7 @@ const Homepage = () => {
                             </div>
                             <div className="card feedback-card" style={{ width: "15rem;" }}>
                                 <div className="card-body ">
-                                    <span class="material-symbols-outlined quote">
+                                    <span className="material-symbols-outlined quote">
                                         format_quote
                                     </span>
 
@@ -224,7 +224,7 @@ const Homepage = () => {
                             </div>
                             <div className="card feedback-card" style={{ width: "15rem;" }}>
                                 <div className="card-body">
-                                    <span class="material-symbols-outlined quote">
+                                    <span className="material-symbols-outlined quote">
                                         format_quote
                                     </span>
 
@@ -242,19 +242,19 @@ const Homepage = () => {
                 <div className='govern'>
                     <div className='govern-card'>
                         <div className='support-img'>
-                          <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={supportImg1} alt=""  loading="lazy" /></LazyLoad>  
+                          <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />}><img src={supportImg1} alt=""  loading="lazy" /></LazyLoad>  
 
                         </div><p>IIT Patna Incubation Centre</p>
                     </div>
                     <div className='govern-card'>
                         <div className='support-img'>
-                          <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={supportImg2} alt=""  loading="lazy" /></LazyLoad>  
+                          <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />}><img src={supportImg2} alt=""  loading="lazy" /></LazyLoad>  
                         </div>
                         <p>Startup Bihar</p>
                     </div>
                     <div className='govern-card'>
                         <div className='support-img'>
-                        <LazyLoad placeholder={<Skeleton width={240} height={240} />}>  <img src={supportImg3} alt=""  loading="lazy" /></LazyLoad> 
+                        <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />}>  <img src={supportImg3} alt=""  loading="lazy" /></LazyLoad> 
                         </div>
                         <p>Ministry of Electronics and Information Technology</p>
                     </div>

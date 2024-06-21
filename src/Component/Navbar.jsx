@@ -11,28 +11,28 @@ const Navbar = () => {
 
   return (
     <div>
-      <div classNameName="navigate">
+      <div className="navigate">
 
         <ul className='nav'>
           <li className='email'>
 
 
             <a href="https://wa.me/9955481699?text=Hello%20from%20your%20website" target="_blank">
-              <i class="fa-brands fa-whatsapp what phone "></i>  <button>Contact Us on WhatsApp</button>
+              <i className="fa-brands fa-whatsapp what phone "></i>  <button>Contact Us on WhatsApp</button>
             </a>
 
 
           </li>
           <li className='email'>
 
-            <span class="material-symbols-outlined  phone gmail">
+            <span className="material-symbols-outlined  phone gmail">
               mail
             </span>
             <a href="mailto:sarva.suvidhaen@gmail.com" className='pointer'>sarva.suvidhaen@gmail.com</a>
 
           </li>
           <li className='email'>
-            <span class="material-symbols-outlined phone call">
+            <span className="material-symbols-outlined phone call">
               call
             </span > <a href="tel:99554 81699" className='pointer text-gray-700'>Call Us : +91 9955481699
             </a>
@@ -50,9 +50,9 @@ const Navbar = () => {
                     </Link>
                     <button className="navbar-toggler collapsed" onClick={() => setMedia(!showMedia)} type="button" data-toggle="collapse" data-target="#navbarsExample09"
                       aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation" >{showMedia ?
-                        (<span class="material-symbols-outlined">
+                        (<span className="material-symbols-outlined">
                           dangerous
-                        </span>) : (<span class="material-symbols-outlined">
+                        </span>) : (<span className="material-symbols-outlined">
                           menu
                         </span>)}
                     </button>

@@ -67,13 +67,13 @@ const Aboutus = () => {
                   issues encountered in various aspects of daily life. Through our commitment to user-centric design and technological
                   innovation, we aspire to make a meaningful and positive impact on the lives of
                   our users, ultimately making their routines more efficient, connected, and seamlessly integrated with smart solutions.  </p>
-                <a href="" target="_blank" className="btn btn-main btn-round-full">Explore</a>
+                <a href="https://youtube.com/playlist?list=PLPXLxMmLRj-Ia_sqcsx6DGK__88I0SIUc&si=K1el360woew-sYAJ" target="_blank" className="btn btn-main btn-round-full">Explore</a>
 
               </div>
             </div>
             <div className="col-lg-6" data-aos="fade-up">
               <div className="">
-              <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img loading="lazy" src={sidepic} alt="about-image" className="img-fluid" /></LazyLoad> 
+              <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />}><img loading="lazy" src={sidepic} alt="about-image" className="img-fluid" /></LazyLoad> 
               </div>
             </div>
           </div>
@@ -127,7 +127,7 @@ const Aboutus = () => {
       {/* cerificate */}
       <div className="about-item-img p-5 " data-aos="fade-up">
         <div className=" col-8 ">
-        <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img loading="lazy" src={cerificate} alt="about-image" className="img-fluid" /></LazyLoad>   
+        <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />}><img loading="lazy" src={cerificate} alt="about-image" className="img-fluid" /></LazyLoad>   
         </div>
       </div>
       {/* cerificate end*/}
@@ -184,9 +184,9 @@ const Aboutus = () => {
             <div className="" data-aos="fade-up">
               <div className="about-info-item mb-4 mb-lg-4 vision-detail ">
                 <input id="ch1" type='checkbox'></input>
-             <label for="ch1" className="vision-h3 " onClick={() => setread1(!read1)}>    <h3 className="vision-h3 "><span class="text-color mr-2 text-md ">01. Our Mission	</span>	</h3>{read1 ? (<span class="material-symbols-outlined">
+             <label htmlFor="ch1" className="vision-h3 " onClick={() => setread1(!read1)}>    <h3 className="vision-h3 "><span className="text-color mr-2 text-md ">01. Our Mission	</span>	</h3>{read1 ? (<span className="material-symbols-outlined">
                   remove
-                </span>) : (<span class="material-symbols-outlined">
+                </span>) : (<span className="material-symbols-outlined">
                   add
                 </span>)}	</label>
 
@@ -202,9 +202,9 @@ const Aboutus = () => {
             </div>
             <div className="about-info-item mb-4 mb-lg-4 vision-detail">
               <input id="ch2" type='checkbox'></input>
-              <label for="ch2" className="vision-h3 " onClick={() => setread2(!read2)}>     <h3 ><span class="text-color mr-2 text-md ">02. Our Vision</span>		</h3>	{read2 ? (<span class="material-symbols-outlined">
+              <label htmlFor="ch2" className="vision-h3 " onClick={() => setread2(!read2)}>     <h3 ><span className="text-color mr-2 text-md ">02. Our Vision</span>		</h3>	{read2 ? (<span className="material-symbols-outlined">
                 remove
-              </span>) : (<span class="material-symbols-outlined">
+              </span>) : (<span className="material-symbols-outlined">
                 add
               </span>)}</label>
 
@@ -216,9 +216,9 @@ const Aboutus = () => {
             </div>
             <div className="about-info-item mb-4 mb-lg-4 vision-detail">
               <input id="ch3" type='checkbox'></input>
-              <label for="ch3" className="vision-h3 " onClick={() => setread3(!read3)}>    <h3 ><span class="text-color mr-2 text-md ">03. Our Approach</span> </h3>{read3 ? (<span class="material-symbols-outlined">
+              <label htmlFor="ch3" className="vision-h3 " onClick={() => setread3(!read3)}>    <h3 ><span className="text-color mr-2 text-md ">03. Our Approach</span> </h3>{read3 ? (<span className="material-symbols-outlined">
                 remove
-              </span>) : (<span class="material-symbols-outlined">
+              </span>) : (<span className="material-symbols-outlined">
                 add
               </span>)}		</label>
 
@@ -250,7 +250,7 @@ const Aboutus = () => {
       <div className='team-detail' >
           <div className='team-intro'>
           <div className='team-mate'>
-          <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={profile} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad> </div>
+          <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />}><img src={profile} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad> </div>
           <div className='name'>Manyan Singh Tomar </div>
           <div className="post">Team -leader</div>
 
@@ -258,13 +258,13 @@ const Aboutus = () => {
 
         </div>
         <div className='team-intro'>
-          <div className='team-mate'><LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={akhil} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad> </div>
+          <div className='team-mate'><LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />}><img src={akhil} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad> </div>
           <div className='name'>Akhil</div>
           <div className="post">Team -leader</div>
         </div>
         <div className='team-intro'>
           <div className='team-mate'> 
-          <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={rutval} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad></div>
+          <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />}><img src={rutval} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad></div>
           <div className='name'>Rutval B. Thonge</div>
           <div className="post">Developer</div>
 
@@ -274,13 +274,13 @@ const Aboutus = () => {
         </div>
         
         <div className='team-intro'>
-          <div className='team-mate'> <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={profile} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad></div>
+          <div className='team-mate'> <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />}><img src={profile} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad></div>
           <div className='name'>************</div>
           <div className="post">************</div>
 
         </div>
         <div className='team-intro'>
-          <div className='team-mate'> <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={profile} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad></div>
+          <div className='team-mate'> <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />}><img src={profile} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad></div>
           <div className='name'>************</div>
           <div className="post">************</div>
 
@@ -289,28 +289,28 @@ const Aboutus = () => {
         </div>
 
         <div className='team-intro'>
-          <div className='team-mate'><LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={profile} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad> </div>
+          <div className='team-mate'><LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />}><img src={profile} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad> </div>
           <div className='name'>************ </div>
           <div className="post">************</div>
 
 
         </div>
         <div className='team-intro'>
-          <div className='team-mate'><LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={profile} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad> </div>
+          <div className='team-mate'><LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />}><img src={profile} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad> </div>
           <div className='name'>************</div>
           <div className="post">************</div>
 
           
         </div>
         <div className='team-intro'>
-          <div className='team-mate'> <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={profile} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad></div>
+          <div className='team-mate'> <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />}><img src={profile} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad></div>
           <div className='name'>************ </div>
           <div className="post">************</div>
 
 
         </div>
         <div className='team-intro'>
-          <div className='team-mate'> <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={profile} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad></div>
+          <div className='team-mate'> <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />}><img src={profile} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad></div>
           <div className='name'>************</div>
           <div className="post">************</div>
 
@@ -319,7 +319,7 @@ const Aboutus = () => {
 
 
         <div className='team-intro'>
-          <div className='team-mate'> <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={profile} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad></div>
+          <div className='team-mate'> <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />}><img src={profile} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad></div>
           <div className='name'>************</div>
           <div className="post">************</div>
 
@@ -327,7 +327,7 @@ const Aboutus = () => {
         </div>
 
         <div className='team-intro'>
-          <div className='team-mate'><LazyLoad placeholder={<Skeleton width={240} height={240} />}> <img src={profile} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad></div>
+          <div className='team-mate'><LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />}> <img src={profile} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad></div>
           <div className='name'>************</div>
           <div className="post">************</div>
 
@@ -351,7 +351,7 @@ const Aboutus = () => {
                         <Slider {...settings_client}>
                             <div className="card feedback-card " style={{ width: "15rem;" }}>
                                 <div className="card-body ">
-                                    <span class="material-symbols-outlined quote">
+                                    <span className="material-symbols-outlined quote">
                                         format_quote
                                     </span>
                                     <p className="card-text pb-4">Our integrated platform, comprising a website and mobile app, streamlines employee performance record management. </p>
@@ -361,7 +361,7 @@ const Aboutus = () => {
                             </div>
                             <div className="card feedback-card" style={{ width: "15rem;" }}>
                                 <div className="card-body ">
-                                    <span class="material-symbols-outlined quote">
+                                    <span className="material-symbols-outlined quote">
                                         format_quote
                                     </span>
 
@@ -373,7 +373,7 @@ const Aboutus = () => {
                             </div>
                             <div className="card feedback-card" style={{ width: "15rem;" }}>
                                 <div className="card-body ">
-                                    <span class="material-symbols-outlined quote">
+                                    <span className="material-symbols-outlined quote">
                                         format_quote
                                     </span>
 
@@ -384,7 +384,7 @@ const Aboutus = () => {
                             </div>
                             <div className="card feedback-card" style={{ width: "15rem;" }}>
                                 <div className="card-body ">
-                                    <span class="material-symbols-outlined quote">
+                                    <span className="material-symbols-outlined quote">
                                         format_quote
                                     </span>
 
@@ -395,7 +395,7 @@ const Aboutus = () => {
                             </div>
                             <div className="card feedback-card" style={{ width: "15rem;" }}>
                                 <div className="card-body">
-                                    <span class="material-symbols-outlined quote">
+                                    <span className="material-symbols-outlined quote">
                                         format_quote
                                     </span>
 

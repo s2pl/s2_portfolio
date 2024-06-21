@@ -37,12 +37,19 @@ const Homeservices = () => {
     nextArrow: null,
     responsive: [
       {
+        breakpoint: 900,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      },
+      {
         breakpoint: 700,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1
         }
-      },
+      }
     ]
   }
 
@@ -62,10 +69,10 @@ const Homeservices = () => {
         </div>
       </div>
       <div className='services-card-container'>
-        <div className='services-card'>
+        <div className='services-card '>
           <Slider {...settings_services}>
-            <div className="card card-show" style={{ width: "15rem" }}>
-              <LazyLoad placeholder={<Skeleton width={240} height={240} />}>
+            <div className="card card-show  lg:min-w-[15rem] md:min-h-[28rem]" >
+              <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />}>
                 <img src={phone} className="card-img-top" alt="..." loading="lazy" />
               </LazyLoad>
               <div className="card-body text-center">
@@ -74,8 +81,8 @@ const Homeservices = () => {
                 <a href="#" className="service-btn btn-primary" onClick={() => setShowModal(true)}>Read More</a>
               </div>
             </div>
-            <div className="card card-show" style={{ width: "15rem" }}>
-              <LazyLoad placeholder={<Skeleton width={240} height={240} />}>
+            <div className="card card-show md:min-w-[15rem] md:min-h-[28rem]" >
+              <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />}>
                 <img src={servicesImg1} className="card-img-top" alt="..." loading="lazy" />
               </LazyLoad>
               <div className="card-body text-center">
@@ -84,8 +91,8 @@ const Homeservices = () => {
                 <a href="#" className="service-btn btn-primary" onClick={() => setShowModalFront(true)}>Read More</a>
               </div>
             </div>
-            <div className="card card-show" style={{ width: "15rem" }}>
-              <LazyLoad placeholder={<Skeleton width={240} height={240} />}>
+            <div className="card card-show md:min-w-[15rem] md:min-h-[28rem]">
+              <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />}>
                 <img src={servicesImg2} className="card-img-top" alt="..." loading="lazy" />
               </LazyLoad>
               <div className="card-body text-center">
@@ -94,8 +101,8 @@ const Homeservices = () => {
                 <a href="#" className="service-btn btn-primary" onClick={() => setShowModalPyhton(true)}>Read More</a>
               </div>
             </div>
-            <div className="card card-show" style={{ width: "15rem" }}>
-              <LazyLoad placeholder={<Skeleton width={240} height={240} />}>
+            <div className="card card-show md:min-w-[15rem] md:min-h-[28rem]" >
+              <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />}>
                 <img src={servicesImg3} className="card-img-top" alt="..." loading="lazy" />
               </LazyLoad>
               <div className="card-body text-center">
@@ -104,8 +111,8 @@ const Homeservices = () => {
                 <a href="#" className="service-btn btn-primary" onClick={() => setShowModalIOt(true)}>Read More</a>
               </div>
             </div>
-            <div className="card card-show" style={{ width: "15rem" }}>
-              <LazyLoad placeholder={<Skeleton width={240} height={240} />}>
+            <div className="card card-show md:min-w-[15rem] md:min-h-[28rem]" >
+              <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />}>
                 <img src={servicesImg4} className="card-img-top" alt="..." loading="lazy" />
               </LazyLoad>
               <div className="card-body text-center">
@@ -124,17 +131,29 @@ const Homeservices = () => {
             <CModalBody className="custom-modal-body">
               <div className='apply-details'>
                 <div className='apply-des'>
-                  <p className='apply-heading'>SwachDNR station</p>
+                  <p className='apply-heading'>Swach station</p>
                   <div className='apply-des-content'>
                     <p>SwachDNR Station is an innovative integrated platform developed to enhance the efficiency and effectiveness of the railway cleaning department within the DNR board of Indian Railways. This comprehensive solution consists of both a website and a mobile application, designed to streamline the management of employee performance records and the rating system for cleanliness across all stations under the jurisdiction of the DNR board.</p>
                     <p>Through SwachDNR Station, railway authorities can effortlessly track and manage the performance of cleaning personnel, ensuring accountability and incentivizing excellence in service delivery. The platform enables seamless recording, monitoring, and evaluation of cleaning activities, allowing for real-time insights into station cleanliness levels.</p>
                     <p>Moreover, SwachDNR Station facilitates the implementation of a standardized rating system across all stations, providing valuable feedback mechanisms for both employees and management to continuously improve cleanliness standards. By leveraging technology, this platform not only simplifies administrative tasks but also fosters a culture of cleanliness and professionalism within the railway cleaning department, ultimately contributing to an enhanced travel experience for passengers and a positive image for the Indian Railways.</p>
                   </div>
+                  <div className='visit-link'>
+                    visit now :
+                    <div className='app-name'><a target="_blank"
+                                        href="https://cms.suvidhaen.com/"
+                                        className="text-decoration-none">Swach Station website</a></div>
+                    <div className='app-name'><a target="_blank"
+                                        href="https://play.google.com/store/apps/details?id=com.cms.android.cleaningmanagementsystem.app"
+                                        className="text-decoration-none">Swach Station App</a></div>
+                    <div className='app-name'><a target="_blank"
+                                        href="https://youtube.com/playlist?list=PLPXLxMmLRj-Ia_sqcsx6DGK__88I0SIUc&si=K1el360woew-sYAJ"
+                                        className="text-decoration-none">Swach Station More Information... </a></div>
+                  </div>
                 </div>
               </div>
               <div className='read-modal'>
                 <div className='modal-img'>
-                  <LazyLoad placeholder={<Skeleton width={240} height={240} />}>
+                  <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />}>
                     <img src={rightpic} alt="" loading="lazy" />
                   </LazyLoad>
                 </div>
@@ -157,11 +176,23 @@ const Homeservices = () => {
                     <p>Moreover, the Automated Monitoring System facilitates remote monitoring and control, allowing users to access and manage their solar energy systems from anywhere, at any time. This level of convenience and flexibility enhances the overall user experience and empowers solar energy system owners to make informed decisions regarding their energy production and consumption.</p>
                     <p>Sarva Suvidhaen's Automated Monitoring System represents a significant advancement in the field of solar energy management, driving efficiency, sustainability, and cost-effectiveness. By harnessing the power of embedded systems and software, this solution empowers users to optimize their solar panel performance and contribute to a greener and more sustainable future.</p>
                   </div>
+                  <div className='visit-link'>
+                    visit now :
+                    <div className='app-name'><a target="_blank"
+                                        href=" "
+                                        className="text-decoration-none">Automated Monitoring System website</a></div>
+                    <div className='app-name'><a target="_blank"
+                                        href=""
+                                        className="text-decoration-none">Automated Monitoring System App</a></div>
+                    <div className='app-name'><a target="_blank"
+                                        href=""
+                                        className="text-decoration-none">Automated Monitoring System More Information... </a></div>
+                  </div>
                 </div>
               </div>
               <div className='read-modal'>
                 <div className='modal-img'>
-                  <LazyLoad placeholder={<Skeleton width={240} height={240} />}>
+                  <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />}>
                     <img src={Automated} alt="" loading="lazy" />
                   </LazyLoad>
                 </div>
@@ -182,11 +213,23 @@ const Homeservices = () => {
                     <p>Through advanced analytics techniques, Sarva Suvidhaen unlocks the hidden potential of RailMadad data, transforming it into actionable intelligence. By leveraging their expertise, they help organizations identify trends, patterns, and key performance indicators that drive operational efficiency, customer satisfaction, and overall business success.</p>
                     <p>With Sarva Suvidhaen's RailMadad Analytics, organizations can uncover critical insights, optimize processes, and enhance decision-making capabilities, ultimately leading to improved outcomes and a competitive edge in the railway industry.</p>
                   </div>
+                  <div className='visit-link'>
+                    visit now :
+                    <div className='app-name'><a target="_blank"
+                                        href=" https://sanchalak.suvidhaen.com/"
+                                        className="text-decoration-none">Sanchalak website</a></div>
+                    <div className='app-name'><a target="_blank"
+                                        href=""
+                                        className="text-decoration-none">Sanchalak App</a></div>
+                    <div className='app-name'><a target="_blank"
+                                        href="https://youtube.com/playlist?list=PLPXLxMmLRj-IuWl-8p4b-oS63m5kw9HQD&si=OZ-Y-2QxqHdSDgMy"
+                                        className="text-decoration-none">Sanchalak More Information... </a></div>
+                  </div>
                 </div>
               </div>
               <div className='read-modal'>
                 <div className='modal-img'>
-                  <LazyLoad placeholder={<Skeleton width={240} height={240} />}>
+                  <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />}>
                     <img src={railmadad} alt="" loading="lazy" />
                   </LazyLoad>
                 </div>
@@ -209,11 +252,23 @@ const Homeservices = () => {
                     <p>Furthermore, the system's robust analytics capabilities enable in-depth analysis of ACP patterns, helping identify recurring issues and implement proactive measures to prevent future occurrences. By leveraging this data-driven approach, railway authorities can enhance safety protocols, reduce delays, and improve overall passenger experience.</p>
                     <p>Sarva Suvidhaen's ACP Monitoring Solution represents a significant advancement in railway management, combining IoT technology and data analytics to deliver actionable insights and drive operational excellence. With this solution, railways can achieve enhanced safety, efficiency, and reliability in their operations.</p>
                   </div>
+                  <div className='visit-link'>
+                    visit now :
+                    <div className='app-name'><a target="_blank"
+                                        href=" "
+                                        className="text-decoration-none">ACP Monitoring website</a></div>
+                    <div className='app-name'><a target="_blank"
+                                        href=""
+                                        className="text-decoration-none">ACP Monitoring App</a></div>
+                    <div className='app-name'><a target="_blank"
+                                        href=""
+                                        className="text-decoration-none">ACP Monitoring More Information... </a></div>
+                  </div>
                 </div>
               </div>
               <div className='read-modal'>
                 <div className='modal-img'>
-                  <LazyLoad placeholder={<Skeleton width={240} height={240} />}>
+                  <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />}>
                     <img src={ACP} alt="" loading="lazy" />
                   </LazyLoad>
                 </div>
@@ -236,11 +291,23 @@ const Homeservices = () => {
                     <p>Furthermore, AWMS provides valuable insights into water consumption patterns, helping identify areas for improvement and efficiency enhancement. By analyzing data trends, railway authorities can implement water-saving measures, reduce wastage, and promote sustainable practices.</p>
                     <p>The Automated Water Monitoring System by Sarva Suvidhaen offers a comprehensive solution for efficient water management in trains, combining IoT technology, real-time monitoring, and data analytics to ensure a seamless and sustainable water supply. This solution enhances operational efficiency, passenger comfort, and environmental sustainability within the railway ecosystem.</p>
                   </div>
+                  <div className='visit-link'>
+                    visit now :
+                    <div className='app-name'><a target="_blank"
+                                        href=" https://wrms.suvidhaen.com/"
+                                        className="text-decoration-none">WRMS website</a></div>
+                    <div className='app-name'><a target="_blank"
+                                        href=""
+                                        className="text-decoration-none">WRMS App</a></div>
+                    <div className='app-name'><a target="_blank"
+                                        href="https://www.youtube.com/watch?v=sE0MSpaW8yY&list=PLPXLxMmLRj-IToSMknV0iFVFSEdrpA0v4"
+                                        className="text-decoration-none">WRMS More Information... </a></div>
+                  </div>
                 </div>
               </div>
               <div className='read-modal'>
                 <div className='modal-img'>
-                  <LazyLoad placeholder={<Skeleton width={240} height={240} />}>
+                  <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />}>
                     <img src={AWMS} alt="" loading="lazy" />
                   </LazyLoad>
                 </div>

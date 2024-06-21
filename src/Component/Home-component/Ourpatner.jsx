@@ -15,22 +15,22 @@ const Ourpatner = () => {
         </div>
         <div className='partner-cover'>
           <div className='partner-card'>
-            <LazyLoad placeholder={<Skeleton width={200} height={200} />}>
+            <LazyLoad placeholder={<Skeleton min-width={200} min-height={200} />}>
               <img src={PartnerImg1} alt="Partner 1" loading="lazy" />
             </LazyLoad>
           </div>
           <div className='partner-card'>
-            <LazyLoad placeholder={<Skeleton width={200} height={200} />}>
+            <LazyLoad placeholder={<Skeleton min-width={200} min-height={200} />}>
               <img src={PartnerImg3} alt="Partner 3" loading="lazy" />
             </LazyLoad>
           </div>
           <div className='partner-card'>
-            <LazyLoad placeholder={<Skeleton width={200} height={200} />}>
+            <LazyLoad placeholder={<Skeleton min-width={200} min-height={200} />}>
               <img src={PartnerImg4} alt="Partner 4" loading="lazy" />
             </LazyLoad>
           </div>
           <div className='partner-card'>
-            <LazyLoad placeholder={<Skeleton width={200} height={200} />}>
+            <LazyLoad placeholder={<Skeleton min-width={200} min-height={200} />}>
               <img src={PartnerImg2} alt="Partner 2" loading="lazy" />
             </LazyLoad>
           </div>
