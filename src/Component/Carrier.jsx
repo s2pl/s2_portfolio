@@ -22,7 +22,7 @@ const Carrier = () => {
         <div className='carrier-top'>
           <div className='carrier-top-cover'>
             <div className='carrier-top-content'>
-              <h1>Carrier</h1>
+              <h1>Career</h1>
               <p>Join the Team <span>Let's grow together! </span></p>
             </div>
           </div>
