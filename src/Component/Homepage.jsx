@@ -75,12 +75,11 @@ const Homepage = () => {
                 <div className='discription-cover'>
                     <div className='front-intro'>
                         <h3>Who We Are :</h3>
-                        <p>Sarva Suvidhaen is a recognized leader in developing process in developing automationfor complex organization and institutional concerns.Our mission is to bring automation, technology
-                            and innovation to simplify complex problem. We add value by increasing efficiency and drive data and analytics for higher quality standards.
+                        <p>Sarva Suvidhaen is a recognized leader in developing automation processes for complex organizations and institutional concerns. Our mission is to bring automation, technology, and innovation to simplify complex problems. We add value by increasing efficiency and driving data analytics for higher quality standards.
                         </p>
-                        <p>Since our inception, we have worked with large organization to delay inteliigent automation which has helped improve turnarround, improve services quality and bring higher customer satisfaction.</p>
-                        <p>Our team of solution architects, designer and developer will help you craft a solution fitted to yur requirements.</p>
-                        <p>we are a recoganized DIPP Startup from Bihar and are proud recipients of multiples awards.</p>
+                        <p>Since our inception, we have collaborated with large organizations to deploy intelligent automation, resulting in improved turnaround times, enhanced service quality, and increased customer satisfaction.</p>
+                        <p>Our team of solution architects, designers, and developers will help you craft a solution tailored to your requirements.</p>
+                        <p>We are a recognized DIPP Startup from Bihar and are proud recipients of multiple awards.</p>
                     </div>
                     <div className='front-img'>
                        <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />}><img src={rightpic} alt=""  loading="lazy" /></LazyLoad> 
@@ -159,9 +158,9 @@ const Homepage = () => {
             <div className='clients'>
                 <div className='services' style={{ padding: "4.2rem 0rem 0rem 0rem" }}>
                     <div className='services-head'>
-                        <p>client</p>
+                        <p>Clients</p>
                         <p className='paragraph' style={{ padding: "0.3rem" }}>
-                            What client Say
+                            What Clients Say
                         </p>
                         <div className='design'>
                             <div className='line'>
@@ -198,7 +197,7 @@ const Homepage = () => {
                                     <p className="card-text pb-4">
                                         Our expertise lies in extracting valuable insights from RailMadad Data, enabling informed decisions and actionable outcomes. </p>
                                     <h6 className="card-title ">RailMadad Analytics</h6>
-                                    <p>Happy client</p>
+                                    <p>Happy Client</p>
                                 </div>
                             </div>
                             <div className="card feedback-card" style={{ width: "15rem;" }}>
