@@ -69,7 +69,7 @@ const Navbar = () => {
                         <li className="nav-item @@project" onClick={() => setdrop(false)}><Link className="nav-link pointer" to="/services" onClick={() => setMedia(!showMedia)} >Services</Link></li>
 
                         <li className="nav-item @@project" onClick={() => setdrop(false)}><Link className="nav-link pointer" to="/porfolio" onClick={() => setMedia(!showMedia)} >Portfolio</Link></li>
-                        <li className="nav-item @@project" onClick={() => setdrop(false)}><Link className="nav-link pointer" to="/carrier" onClick={() => setMedia(!showMedia)} >Carrier</Link></li>
+                        <li className="nav-item @@project" onClick={() => setdrop(false)}><Link className="nav-link pointer" to="/carrier" onClick={() => setMedia(!showMedia)} >Career</Link></li>
 
                         <li className="nav-item @@service" onClick={() => setdrop(false)}><Link className="nav-link pointer" to="/contact-us" onClick={() => setMedia(!showMedia)} >Contact us</Link></li>
                       </ul>

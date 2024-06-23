@@ -29,8 +29,8 @@ const Fotter = () => {
                   </span><Link to="/">Home</Link></li>
                   <li className='fotter-list' ><span className="material-symbols-outlined">
                     arrow_circle_right
-                  </span><Link to="/about-us">Abouts us</Link></li>
-                  <li className='fotter-list'><span className="material-symbols-outlined">
+                  </span><Link to="/about-us">About us</Link></li>
+                  <li className='fotter-list'><span class="material-symbols-outlined">
                     arrow_circle_right
                   </span><Link to="/services">Services</Link></li>
                   <li className='fotter-list'><span className="material-symbols-outlined">
@@ -41,7 +41,7 @@ const Fotter = () => {
                   </span><Link to='/privacypolicy'>Privacy&nbsp;policy</Link></li>
                   <li className='fotter-list'><span className="material-symbols-outlined">
                     arrow_circle_right
-                  </span><Link to="/termcondition">Term & condition</Link></li>
+                  </span><Link to="/termcondition">Terms & conditions</Link></li>
                 </ul>
               </div>
             </div>
@@ -63,11 +63,13 @@ const Fotter = () => {
                     </div>
                     <div className="row mb-3">
                       <div className="col">
-                        <label htmlFor="exampleInputPhone" className="form-label">Phone number</label>
+
+                        <label htmlfor="exampleInputPhone" className="form-label">Phone Number</label>
                         <input type="tel" className="form-control" id="exampleInputPhone" placeholder="Enter your phone number" />
                       </div>
                       <div className="col">
-                        <label htmlFor="exampleInputEmail" className="form-label">Email address</label>
+                        <label for="exampleInputEmail" className="form-label">Email Address</label>
+
                         <input type="email" className="form-control" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter your email" />
                       </div>
                     </div>
@@ -84,7 +86,7 @@ const Fotter = () => {
             <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1">
               <div className="col-span-1 md:col-span-1 lg:col-span-1">
                 <div className="copyright">
-                  © 2023 suvidhaen.com All rights reserved  <Link to='/privacypolicy'  style={{ fontSize:"1rem",color: "#175ef7", marginLeft: "1rem",cursor: "pointer" }}>
+                All rights reserved © 2023 suvidhaen.com <Link to='/privacypolicy'  style={{ fontSize:"1rem",color: "#175ef7", marginLeft: "1rem",cursor: "pointer" }}>
                   Privacy&nbsp;policy
 </Link>
                 </div>

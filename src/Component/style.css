@@ -948,3 +948,9 @@ color: #175ef7;
   padding: 1rem;
 }
 
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+
