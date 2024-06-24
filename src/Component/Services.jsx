@@ -48,7 +48,7 @@ const Services = () => {
             <div className="col-lg-7 text-center">
               <div className="section-title" data-aos="fade-up">
                 <span className="h6 text-color">Our Services</span>
-                <h2 className="my-3 content-title ">We provide Software and IOT products to solve daily life problems. </h2>
+                <h2 className="my-3 content-title ">We provide the softwere and IOT Product to  their Solve daily life problem </h2>
               </div>
             </div>
           </div>
