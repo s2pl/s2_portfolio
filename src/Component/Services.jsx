@@ -80,7 +80,7 @@ const Services = () => {
               <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={phone} className="card-img-top" alt="..."  loading="lazy" /></LazyLoad>  
                 <h4 className="my-3">SwachhDNR.</h4>
                 <p className='mb-3'>Our integrated platform, comprising a website and mobile app, streamlines employee performance record management. Currently utilized at Patna and Danapur Junction, it offers a user-friendly and effective solution. Simplifying the process, it ensures efficient tracking and assessment of employee performance records.</p>
-                <a href="#" className="service-btn btn-primary" onClick={() => setShowModal(true)}>Read More</a>
+                <Link to={'/swatchstation'} className="service-btn btn-primary" >Read More</Link>
               </div>
 
             </div>

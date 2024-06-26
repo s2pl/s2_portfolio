@@ -14,6 +14,7 @@ import Porfolioatul from './Component/Portfolioatul';
 import Privacypolicy from './Component/Privacypolicy';
 import Term_condition from './Component/Termcondition';
 import Sanchalak from './Component/Sanchalak';
+import SwatchStation from './Component/SwatchStation'
 const Allroutes = () => {
   return (
     <div>
@@ -31,6 +32,7 @@ const Allroutes = () => {
           <Route path="/privacypolicy" element={<Privacypolicy />} />
           <Route path="/termcondition" element={<Term_condition />} />
           <Route path="/sanchalak" element={<Sanchalak/>} />
+          <Route path='/swatchstation' element={<SwatchStation/>} />
           <Route path="*" element={<Navigate to="/" />} />
 
 
