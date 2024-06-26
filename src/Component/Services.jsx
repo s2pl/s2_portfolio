@@ -7,7 +7,6 @@ import servicesImg1 from '../static_data/web_content/idrail.jpg'
 import servicesImg2 from '../static_data/web_content/awms.jpg'
 import servicesImg3 from '../static_data/web_content/diot.jpg'
 import servicesImg4 from '../static_data/web_content/water.jpg'
-import userInterface from '../static_data/web_content/@S2_Portfolio.jpg'
 import rightpic from '../static_data/web_content/@S2_Portfolio.jpg'
 import railmadad from '../static_data/web_content/@S2_Portfolio (2).jpg'
 import ACP from '../static_data/web_content/project2.jpg'
@@ -17,6 +16,7 @@ import UI from '../static_data/web_content/project4.jpg'
 import LazyLoad from 'react-lazyload';
 import { CButton, CModal, CModalBody, CModalFooter, CModalHeader, } from '@coreui/react';
 import { Link } from 'react-router-dom';
+import sanchalak from '../static_data/sanchalak/sanchalak.png'
 const Services = () => {
   const [showModal, setShowModal] = useState(false);
   const [showModalFront, setShowModalFront] = useState(false);
@@ -67,12 +67,10 @@ const Services = () => {
 
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="service-item mb-5">
-              <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={userInterface} className="card-img-top" alt="..."  loading="lazy" /></LazyLoad>
-                <h4 className="my-3">Interface Design.</h4>
-                <p className='mb-3'><span className='bold'>Our Software: Where Innovation Meets User-Friendly Design</span>Experience the future of technology with an intuitive interface that makes Software accessible to everyone.
-                  Our software's user-friendly design puts the power of IOT at your fingertips,
-                  simplifying complex tasks and enhancing your workflow.</p>
-                <a href="#" className="service-btn btn-primary" onClick={() => setShowModalUI(true)}>Read More</a>
+              <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={sanchalak} className="card-img-top" alt="..."  loading="lazy" /></LazyLoad>
+                <h4 className="my-3">Sanchalak</h4>
+                <p className='mb-3'>Sanchalak app and website provide flexiblity to show the passenger details about birth information for selected train with download and email feature. Users can also see their location and nearby stations within 10 km.</p>
+                <Link to={'/sanchalak'}  className="service-btn btn-primary">Read More</Link>
               </div>
 
             </div>
