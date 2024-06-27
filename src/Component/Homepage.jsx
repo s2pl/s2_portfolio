@@ -51,8 +51,8 @@ const Homepage = () => {
                                 </div>
                                 <div className="des">
                                     <h5>Accelerate your Growth with our End-to-End Automation Solutions</h5>
-                                    <p>We build process automation with seamless integration for optimizing performance
-                                        Build with us to realize your full organizational potential </p></div>
+                                    <p>We build process automation with seamless integration for optimizing performance</p>
+                                      <p>Build with us to realize your full organizational potential </p> </div>
                                 <div className='link-btn'>
                                     <button className='btn-main'><a target="_blank"
                                         href="https://play.google.com/store/apps/details?id=com.cms.android.cleaningmanagementsystem.app"

@@ -169,7 +169,7 @@ h6,
   font-size: 15px;
   font-weight: 500;
   letter-spacing: 1px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   transition: all .25s ease;
 }
 
@@ -245,16 +245,6 @@ h6,
 
   .intro-side {
     width: 100%;
-  }
-
-  #navbar .nav-link {
-    color: #000;
-    font-family: Poppins, sans-serif;
-    font-size: 15px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    transition: all .25s ease;
   }
 }
 @media  (max-width:500px) {
