@@ -69,7 +69,7 @@ const Services = () => {
               <div className="service-item mb-5">
               <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={userInterface} className="card-img-top" alt="..."  loading="lazy" /></LazyLoad>
                 <h4 className="mb-3">Interface Design.</h4>
-                <p><span className='bold'>Our Software: Where Innovation Meets User-Friendly Design</span>Experience the future of technology with an intuitive interface that makes Software accessible to everyone.
+                <p><span className='bold'>Our Software: Where Innovation Meets User-Friendly Design</span> Experience the future of technology with an intuitive interface that makes Software accessible to everyone.
                   Our software's user-friendly design puts the power of IOT at your fingertips,
                   simplifying complex tasks and enhancing your workflow.</p>
                 <a href="#" className="service-btn btn-primary" onClick={() => setShowModalUI(true)}>Read More</a>

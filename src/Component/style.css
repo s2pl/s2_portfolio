@@ -923,8 +923,14 @@ color: #175ef7;
 .sub-btn {
   padding: 5px 20px;
   border-radius: 3px;
-  background: #2ee3ed;
+  background: #2ee3ec;
   color: #fff;
+  transition: background 0.15s;
+}
+
+.sub-btn:hover {
+  color:black;
+  background: rgb(163, 163, 231);
 }
 
 .custom-modal-body {
@@ -943,4 +949,3 @@ color: #175ef7;
   justify-content: space-between;
   align-items: center; 
 }
-
