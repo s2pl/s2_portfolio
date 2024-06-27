@@ -3,6 +3,7 @@ import search from "../static_data/sanchalak/search.png";
 import fetchtrain from "../static_data/sanchalak/fetchtrain.png";
 import profile from "../static_data/sanchalak/profile.png";
 import signup from "../static_data/sanchalak/signup.png";
+import LazyLoad from "react-lazyload";
 
 const Sanchalak = () => {
   return (
@@ -25,7 +26,12 @@ const Sanchalak = () => {
         <section className="border min-h-[300px] md:px-20 px-2">
           <div className="md:flex  justify-center items-center py-5">
             <div className="flex md:w-1/2 justify-center items-center">
-              <img className="lg:w-[30%] w-[50%]" src={signup} alt="" />
+              <LazyLoad
+                height={400}
+                className="flex justify-center items-center"
+              >
+                <img className="lg:w-[30%] w-[50%]" src={signup} alt="" />
+              </LazyLoad>
             </div>
             <div className="md:w-1/2 px-2 md:px-0">
               <h3 className="py-3">Getting Started</h3>
@@ -46,7 +52,12 @@ const Sanchalak = () => {
           </div>
           <div className="md:flex justify-center items-center py-5 ">
             <div className="flex md:w-1/2 justify-center items-center order-1 ">
-              <img className="lg:w-[30%] w-[50%]" src={search} alt="" />
+              <LazyLoad
+                height={400}
+                className="flex justify-center items-center"
+              >
+                <img className="lg:w-[30%] w-[50%]" src={search} alt="" />
+              </LazyLoad>
             </div>
             <div className="md:w-1/2 flex ">
               <div className="lg:pl-20 md:pl-10 sm:px-2 ">
@@ -81,7 +92,12 @@ const Sanchalak = () => {
           </div>
           <div className="md:flex justify-center items-center py-5">
             <div className="flex md:w-1/2 justify-center items-center">
-              <img className="lg:w-[30%] w-[50%]" src={fetchtrain} alt="" />
+              <LazyLoad
+                height={400}
+                className="flex justify-center items-center"
+              >
+                <img className="lg:w-[30%] w-[50%]" src={fetchtrain} alt="" />
+              </LazyLoad>
             </div>
             <div className="md:w-1/2 px-2">
               <h3 className="py-3">See My Train:</h3>
@@ -104,7 +120,12 @@ const Sanchalak = () => {
           </div>
           <div className="md:flex justify-center items-center my-10">
             <div className="flex md:w-1/2 justify-center items-center order-1">
-              <img className="lg:w-[30%] w-[50%]" src={profile} alt="" />
+              <LazyLoad
+                height={400}
+                className="flex justify-center items-center"
+              >
+                <img className="lg:w-[30%] w-[50%]" src={profile} alt="" />
+              </LazyLoad>
             </div>
             <div className="md:w-1/2 lg:pl-20 md:pl-10 ">
               <div className="md:flex justify-center items-center">

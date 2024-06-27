@@ -5,6 +5,7 @@ import chi1 from "../static_data/swatchstation/chi1.png";
 import atc from "../static_data/swatchstation/atc.png";
 import aro from "../static_data/swatchstation/aro.png";
 import asm from "../static_data/swatchstation/asm.png";
+import LazyLoad from "react-lazyload";
 const swatchstation = () => {
   return (
     <>
@@ -85,10 +86,14 @@ const swatchstation = () => {
           <h3 className="">Interface: Web & App</h3>
           <div className="md:flex items-center justify-center py-5">
             <div className="md:w-1/3 flex justify-center">
-              <img src={phoneview} className="w-[70%]" alt="" />
+              <LazyLoad height={400} className="flex items-center justify-center">
+                <img src={phoneview} className="w-[70%]" alt="" />
+              </LazyLoad>
             </div>
             <div className="md:w-2/3">
-              <img src={webview} alt="" />
+              <LazyLoad height={400} className="flex items-center justify-center">
+                <img src={webview} alt="" />
+              </LazyLoad>
             </div>
           </div>
         </section>
@@ -97,7 +102,13 @@ const swatchstation = () => {
           <h3 className="text-center py-5 font-bold">Access to CHI</h3>
           <div className="md:flex">
             <div className="md:w-1/2 flex items-center justify-center">
-              <img src={chi1} className="w-[60%] lg:w-[50%] md:w-[70%] h-[90%]" alt="" />
+              <LazyLoad height={400} className="flex items-center justify-center" >
+                <img
+                  src={chi1}
+                  className="w-[60%] lg:w-[50%] md:w-[70%] h-[90%]"
+                  alt=""
+                />
+              </LazyLoad>
             </div>
             <div className="md:w-1/2 flex justify-center items-center md:pt-0 pt-5">
               <ul className="list-disc pl-5">
@@ -154,7 +165,13 @@ const swatchstation = () => {
           <h3 className="text-center py-5 font-bold">Access to Contractors</h3>
           <div className="md:flex">
             <div className="md:w-1/2 flex items-center justify-center md:order-1">
-              <img src={atc} className="w-[60%] lg:w-[50%] md:w-[70%] h-[90%]" alt="" />
+              <LazyLoad height={400} className="flex items-center justify-center">
+                <img
+                  src={atc}
+                  className="w-[60%] lg:w-[50%] md:w-[70%] h-[90%]"
+                  alt=""
+                />
+              </LazyLoad>
             </div>
             <div className="md:w-1/2 flex justify-center items-center md:pt-0 pt-5">
               <ul className="list-disc pl-5">
@@ -200,7 +217,13 @@ const swatchstation = () => {
           </h3>
           <div className="md:flex">
             <div className="md:w-1/2 flex items-center justify-center ">
-              <img src={aro} className="w-[70%] lg:w-[50%] md:w-[80%] h-[90%]" alt="" />
+              <LazyLoad height={400} className="flex items-center justify-center">
+                <img
+                  src={aro}
+                  className="w-[70%] lg:w-[50%] md:w-[80%] h-[90%]"
+                  alt=""
+                />
+              </LazyLoad>
             </div>
             <div className="md:w-1/2 flex justify-center items-center  md:pt-0 pt-5">
               <ul className="list-disc pl-5">
@@ -224,7 +247,13 @@ const swatchstation = () => {
           </h3>
           <div className="md:flex">
             <div className="md:w-1/2 flex items-center justify-center md:order-1">
-              <img src={asm} className="w-[70%] lg:w-[50%] md:w-[80%] h-[90%]" alt="" />
+              <LazyLoad height={400} className="flex items-center justify-center">
+                <img
+                  src={asm}
+                  className="w-[70%] lg:w-[50%] md:w-[80%] h-[90%]"
+                  alt=""
+                />
+              </LazyLoad>
             </div>
             <div className="md:w-1/2 flex justify-center items-center md:pt-0 pt-5">
               <ul class="list-disc list-inside">
@@ -244,11 +273,17 @@ const swatchstation = () => {
             </div>
           </div>
           <h3 className="text-center py-5 font-bold">
-          Access to Railway Administrator
+            Access to Railway Administrator
           </h3>
           <div className="md:flex">
             <div className="md:w-1/2 flex items-center justify-center ">
-              <img src={asm} className="w-[70%] lg:w-[50%] md:w-[80%] h-[90%]" alt="" />
+              <LazyLoad height={400} className="flex items-center justify-center">
+                <img
+                  src={asm}
+                  className="w-[70%] lg:w-[50%] md:w-[80%] h-[90%]"
+                  alt=""
+                />
+              </LazyLoad>
             </div>
             <div className="md:w-1/2 flex justify-center items-center  md:pt-0 pt-5">
               <ul class="list-disc list-inside">
@@ -280,14 +315,41 @@ const swatchstation = () => {
         <section className="my-10">
           <h2 className="text-center">Visit for more !</h2>
           <div className="mx-auto text-center">
-              <div className="py-5 text-lg flex-wrap ">
-                <p><span className="font-bold">Website:</span> <a rel="stylesheet" href="https://cms.suvidhaen.com/" className="text-blue-600 hover:underline">www.cms.suvidhaen.com</a></p>
-                <p><span className="font-bold">Application:</span> <a rel="stylesheet" href="https://play.google.com/store/apps/details?id=com.cms.android.cleaningmanagementsystem.app" className="text-blue-600 hover:underline" >SwatchDNR App </a></p>
-                <p><span className="font-bold">Infromation:</span> <a rel="stylesheet" href="https://www.youtube.com/playlist?list=PLPXLxMmLRj-Ia_sqcsx6DGK__88I0SIUc" className="text-blue-600 hover:underline">Youtube Videos</a></p>
-              </div>
+            <div className="py-5 text-lg flex-wrap ">
+              <p>
+                <span className="font-bold">Website:</span>{" "}
+                <a
+                  rel="stylesheet"
+                  href="https://cms.suvidhaen.com/"
+                  className="text-blue-600 hover:underline"
+                >
+                  www.cms.suvidhaen.com
+                </a>
+              </p>
+              <p>
+                <span className="font-bold">Application:</span>{" "}
+                <a
+                  rel="stylesheet"
+                  href="https://play.google.com/store/apps/details?id=com.cms.android.cleaningmanagementsystem.app"
+                  className="text-blue-600 hover:underline"
+                >
+                  SwatchDNR App{" "}
+                </a>
+              </p>
+              <p>
+                <span className="font-bold">Infromation:</span>{" "}
+                <a
+                  rel="stylesheet"
+                  href="https://www.youtube.com/playlist?list=PLPXLxMmLRj-Ia_sqcsx6DGK__88I0SIUc"
+                  className="text-blue-600 hover:underline"
+                >
+                  Youtube Videos
+                </a>
+              </p>
+            </div>
           </div>
         </section>
-        </div>
+      </div>
     </>
   );
 };
