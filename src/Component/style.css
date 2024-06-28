@@ -577,6 +577,7 @@ img {
 
 .slick-slide>div {
   margin: 0px 10px;
+  min-height: 450px;
 
 }
 

@@ -192,7 +192,7 @@ const Contactus = () => {
                       {countryCodes[formData.country]}
                     </span>
                     <input
-                      type="number"
+                      type="text"
                       name="phoneNumber"
                       id="phoneNumber"
                       autoComplete="tel"
