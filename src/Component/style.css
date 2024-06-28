@@ -169,7 +169,6 @@ h6,
   font-size: 15px;
   font-weight: 500;
   letter-spacing: 1px;
-  text-transform: uppercase;
   transition: all .25s ease;
 }
 
@@ -247,15 +246,6 @@ h6,
     width: 100%;
   }
 
-  #navbar .nav-link {
-    color: #000;
-    font-family: Poppins, sans-serif;
-    font-size: 15px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    transition: all .25s ease;
-  }
 }
 @media  (max-width:500px) {
   .email{
@@ -587,6 +577,7 @@ img {
 
 .slick-slide>div {
   margin: 0px 10px;
+  min-height: 450px;
 
 }
 
@@ -935,6 +926,12 @@ color: #175ef7;
   border-radius: 3px;
   background: #2ee3ed;
   color: #fff;
+  transition: background 0.15s;
+}
+
+.sub-btn:hover{
+  color:black;
+  background: rgb(163, 163, 231);
 }
 
 .custom-modal-body {

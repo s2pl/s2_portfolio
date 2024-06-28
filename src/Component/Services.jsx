@@ -7,7 +7,6 @@ import servicesImg1 from '../static_data/web_content/idrail.jpg'
 import servicesImg2 from '../static_data/web_content/awms.jpg'
 import servicesImg3 from '../static_data/web_content/diot.jpg'
 import servicesImg4 from '../static_data/web_content/water.jpg'
-import userInterface from '../static_data/web_content/@S2_Portfolio.jpg'
 import rightpic from '../static_data/web_content/@S2_Portfolio.jpg'
 import railmadad from '../static_data/web_content/@S2_Portfolio (2).jpg'
 import ACP from '../static_data/web_content/project2.jpg'
@@ -17,6 +16,7 @@ import UI from '../static_data/web_content/project4.jpg'
 import LazyLoad from 'react-lazyload';
 import { CButton, CModal, CModalBody, CModalFooter, CModalHeader, } from '@coreui/react';
 import { Link } from 'react-router-dom';
+import sanchalak from '../static_data/sanchalak/sanchalak.png'
 const Services = () => {
   const [showModal, setShowModal] = useState(false);
   const [showModalFront, setShowModalFront] = useState(false);
@@ -48,7 +48,7 @@ const Services = () => {
             <div className="col-lg-7 text-center">
               <div className="section-title" data-aos="fade-up">
                 <span className="h6 text-color">Our Services</span>
-                <h2 className="my-3 content-title ">We provide the softwere and IOT Product to  their Solve daily life problem </h2>
+                <h2 className="my-3 content-title ">We provide Software and IOT products to solve daily life problems. </h2>
               </div>
             </div>
           </div>
@@ -59,20 +59,18 @@ const Services = () => {
               <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={servicesImg1} className="card-img-top" alt="..."  loading="lazy" /></LazyLoad>  
                 <h4 className="my-3">
                   RailMadad Analytics.</h4>
-                <p className='mb-3'>Our expertise lies in extracting valuable insights from RailMadad Data, enabling informed decisions and actionable outcomes. By analyzing this data, we drive a deeper understanding of rail operations, enhancing efficiency, safety, and overall performance.                  .</p>
-                <a href="#" className="service-btn btn-primary " onClick={() => setShowModalFront(true)}>Read More</a>
+                <p className='mb-3  '>Our expertise lies in extracting valuable insights from RailMadad Data, enabling informed decisions and actionable outcomes. By analyzing this data, we drive a deeper understanding of rail operations, enhancing efficiency, safety, and overall performance.</p>
+                <Link to='/railmadad/#start'  className="service-btn btn-primary " >Read More</Link>
               </div>
 
             </div>
 
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="service-item mb-5">
-              <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={userInterface} className="card-img-top" alt="..."  loading="lazy" /></LazyLoad>
-                <h4 className="my-3">Interface Design.</h4>
-                <p className='mb-3'><span className='bold'>Our Software: Where Innovation Meets User-Friendly Design</span>Experience the future of technology with an intuitive interface that makes Software accessible to everyone.
-                  Our software's user-friendly design puts the power of IOT at your fingertips,
-                  simplifying complex tasks and enhancing your workflow.</p>
-                <a href="#" className="service-btn btn-primary" onClick={() => setShowModalUI(true)}>Read More</a>
+              <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={sanchalak} className="card-img-top" alt="..."  loading="lazy" /></LazyLoad>
+                <h4 className="my-3">Sanchalak</h4>
+                <p className='mb-3'>Sanchalak is a comprehensive train travel app offering real-time tracking, detailed passenger and berth information, and easy profile management. It simplifies your journey by providing essential travel details and a user-friendly experience. Download Sanchalak for a seamless and efficient train travel experience.</p>
+                <Link to={'/sanchalak'}  className="service-btn btn-primary">Read More</Link>
               </div>
 
             </div>
@@ -82,7 +80,7 @@ const Services = () => {
               <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={phone} className="card-img-top" alt="..."  loading="lazy" /></LazyLoad>  
                 <h4 className="my-3">SwachhDNR.</h4>
                 <p className='mb-3'>Our integrated platform, comprising a website and mobile app, streamlines employee performance record management. Currently utilized at Patna and Danapur Junction, it offers a user-friendly and effective solution. Simplifying the process, it ensures efficient tracking and assessment of employee performance records.</p>
-                <a href="#" className="service-btn btn-primary" onClick={() => setShowModal(true)}>Read More</a>
+                <Link to={'/swatchstation'} className="service-btn btn-primary" >Read More</Link>
               </div>
 
             </div>
