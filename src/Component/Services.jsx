@@ -59,8 +59,8 @@ const Services = () => {
               <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={servicesImg1} className="card-img-top" alt="..."  loading="lazy" /></LazyLoad>  
                 <h4 className="my-3">
                   RailMadad Analytics.</h4>
-                <p className='mb-3'>Our expertise lies in extracting valuable insights from RailMadad Data, enabling informed decisions and actionable outcomes. By analyzing this data, we drive a deeper understanding of rail operations, enhancing efficiency, safety, and overall performance.                  .</p>
-                <a href="#" className="service-btn btn-primary " onClick={() => setShowModalFront(true)}>Read More</a>
+                <p className='mb-3  '>Our expertise lies in extracting valuable insights from RailMadad Data, enabling informed decisions and actionable outcomes. By analyzing this data, we drive a deeper understanding of rail operations, enhancing efficiency, safety, and overall performance.</p>
+                <Link to='/railmadad/#start'  className="service-btn btn-primary " >Read More</Link>
               </div>
 
             </div>
@@ -69,7 +69,7 @@ const Services = () => {
               <div className="service-item mb-5">
               <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={sanchalak} className="card-img-top" alt="..."  loading="lazy" /></LazyLoad>
                 <h4 className="my-3">Sanchalak</h4>
-                <p className='mb-3'>Sanchalak app and website provide flexiblity to show the passenger details about birth information for selected train with download and email feature. Users can also see their location and nearby stations within 10 km.</p>
+                <p className='mb-3'>Sanchalak is a comprehensive train travel app offering real-time tracking, detailed passenger and berth information, and easy profile management. It simplifies your journey by providing essential travel details and a user-friendly experience. Download Sanchalak for a seamless and efficient train travel experience.</p>
                 <Link to={'/sanchalak'}  className="service-btn btn-primary">Read More</Link>
               </div>
 

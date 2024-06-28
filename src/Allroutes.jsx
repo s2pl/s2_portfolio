@@ -1,5 +1,5 @@
-import React from 'react'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import React, {useEffect} from 'react'
+import { BrowserRouter as Router, Route, Routes , useLocation} from 'react-router-dom';
 import Navbar from './Component/Navbar';
 import Homepage from './Component/Homepage';
 import Fotter from './Component/Fotter';
@@ -15,10 +15,21 @@ import Privacypolicy from './Component/Privacypolicy';
 import Term_condition from './Component/Termcondition';
 import Sanchalak from './Component/Sanchalak';
 import SwatchStation from './Component/SwatchStation'
+import Railmadad from './Component/Railmadad';
 const Allroutes = () => {
+  const ScrollToTop = () => {
+    const location = useLocation();
+  
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [location.pathname]);
+  
+    return null;
+  };
   return (
-    <div>
+    <>
       <Router>
+        <ScrollToTop/>
         <Navbar />
         <Routes>
           <Route path="/" element={<Homepage />} />
@@ -33,6 +44,8 @@ const Allroutes = () => {
           <Route path="/termcondition" element={<Term_condition />} />
           <Route path="/sanchalak" element={<Sanchalak/>} />
           <Route path='/swatchstation' element={<SwatchStation/>} />
+          <Route path='/railmadad' element={<Railmadad/>} />
+          
           <Route path="*" element={<Navigate to="/" />} />
 
 
@@ -41,7 +54,7 @@ const Allroutes = () => {
         <Fotter />
       </Router>
 
-    </div>
+    </>
   )
 }
 
