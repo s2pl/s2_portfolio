@@ -188,7 +188,7 @@ const Sanchalak = () => {
                   href="https://sanchalak.suvidhaen.com/"
                   className="text-blue-600 underline"
                 >
-                  www.sanchalak.suvidhaen.com
+                  sanchalak.suvidhaen.com
                 </a>
               </p>
               <p className="text-lg">
@@ -209,26 +209,6 @@ const Sanchalak = () => {
                   Youtube Video
                 </a>
               </p>
-            </div>
-          </div>
-        </section>
-
-        <section>
-          <div className="flex justify-center items-center my-10">
-            <div className="">
-              <h2 className="py-2">Contact and Support</h2>
-              <p className="px-1">For any assistance, you can reach us at:</p>
-              <ul className="text-xl px-2 py-2">
-                <li>
-                  <span className="font-bold">Phone: </span>+ 91 99554 81699
-                </li>
-                <li>
-                  <span className="font-bold">Website: </span>www.suvidhaen.com
-                </li>
-                <li>
-                  <span className="font-bold">Address: </span>Patna, Bihar
-                </li>
-              </ul>
             </div>
           </div>
         </section>

@@ -323,7 +323,7 @@ const swatchstation = () => {
                   href="https://cms.suvidhaen.com/"
                   className="text-blue-600 hover:underline"
                 >
-                  www.cms.suvidhaen.com
+                  cms.suvidhaen.com
                 </a>
               </p>
               <p>
