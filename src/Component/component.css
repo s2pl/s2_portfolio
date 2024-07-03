@@ -83,8 +83,11 @@
 }
 
 .carrier-quotesimage img {
-    width: 30vw;
-    height: 40vh;
+    padding-left: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .para .quality {
@@ -448,12 +451,13 @@
 }
 
 .servicesbg-1 {
-    background: url("../static_data/web_content/service-2.webp") no-repeat 50% 50%;
-    background-size: cover
+    background: url("../static_data/web_content/services.svg") no-repeat 50% 50%;
+    background-size: cover;
+    background-position: center;
 }
 
 .potfoliobg-1 {
-    background: url("../static_data/web_content/carrier-middle-2.webp") no-repeat 50% 50%;
+    background: url("../static_data/web_content/portfolio.webp") no-repeat 50% 50%;
     background-size: cover;
 }
 

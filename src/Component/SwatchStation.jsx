@@ -6,7 +6,9 @@ import atc from "../static_data/swatchstation/atc.png";
 import aro from "../static_data/swatchstation/aro.png";
 import asm from "../static_data/swatchstation/asm.png";
 import LazyLoad from "react-lazyload";
+import VideoCard from "./VideoCard";
 const swatchstation = () => {
+  const embedId = "XuI5QqGvgtU"
   return (
     <>
       <div className="min-h-[100vh]  my-12 max-w-full mx-3 md:px-12 lg:px-32 ">
@@ -21,6 +23,9 @@ const swatchstation = () => {
             Junction. It offers an efficient and user-friendly solution for
             tracking and assessing performance records.
           </p>
+        </section>
+        <section className="flex justify-center">
+          <VideoCard embedId={embedId}/>
         </section>
         <section className="py-10">
           <div className="className=" py-2>
@@ -256,7 +261,7 @@ const swatchstation = () => {
               </LazyLoad>
             </div>
             <div className="md:w-1/2 flex justify-center items-center md:pt-0 pt-5">
-              <ul class="list-disc list-inside">
+              <ul className="list-disc list-inside">
                 <li>
                   <strong>Logbook Access:</strong> Fill logbooks at stations
                   without EnHM supervisors.
@@ -286,7 +291,7 @@ const swatchstation = () => {
               </LazyLoad>
             </div>
             <div className="md:w-1/2 flex justify-center items-center  md:pt-0 pt-5">
-              <ul class="list-disc list-inside">
+              <ul className="list-disc list-inside">
                 <li>
                   <strong>User Onboarding Requests:</strong> Accept or reject
                   onboarding requests.
@@ -322,6 +327,7 @@ const swatchstation = () => {
                   rel="stylesheet"
                   href="https://cms.suvidhaen.com/"
                   className="text-blue-600 hover:underline"
+                  target="_blank"
                 >
                   cms.suvidhaen.com
                 </a>
@@ -332,6 +338,7 @@ const swatchstation = () => {
                   rel="stylesheet"
                   href="https://play.google.com/store/apps/details?id=com.cms.android.cleaningmanagementsystem.app"
                   className="text-blue-600 hover:underline"
+                  target="_blank"
                 >
                   SwatchDNR App{" "}
                 </a>
@@ -342,6 +349,7 @@ const swatchstation = () => {
                   rel="stylesheet"
                   href="https://www.youtube.com/playlist?list=PLPXLxMmLRj-Ia_sqcsx6DGK__88I0SIUc"
                   className="text-blue-600 hover:underline"
+                  target="_blank"
                 >
                   Youtube Videos
                 </a>

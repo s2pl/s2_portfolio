@@ -77,7 +77,7 @@ const Carrier = () => {
 
             </div>
             <div className='employee-satisfy-part'>
-              <span class="material-symbols-outlined">
+              <span className="material-symbols-outlined">
                 filter_alt
               </span>
               <h4>Free Snacks & Drinks</h4>
