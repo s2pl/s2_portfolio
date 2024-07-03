@@ -30,7 +30,7 @@ const Fotter = () => {
                   <li className='fotter-list' ><span className="material-symbols-outlined">
                     arrow_circle_right
                   </span><Link to="/about-us">About us</Link></li>
-                  <li className='fotter-list'><span class="material-symbols-outlined">
+                  <li className='fotter-list'><span className="material-symbols-outlined">
                     arrow_circle_right
                   </span><Link to="/services">Services</Link></li>
                   <li className='fotter-list'><span className="material-symbols-outlined">
@@ -64,11 +64,11 @@ const Fotter = () => {
                     <div className="row mb-3">
                       <div className="col">
 
-                        <label htmlfor="exampleInputPhone" className="form-label">Phone Number</label>
+                        <label htmlFor="exampleInputPhone" className="form-label">Phone Number</label>
                         <input type="tel" className="form-control" id="exampleInputPhone" placeholder="Enter your phone number" />
                       </div>
                       <div className="col">
-                        <label for="exampleInputEmail" className="form-label">Email Address</label>
+                        <label htmlFor="exampleInputEmail" className="form-label">Email Address</label>
 
                         <input type="email" className="form-control" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter your email" />
                       </div>

@@ -4,8 +4,11 @@ import fetchtrain from "../static_data/sanchalak/fetchtrain.png";
 import profile from "../static_data/sanchalak/profile.png";
 import signup from "../static_data/sanchalak/signup.png";
 import LazyLoad from "react-lazyload";
+import VideoCard from "./VideoCard";
 
 const Sanchalak = () => {
+  const embedID = "Rc2K6Lh0So4";
+
   return (
     <>
       <div className="w-full min-h-[100vh mt-10">
@@ -23,14 +26,18 @@ const Sanchalak = () => {
             Here’s a detailed look at its features and how to get started:
           </h2>
         </section>
+      
         <section className="border min-h-[300px] md:px-20 px-2">
+          <section className="flex justify-center">
+               <VideoCard embedId={embedID} title={"Sanchalak"}/>
+          </section>
           <div className="md:flex  justify-center items-center py-5">
             <div className="flex md:w-1/2 justify-center items-center">
               <LazyLoad
                 height={400}
                 className="flex justify-center items-center"
               >
-                <img className="lg:w-[30%] w-[50%]" src={signup} alt="" />
+                <img className="w-[50%]" src={signup} alt="" />
               </LazyLoad>
             </div>
             <div className="md:w-1/2 px-2 md:px-0">
@@ -56,7 +63,7 @@ const Sanchalak = () => {
                 height={400}
                 className="flex justify-center items-center"
               >
-                <img className="lg:w-[30%] w-[50%]" src={search} alt="" />
+                <img className="w-[50%]" src={search} alt="" />
               </LazyLoad>
             </div>
             <div className="md:w-1/2 flex ">
@@ -96,7 +103,7 @@ const Sanchalak = () => {
                 height={400}
                 className="flex justify-center items-center"
               >
-                <img className="lg:w-[30%] w-[50%]" src={fetchtrain} alt="" />
+                <img className="w-[50%]" src={fetchtrain} alt="" />
               </LazyLoad>
             </div>
             <div className="md:w-1/2 px-2">
@@ -124,7 +131,7 @@ const Sanchalak = () => {
                 height={400}
                 className="flex justify-center items-center"
               >
-                <img className="lg:w-[30%] w-[50%]" src={profile} alt="" />
+                <img className="w-[50%]" src={profile} alt="" />
               </LazyLoad>
             </div>
             <div className="md:w-1/2 lg:pl-20 md:pl-10 ">
@@ -187,6 +194,7 @@ const Sanchalak = () => {
                 <a
                   href="https://sanchalak.suvidhaen.com/"
                   className="text-blue-600 underline"
+                  target="_blank"
                 >
                   sanchalak.suvidhaen.com
                 </a>
@@ -196,6 +204,7 @@ const Sanchalak = () => {
                 <a
                   href="https://sanchalak.suvidhaen.com/"
                   className="text-blue-600 underline"
+                  target="_blank"
                 >
                   Sanchalak App
                 </a>
@@ -205,6 +214,7 @@ const Sanchalak = () => {
                 <a
                   href="https://www.youtube.com/watch?v=xVjd5dTjzT4&list=PLPXLxMmLRj-IuWl-8p4b-oS63m5kw9HQD"
                   className="text-blue-600 underline"
+                  target="_blank"
                 >
                   Youtube Video
                 </a>
