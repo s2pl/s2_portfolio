@@ -1,8 +1,4 @@
 import React from "react";
-import chi1 from "../static_data/swatchstation/chi1.png";
-import atc from "../static_data/swatchstation/atc.png";
-import aro from "../static_data/swatchstation/aro.png";
-import asm from "../static_data/swatchstation/asm.png";
 import LazyLoad from "react-lazyload";
 import { ScrollRestoration } from "react-router-dom";
 import webview from '../static_data/railmadad/railmadad_webview.png'
@@ -13,7 +9,9 @@ import feed from '../static_data/railmadad/feedback.png'
 import sqt from '../static_data/railmadad/sqt.png'
 import pm from '../static_data/railmadad/pm.png'
 import um from '../static_data/railmadad/um.png'
+import VideoCard from "./VideoCard";
 const Railmadad = () => {
+  const embedId = "lGcFWinJA1U"
   return (
       <div className="min-h-[100vh]  my-12 max-w-full mx-3 md:px-12 lg:px-32 ">
         <section className="">
@@ -24,6 +22,9 @@ const Railmadad = () => {
           <p className="lg: text-center m-auto text-lg py-2 w-[80%]">
           RailMadad Analytics enhances Indian Railways with data-driven insights to boost passenger satisfaction, streamline operations, and improve service quality.
           </p>
+        </section>
+        <section className="flex justify-center">
+          <VideoCard embedId={embedId}/>
         </section>
         <section className="py-10">
           <div className="className=" py-2>
@@ -483,6 +484,7 @@ const Railmadad = () => {
                   rel="stylesheet"
                   href="https://s2analytica.suvidhaen.com/auth/selector/"
                   className="text-blue-600 hover:underline"
+                  target="_blank"
                 >
                   s2analytica.suvidhaen.com
                 </a>
@@ -493,6 +495,7 @@ const Railmadad = () => {
                   rel="stylesheet"
                   href="#"
                   className="text-blue-600 hover:underline"
+                  target="_blank"
                 >
                   Railmadad Analytica{" "}
                 </a>
@@ -503,6 +506,7 @@ const Railmadad = () => {
                   rel="stylesheet"
                   href="#"
                   className="text-blue-600 hover:underline"
+                  target="_blank"
                 >
                   Youtube Videos
                 </a>
