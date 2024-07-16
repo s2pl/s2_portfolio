@@ -126,8 +126,8 @@ const Aboutus = () => {
 
       {/* cerificate */}
       <div className="about-item-img p-5 " data-aos="fade-up">
-        <div className=" col-8 ">
-        <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />}><img loading="lazy" src={cerificate} alt="about-image" className="img-fluid" /></LazyLoad>   
+        <div className="">
+        <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />}><img loading="lazy" src={cerificate} alt="about-image" className="img-fluid md:min-h-[400px]" /></LazyLoad>   
         </div>
       </div>
       {/* cerificate end*/}
