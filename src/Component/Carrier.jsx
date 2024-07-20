@@ -4,9 +4,6 @@ import { useState } from 'react'
 import Skeleton from 'react-loading-skeleton'
 import 'react-loading-skeleton/dist/skeleton.css'
 import Looking from '../static_data/web_content/looking.jpg'
-import carrierm1 from '../static_data/web_content/carrier-middle-2.jpg'
-import carrierm2 from '../static_data/web_content/carrier-middle.jpg'
-import carrierm3 from '../static_data/web_content/carrier-miidle-3.jpg'
 import { CButton, CModal, CModalBody, CModalFooter } from '@coreui/react';
 import LazyLoad from 'react-lazyload';
 import { Link } from 'react-router-dom'
@@ -50,17 +47,6 @@ const Carrier = () => {
               <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />} ><img src={Looking} alt="logo" loading="lazy"></img></LazyLoad>   
               </div>
             </div>
-          </div>
-        </div>
-        <div className='carrier-picture'>
-          <div className='carrier-pic1'>
-          <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />} ><img src={carrierm1} alt="logo" loading="lazy"></img></LazyLoad> 
-          </div>
-          <div className='carrier-pic1'>
-          <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />} ><img src={carrierm2} alt="logo" loading="lazy"></img></LazyLoad>   
-          </div>
-          <div className='carrier-pic1'>
-          <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />} ><img src={carrierm3} alt="logo" loading="lazy"></img></LazyLoad> 
           </div>
         </div>
         <div className='employe-req'>
