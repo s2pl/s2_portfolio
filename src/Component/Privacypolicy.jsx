@@ -175,7 +175,7 @@ const Privacypolicy = () => {
                                             <br />
                                             If you have any questions or suggestions about our
                                             Privacy Policy, do not hesitate to contact us at  <a href="tel:91231 83988" className='pointer'> <span className='pointer text-black'>+91 9955481699</span></a> or email us at
-                                            <a href="mailto:crackjeeonline@gmail.com" style={{ color: "blue" }}> crackjeeonline@gmail.com</a>.
+                                            <a href="mailto:sarva.suvidhaen@gmail.com" style={{ color: "blue" }}> crackjeeonline@gmail.com</a>.
                                         </p>
                                     </div>
                                 </ol> </div>
