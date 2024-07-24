@@ -18,6 +18,7 @@ import SwatchStation from './Component/SwatchStation'
 import Railmadad from './Component/Railmadad';
 import PrivacyPolicyWRMS from './Component/PrivacyPolicyWRMS ';
 import PrivacyPolicySanchalak from './Component/PrivacyPolicySanchalak ';
+import PrivacyPolicyWRMS from './Component/PrivacyPolicyWRMS ';
 const Allroutes = () => {
   const ScrollToTop = () => {
     const location = useLocation();
