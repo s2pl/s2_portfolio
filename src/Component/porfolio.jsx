@@ -69,7 +69,9 @@ Our team of solution architects, designers, and developers will help you craft a
 
 We are a recognized DIPP startup from Bihar and are proud recipients of multiple awards.</p>
  <div className='visit-link'>
-                      visit now :
+ <div className='app-name'><a target="_blank"
+                        href="https://suvidhaen.com/Swatchstation"
+                        className="text-decoration-none">Overview</a></div>
                       <div className='app-name'><a target="_blank"
                         href="https://cms.suvidhaen.com/"
                         className="text-decoration-none">Swach Station website</a></div>
@@ -78,7 +80,7 @@ We are a recognized DIPP startup from Bihar and are proud recipients of multiple
                         className="text-decoration-none">Swach Station App</a></div>
                       <div className='app-name'><a target="_blank"
                         href="https://youtube.com/playlist?list=PLPXLxMmLRj-Ia_sqcsx6DGK__88I0SIUc&si=K1el360woew-sYAJ"
-                        className="text-decoration-none">Swach Station More Information... </a></div>
+                        className="text-decoration-none">Video Description</a></div>
                     </div>
                   </div>
                 </div>
@@ -145,6 +147,17 @@ Receiving a certificate from the Destination Bihar Expo-2024 is an esteemed ackn
                     <h5 className="card-title ">Railmadad analytics software is provided by my company, Sarva Suvidhaen Private Limited.</h5>
                     <p className="card-text pb-4">
                       RailMadad Analytics is a cutting-edge software solution provided by Sarva Suvidhean Private Limited, tailored to revolutionize the railway industry. This innovative platform offers comprehensive analytics capabilities designed to enhance operational efficiency, safety, and customer satisfaction within the rail sector. By leveraging advanced data analytics techniques, RailMadad Analytics empowers railway authorities to make informed decisions, optimize resource allocation, and proactively address challenges. From predictive maintenance to route optimization and passenger flow analysis, this software equips railway operators with actionable insights to streamline operations and deliver a seamless travel experience. With RailMadad Analytics, Sarva Suvidhean Private Limited continues to drive innovation and transform the railway ecosystem for the better. </p>
+                      <div className='visit-link'>
+                      <div className='app-name'><a target="_blank"
+                        href="https://suvidhaen.com/railmadad"
+                        className="text-decoration-none">Overview</a></div>
+                      <div className='app-name'><a target="_blank"
+                        href="http://s2analytica.suvidhaen.com/"
+                        className="text-decoration-none">Website</a></div>
+                      <div className='app-name'><a target="_blank"
+                        href="https://www.youtube.com/playlist?list=PLPXLxMmLRj-KJbMaXWoO0e6RhwlqaPjq4"
+                        className="text-decoration-none">Video Description</a></div>
+                    </div>
 
                   </div>
                 </div>

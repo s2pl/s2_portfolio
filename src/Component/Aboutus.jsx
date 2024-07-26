@@ -126,8 +126,8 @@ const Aboutus = () => {
 
       {/* cerificate */}
       <div className="about-item-img p-5 " data-aos="fade-up">
-        <div className="">
-        <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />}><img loading="lazy" src={cerificate} alt="about-image" className="img-fluid md:min-h-[400px]" /></LazyLoad>   
+        <div className=" md:w-[60%] lg:w-[40%] text-center">
+        <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />}><img loading="lazy" src={cerificate} alt="about-image" className="img-fluid  "  /></LazyLoad>   
         </div>
       </div>
       {/* cerificate end*/}
@@ -251,7 +251,7 @@ const Aboutus = () => {
           <div className='team-intro'>
           <div className='team-mate'>
           <LazyLoad placeholder={<Skeleton min-width={240} min-height={240} />}><img src={profile} alt="portfolio" className='team-mate' loading="lazy"></img></LazyLoad> </div>
-          <div className='name'>Manyan Singh Tomar </div>
+          <div className='name'>Mayank Singh Tomar </div>
           <div className="post">Team -leader</div>
 
 
