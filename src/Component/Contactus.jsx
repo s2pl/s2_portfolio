@@ -9,6 +9,7 @@ function classNames(...classes) {
 
 const Contactus = () => {
   const [agreed, setAgreed] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
@@ -40,9 +41,11 @@ const Contactus = () => {
     if (!agreed) {
       return;
     }
+    setIsSubmitting(true);
+
 
     // EmailJS configuration
-    const serviceId = 'service_cb18p0c';
+    const serviceId = 'service_x3y9pmc';
     const templateId = 'template_g9u7tp9';
     const userId = 'YBPHtMkiDsFRGpeN4';
 
@@ -60,9 +63,11 @@ const Contactus = () => {
       .then((response) => {
         console.log('Email sent successfully!', response.status, response.text);
         alert('Email sent successfully!');
+        setIsSubmitting(false);
       }, (error) => {
         console.error('Error sending email:', error);
         alert('Error sending email: ' + error);
+        setIsSubmitting(false);
       });
   };
 
@@ -253,11 +258,11 @@ const Contactus = () => {
                 type="submit"
                 className={classNames(
                   'block w-full rounded-md px-4 py-3 text-center text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600',
-                  agreed ? 'bg-gray-600 hover:bg-indigo-700' : 'bg-gray-600 cursor-not-allowed'
+                  agreed || isSubmitting ? 'bg-gray-600 hover:bg-indigo-700' : 'bg-gray-600 cursor-not-allowed'
                 )}
-                disabled={!agreed}
+                disabled={!agreed || isSubmitting}
               >
-                Submit
+               {isSubmitting ? "Submitting..." : "Submit"}
               </button>
             </div>
           </form>
