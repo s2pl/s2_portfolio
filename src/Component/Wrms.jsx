@@ -1,8 +1,8 @@
 import React from "react";
 import LazyLoad from "react-lazyload";
 import Heading from "./WrmsComponent/Heading";
-import webview from '../static_data/railmadad/railmadad_webview.png'
-import phoneview from '../static_data/railmadad/mobileview.png'
+import webview from '../static_data/wrms/wrmsweb.png'
+import phoneview from '../static_data/wrms/registration.png'
 import Card from "./WrmsComponent/Card";
 import {WrmsFeatures} from "../static_data/index.jsx"
 
@@ -20,7 +20,7 @@ const Wrms = () => {
                 height={400}
                 className="flex items-center justify-center"
               >
-                <img src={phoneview} className="" alt="" />
+                <img src={phoneview} className="w-[60%]" alt="" />
               </LazyLoad>
             </div>
             <div className="md:w-2/3">

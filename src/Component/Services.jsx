@@ -11,6 +11,7 @@ import rightpic from '../static_data/web_content/@S2_Portfolio.jpg'
 import railmadad from '../static_data/web_content/@S2_Portfolio (2).jpg'
 import ACP from '../static_data/web_content/project2.jpg'
 import AWMS from '../static_data/web_content/side_pic.jpg'
+import wrmsweb from '../static_data/wrms/wrmsweb.png'
 import Automated from '../static_data/web_content/project5.jpg'
 import UI from '../static_data/web_content/project4.jpg'
 import LazyLoad from 'react-lazyload';
@@ -85,6 +86,15 @@ const Services = () => {
 
             </div>
 
+            <div className="col-lg-4 col-md-6 col-sm-6">
+              <div className="service-item mb-5">
+              <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={wrmsweb} className="card-img-top" alt="..."  loading="lazy" /></LazyLoad>  
+                <h4 className="my-3">WRMS (Jal Sampan).</h4>
+                <p className='mb-3'>Our integrated Water Refill Management System (WRMS), available via website and mobile app, streamlines the water refilling process for trains. Currently in use at Patna and Danapur stations, it provides an efficient and user-friendly solution. By simplifying operations, it ensures accurate tracking, monitoring, and reporting .</p>
+                <Link to={'/wrms'} className="service-btn btn-primary" >Read More</Link>
+              </div>
+
+            </div>
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="service-item mb-5 mb-lg-0">
               <LazyLoad placeholder={<Skeleton width={240} height={240} />}><img src={servicesImg4} className="card-img-top" alt="..."  loading="lazy" /></LazyLoad>  
