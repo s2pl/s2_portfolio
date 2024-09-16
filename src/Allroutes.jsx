@@ -18,6 +18,7 @@ import SwatchStation from './Component/SwatchStation'
 import Railmadad from './Component/Railmadad';
 import PrivacyPolicySanchalak from './Component/PrivacyPolicySanchalak ';
 import PrivacyPolicyWRMS from './Component/PrivacyPolicyWRMS ';
+import Wrms from './Component/Wrms';
 const Allroutes = () => {
   const ScrollToTop = () => {
     const location = useLocation();
@@ -47,6 +48,7 @@ const Allroutes = () => {
           <Route path="/sanchalak" element={<Sanchalak/>} />
           <Route path='/swatchstation' element={<SwatchStation/>} />
           <Route path='/railmadad' element={<Railmadad/>} />
+          <Route path='/wrms' element={<Wrms/>} />
           <Route path='/privacypolicy_wrms' element={<PrivacyPolicyWRMS/>} />
           <Route path="*" element={<Navigate to="/" />} />
           <Route path='/privacypolicy_sanchalak' element={<PrivacyPolicySanchalak/>} />
