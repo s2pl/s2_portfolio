@@ -49,9 +49,9 @@ const Allroutes = () => {
           <Route path='/swatchstation' element={<SwatchStation/>} />
           <Route path='/railmadad' element={<Railmadad/>} />
           <Route path='/wrms' element={<Wrms/>} />
-          <Route path='/privacypolicy_wrms' element={<PrivacyPolicyWRMS/>} />
+          <Route path='/privacypolicy_rwms' element={<PrivacyPolicyWRMS/>} />
           <Route path="*" element={<Navigate to="/" />} />
-          <Route path='/privacypolicy_sanchalak' element={<PrivacyPolicySanchalak/>} />
+          <Route path='/privacypolicy_railops' element={<PrivacyPolicySanchalak/>} />
         </Routes>
 
         <Fotter />
