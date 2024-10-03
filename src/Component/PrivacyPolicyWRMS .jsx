@@ -5,7 +5,7 @@ const PrivacyPolicyWRMS = () => {
     <div style={{ fontFamily: 'Helvetica Neue, Helvetica, Arial, sans-serif', padding: '1em' }}>
       <strong>Privacy Policy</strong>
       <p>
-        This privacy policy applies to the Water Refill Management System (WRMS) app (hereby referred to as "Application") for mobile devices that was created by Vinay Kumar (hereby referred to as "Service Provider") as a Free service. This service is intended for use "AS IS".
+        This privacy policy applies to the Railway Water Management System (RWMS) app (hereby referred to as "Application") for mobile devices that was created by Neeta Sinha (hereby referred to as "Service Provider") as a Free service. This service is intended for use "AS IS".
       </p>
       <br />
       <strong>Information Collection and Use</strong>
@@ -44,7 +44,7 @@ const PrivacyPolicyWRMS = () => {
       </p>
       <br />
       <p>
-        For a better experience, while using the Application, the Service Provider may require you to provide us with certain personally identifiable information, including but not limited to vinay.kumar.s.suvidhaen@gmail.com. The information that the Service Provider request will be retained by them and used as described in this privacy policy.
+        For a better experience, while using the Application, the Service Provider may require you to provide us with certain personally identifiable information, including but not limited to neeta.sinha.biputri@gmail.com. The information that the Service Provider request will be retained by them and used as described in this privacy policy.
       </p>
       <br />
       <strong>Third Party Access</strong>
@@ -79,7 +79,7 @@ const PrivacyPolicyWRMS = () => {
       <br />
       <strong>Data Retention Policy</strong>
       <p>
-        The Service Provider will retain User Provided data for as long as you use the Application and for a reasonable time thereafter. If you'd like them to delete User Provided Data that you have provided via the Application, please contact them at vinay.kumar.s.suvidhaen@gmail.com and they will respond in a reasonable time.
+        The Service Provider will retain User Provided data for as long as you use the Application and for a reasonable time thereafter. If you'd like them to delete User Provided Data that you have provided via the Application, please contact them at neeta.sinha.biputri@gmail.com and they will respond in a reasonable time.
       </p>
       <br />
       <strong>Children</strong>
@@ -89,7 +89,7 @@ const PrivacyPolicyWRMS = () => {
       <div>
         <br />
         <p>
-          The Application does not address anyone under the age of 13. The Service Provider does not knowingly collect personally identifiable information from children under 13 years of age. In the case the Service Provider discover that a child under 13 has provided personal information, the Service Provider will immediately delete this from their servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact the Service Provider (vinay.kumar.s.suvidhaen@gmail.com) so that they will be able to take the necessary actions.
+          The Application does not address anyone under the age of 13. The Service Provider does not knowingly collect personally identifiable information from children under 13 years of age. In the case the Service Provider discover that a child under 13 has provided personal information, the Service Provider will immediately delete this from their servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact the Service Provider (neeta.sinha.biputri@gmail.com) so that they will be able to take the necessary actions.
         </p>
       </div>
       <br />
@@ -112,7 +112,7 @@ const PrivacyPolicyWRMS = () => {
       <br />
       <strong>Contact Us</strong>
       <p>
-        If you have any questions regarding privacy while using the Application, or have questions about the practices, please contact the Service Provider via email at vinay.kumar.s.suvidhaen@gmail.com.
+        If you have any questions regarding privacy while using the Application, or have questions about the practices, please contact the Service Provider via email at neeta.sinha.biputri@gmail.com.
       </p>
       <hr />
       <p>
