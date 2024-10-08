@@ -8,7 +8,7 @@ const PrivacyPolicyRSMS = () => {
       <div className="space-y-6">
         <section>
           <p className="text-gray-700">
-            This Privacy Policy applies to the website cmsuat.suvidhaen.com (here by referred to as "Website") that
+            This Privacy Policy applies to the website cms.suvidhaen.com (here by referred to as "Website") that
             is owned and operated by Sarva Suvidhaen Private Ltd.(here by referred to as "Service Provider"). This Privacy Policy
             explains how we collect, use, and disclose your personal information.
           </p>
