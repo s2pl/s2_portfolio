@@ -19,6 +19,7 @@ import Railmadad from './Component/Railmadad';
 import PrivacyPolicySanchalak from './Component/PrivacyPolicySanchalak ';
 import PrivacyPolicyWRMS from './Component/PrivacyPolicyWRMS ';
 import Wrms from './Component/Wrms';
+import RSMS from './Component/PrivacyPolicyRSMS'
 const Allroutes = () => {
   const ScrollToTop = () => {
     const location = useLocation();
@@ -52,6 +53,7 @@ const Allroutes = () => {
           <Route path='/privacypolicy_rwms' element={<PrivacyPolicyWRMS/>} />
           <Route path="*" element={<Navigate to="/" />} />
           <Route path='/privacypolicy_railops' element={<PrivacyPolicySanchalak/>} />
+          <Route path='/privacypolicy_rsms' element={<RSMS/>} />
         </Routes>
 
         <Fotter />
