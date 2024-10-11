@@ -13,9 +13,9 @@ import rightpic from '../static_data/web_content/@S2_Portfolio.jpg'
 import supportImg1 from '../static_data/web_content/iciit.jpeg'
 import supportImg2 from '../static_data/web_content/supporter1.jpeg'
 import supportImg3 from '../static_data/web_content/supporter3.jpeg'
-import Ourpatner from './Home-component/Ourpatner';
 import LazyLoad from 'react-lazyload';
 import Homeservices from './Home-component/Homeservices';
+import Ourcustomer from './Home-component/Ourcustomer';
 const Homepage = () => {
     const sliderRef = useRef(null);
     const [activeSlide, setActiveSlide] = useState(0);
@@ -70,7 +70,7 @@ const Homepage = () => {
 
                 </div>
             </div>
-         <Ourpatner/>
+         <Ourcustomer/>
             <div className='description'>
                 <div className='discription-cover'>
                     <div className='front-intro'>
