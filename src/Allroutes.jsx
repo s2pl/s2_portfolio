@@ -54,6 +54,10 @@ const Allroutes = () => {
           <Route path="*" element={<Navigate to="/" />} />
           <Route path='/privacypolicy_railops' element={<PrivacyPolicySanchalak/>} />
           <Route path='/privacypolicy_rsms' element={<RSMS/>} />
+
+          <Route path="/termcondition_rsms" element={<Term_condition />} />
+          <Route path="/termcondition_rwms" element={<Term_condition />} />
+          <Route path="/termcondition_railops" element={<Term_condition />} />
         </Routes>
 
         <Fotter />
