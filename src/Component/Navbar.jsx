@@ -28,7 +28,7 @@ const Navbar = () => {
             <span className="material-symbols-outlined  phone gmail">
               mail
             </span>
-            <a href="mailto:sarva.suvidhaen@gmail.com" className='pointer'>sarva.suvidhaen@gmail.com</a>
+            <a href="mailto:contact@suvidhaen.com" className='pointer'>contact@suvidhaen.com</a>
 
           </li>
           <li className='email'>
