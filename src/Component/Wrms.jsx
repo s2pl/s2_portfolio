@@ -64,7 +64,7 @@ const Wrms = () => {
               <p className="text-lg">
                 <span className="font-bold">App: </span>
                 <a
-                  href="https://play.google.com/store/apps/details?id=com.suvidhaen.wrms.app"
+                  href="https://play.google.com/store/apps/details?id=com.biputri.rwms.app"
                   className="text-blue-600 underline"
                   target="_blank"
                 >
