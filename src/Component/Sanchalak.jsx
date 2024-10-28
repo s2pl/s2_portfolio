@@ -212,7 +212,7 @@ const Sanchalak = () => {
               <p className="text-lg">
                 <span className="font-bold">Information: </span>
                 <a
-                  href="https://www.youtube.com/watch?v=xVjd5dTjzT4&list=PLPXLxMmLRj-IuWl-8p4b-oS63m5kw9HQD"
+                  href="https://www.youtube.com/watch?v=I2_K_L8Yey8&list=PLPXLxMmLRj-IuWl-8p4b-oS63m5kw9HQD&index=1"
                   className="text-blue-600 underline"
                   target="_blank"
                 >

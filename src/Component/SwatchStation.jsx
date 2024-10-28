@@ -336,7 +336,7 @@ const swatchstation = () => {
                 <span className="font-bold">Application:</span>{" "}
                 <a
                   rel="stylesheet"
-                  href="https://play.google.com/store/apps/details?id=com.cms.android.cleaningmanagementsystem.app"
+                  href="https://play.google.com/store/apps/details?id=com.biputri.rsms"
                   className="text-blue-600 hover:underline"
                   target="_blank"
                 >
@@ -347,7 +347,7 @@ const swatchstation = () => {
                 <span className="font-bold">Infromation:</span>{" "}
                 <a
                   rel="stylesheet"
-                  href="https://www.youtube.com/playlist?list=PLPXLxMmLRj-Ia_sqcsx6DGK__88I0SIUc"
+                  href="https://www.youtube.com/watch?v=hnccczgXX9g&list=PLPXLxMmLRj-KfMbl0L_NtYYffW-k7dXDu"
                   className="text-blue-600 hover:underline"
                   target="_blank"
                 >

@@ -76,7 +76,7 @@ We are a recognized DIPP startup from Bihar and are proud recipients of multiple
                         href="https://cms.suvidhaen.com/"
                         className="text-decoration-none">Swach Station website</a></div>
                       <div className='app-name'><a target="_blank"
-                        href="https://play.google.com/store/apps/details?id=com.cms.android.cleaningmanagementsystem.app"
+                        href="https://play.google.com/store/apps/details?id=com.biputri.rsms"
                         className="text-decoration-none">Swach Station App</a></div>
                       <div className='app-name'><a target="_blank"
                         href="https://youtube.com/playlist?list=PLPXLxMmLRj-Ia_sqcsx6DGK__88I0SIUc&si=K1el360woew-sYAJ"
