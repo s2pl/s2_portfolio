@@ -55,7 +55,7 @@ const Homepage = () => {
                                        <p>Build with us to realize your full organizational potential </p></div>
                                 <div className='link-btn'>
                                     <button className='btn-main'><a target="_blank"
-                                        href="https://play.google.com/store/apps/details?id=com.cms.android.cleaningmanagementsystem.app"
+                                        href="https://play.google.com/store/apps/details?id=com.biputri.rsms"
                                         className="text-decoration-none">DOWNLOAD NOW</a></button>
                                     <button className='btn-main btn-margin'><a target="_blank"
                                         href="https://cms.suvidhaen.com/"
