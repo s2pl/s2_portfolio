@@ -192,17 +192,17 @@ const Sanchalak = () => {
               <p className="text-lg pt-2">
                 <span className="font-bold">Website: </span>{" "}
                 <a
-                  href="https://sanchalak.suvidhaen.com/"
+                  href="https://railops.biputri.com/"
                   className="text-blue-600 underline"
                   target="_blank"
                 >
-                  sanchalak.suvidhaen.com
+                  railops.biputri.com
                 </a>
               </p>
               <p className="text-lg">
                 <span className="font-bold">App: </span>
                 <a
-                  href="https://sanchalak.suvidhaen.com/"
+                  href="https://play.google.com/store/apps/details?id=com.biputri.railops&hl=en_IN"
                   className="text-blue-600 underline"
                   target="_blank"
                 >

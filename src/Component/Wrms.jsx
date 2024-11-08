@@ -54,11 +54,11 @@ const Wrms = () => {
               <p className="text-lg pt-2">
                 <span className="font-bold">Website: </span>{" "}
                 <a
-                  href="https://wrms.suvidhaen.com/"
+                  href="https://rwms.biputri.com/"
                   className="text-blue-600 underline"
                   target="_blank"
                 >
-                wrms.suvidhaen.com
+                rwms.biputri.com
                 </a>
               </p>
               <p className="text-lg">
