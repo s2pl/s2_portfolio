@@ -156,14 +156,14 @@ const Aboutus = () => {
                 <div className="col-lg-3 col-md-6 col-sm-6">
                   <div className="counter-item text-center mb-5 mb-lg-0">
                     <i className="ti-layers color-one text-md"></i>
-                    <h3 className="mt-2 mb-0 "><span className="counter-text font-weight-bold">{counter && <CountUp start={0} end={5} duration={2} delay={0} />} </span></h3>
+                    <h3 className="mt-2 mb-0 "><span className="counter-text font-weight-bold">{counter && <CountUp start={0} end={3} duration={2} delay={0} />} </span></h3>
                     <p className="text-gray">Availble States</p>
                   </div>
                 </div>
                 <div className="col-lg-3 col-md-6 col-sm-6">
                   <div className="counter-item text-center">
                     <i className="ti-medall color-one  text-md"></i>
-                    <h3 className="mt-2 mb-0 "><span className="counter-text font-weight-bold">{counter && <CountUp start={0} end={6} duration={2} delay={0} />} </span></h3>
+                    <h3 className="mt-2 mb-0 "><span className="counter-text font-weight-bold">{counter && <CountUp start={0} end={2} duration={2} delay={0} />} </span></h3>
                     <p className="text-gray">Award Winner </p>
                   </div>
                 </div>
