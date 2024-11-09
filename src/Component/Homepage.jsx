@@ -169,7 +169,7 @@ const Homepage = () => {
                 <h3 className="mb-0">
                   <span className="counter-text">
                     {count && (
-                      <CountUp start={0} end={5} duration={2} delay={0} />
+                      <CountUp start={0} end={3} duration={2} delay={0} />
                     )}
                   </span>
                 </h3>
@@ -179,7 +179,7 @@ const Homepage = () => {
                 <h3 className="mb-0">
                   <span className="counter-text">
                     {count && (
-                      <CountUp start={0} end={6} duration={2} delay={0} />
+                      <CountUp start={0} end={2} duration={2} delay={0} />
                     )}
                   </span>
                 </h3>
