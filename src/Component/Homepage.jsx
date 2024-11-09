@@ -72,7 +72,7 @@ const Homepage = () => {
                   <button className="btn-main btn-margin">
                     <a
                       target="_blank"
-                      href="https://cms.suvidhaen.com/"
+                      href="https://rsms.biputri.com/"
                       className="text-decoration-none"
                     >
                       VISIT NOW
