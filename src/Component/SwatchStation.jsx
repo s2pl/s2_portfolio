@@ -325,11 +325,11 @@ const swatchstation = () => {
                 <span className="font-bold">Website:</span>{" "}
                 <a
                   rel="stylesheet"
-                  href="https://cms.suvidhaen.com/"
+                  href="https://rsms.biputri.com/"
                   className="text-blue-600 hover:underline"
                   target="_blank"
                 >
-                  cms.suvidhaen.com
+                  rsms.biputri.com
                 </a>
               </p>
               <p>
