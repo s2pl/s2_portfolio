@@ -28,6 +28,7 @@ const Homepage = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
   };
+  
 
   const goToSlide = (index) => {
     sliderRef.current.slickGoTo(index);
